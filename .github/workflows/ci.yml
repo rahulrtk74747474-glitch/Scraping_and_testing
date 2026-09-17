@@ -19,3 +19,15 @@ jobs:
         run: python -m compileall -q src app.py tests
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
+      - name: Live Chartink scanner smoke test
+        env:
+          CHARTINK_SCAN_URL: https://chartink.com/screener/rahul-606569
+          CHARTINK_SCAN_CLAUSE: ${{ secrets.CHARTINK_SCAN_CLAUSE }}
+          CHARTINK_COOKIE: ${{ secrets.CHARTINK_COOKIE }}
+        run: |
+          python - <<'PY'
+          from src.chartink import fetch_chartink_signals
+          rows = fetch_chartink_signals()
+          print(f"Chartink scanner request succeeded. Rows returned: {len(rows)}")
+          print("Sample symbols:", [r["symbol"] for r in rows[:10]])
+          PY
