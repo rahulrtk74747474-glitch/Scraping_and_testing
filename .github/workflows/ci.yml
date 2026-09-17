@@ -25,6 +25,10 @@ jobs:
           CHARTINK_SCAN_CLAUSE: ${{ secrets.CHARTINK_SCAN_CLAUSE }}
           CHARTINK_COOKIE: ${{ secrets.CHARTINK_COOKIE }}
         run: |
+          if [ -z "$CHARTINK_SCAN_CLAUSE" ] && [ -z "$CHARTINK_COOKIE" ]; then
+            echo "Private Chartink scanner detected; live test skipped until CHARTINK_SCAN_CLAUSE or CHARTINK_COOKIE is configured."
+            exit 0
+          fi
           python - <<'PY'
           from src.chartink import fetch_chartink_signals
           rows = fetch_chartink_signals()
