@@ -31,7 +31,7 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run daily engine
         env:
-          CHARTINK_SCAN_URL: ${{ secrets.CHARTINK_SCAN_URL }}
+          CHARTINK_SCAN_URL: https://chartink.com/screener/rahul-606569
           CHARTINK_SCAN_CLAUSE: ${{ secrets.CHARTINK_SCAN_CLAUSE }}
           CHARTINK_COOKIE: ${{ secrets.CHARTINK_COOKIE }}
         run: python -m src.main
