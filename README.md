@@ -1,6 +1,6 @@
 # Vertex Chartink Paper Trader
 
-This repository runs an automated **end-of-day paper portfolio** from a Chartink scanner (your Vertex condition), records every simulated order, estimates current Zerodha equity-delivery charges, and updates performance statistics after market hours.
+This repository runs an automated **end-of-day paper portfolio** from your Chartink Vertex scanner, records every simulated order, estimates Zerodha equity-delivery charges, and updates performance statistics after market hours.
 
 ## Strategy implemented
 
@@ -13,54 +13,65 @@ This repository runs an automated **end-of-day paper portfolio** from a Chartink
 - On each later completed daily candle:
   - if `close > original entry price`, sell the entire position;
   - otherwise, attempt to add **10% of that position's original invested notional** at that day's close.
-- Averaging is cash-limited. The engine records skipped averages/entries when the ₹1,00,000 demo portfolio has no sufficient cash.
+- Averaging is cash-limited. The engine records skipped averages/entries when the ₹1,00,000 demo portfolio has insufficient cash.
 - Whole shares only; no fractional shares.
 
-> Research note: entering at the same closing price that caused an end-of-day scanner signal is an optimistic paper assumption because the close is only known after the candle completes. I kept it because it matches the requested rule. A later version can switch to next-session open for a more execution-realistic test.
+> Research note: entering at the same closing price that caused an end-of-day scanner signal is an optimistic paper assumption because the close is only known after the candle completes. The project can later add a next-session-open execution mode for comparison.
 
 ## What the system records
 
-`data/signals.csv`: Every daily Chartink match.
+- `data/signals.csv`: every daily Chartink match.
+- `data/orders.csv`: ENTRY, AVERAGE_ADD and EXIT orders with quantity, price, turnover, charges and cash flow.
+- `data/trades.csv`: closed-trade ledger with gross/net P&L, charges, percentage return, holding period, averaging count/amount, and maximum capital in the trade.
+- `data/daily_snapshots.csv`: cash, estimated liquidation equity, realized/unrealized P&L, total return, drawdown and open-position count.
+- `reports/latest.md`: current human-readable report including win rate, winning/losing streaks, profit factor and open positions.
+- `app.py`: optional Streamlit dashboard.
 
-`data/orders.csv`: ENTRY, AVERAGE_ADD and EXIT orders with quantity, price, turnover, charges and cash flow.
+## Chartink data: real web scraping
 
-`data/trades.csv`: Closed-trade ledger with gross/net P&L, charges, percentage return, holding period, number/amount of averages, and maximum capital in the trade.
+The project now uses **Playwright + headless Chromium** to open Chartink like a browser and scrape the rendered stock-results table. It does **not** require `scan_clause` and does not call Chartink's hidden screener-processing endpoint directly.
 
-`data/daily_snapshots.csv`: Cash, estimated liquidation equity, realized/unrealized P&L, total return, drawdown and open-position count.
+Configured scanner:
 
-`reports/latest.md`: Human-readable current report including win rate, winning/losing streaks, profit factor and open positions.
+`https://chartink.com/screener/rahul-606569`
 
-`app.py`: Optional Streamlit dashboard for viewing results locally or on Streamlit Community Cloud.
+For a private scanner, authentication is required. The scraper supports either:
 
-## Free data path
+1. `CHARTINK_USER` + `CHARTINK_PASSWORD` GitHub Actions secrets; or
+2. `CHARTINK_COOKIE` containing the full Cookie request header from an already logged-in Chartink browser session.
 
-### Chartink
+Credentials/cookies are never written to CSV files, reports, or source code.
 
-The program uses the same session/CSRF flow used by the Chartink screener page and POSTs the scanner clause to Chartink's screener processing endpoint. No paid data API is required.
+### One-time GitHub setup for the private scanner
 
-For a public saved scanner, the code first tries to extract the `scan_clause` from its page. For a private scanner, the most reliable setup is to store the scanner clause itself as a GitHub Secret, so your Chartink password is **not needed**.
+Open:
 
-### Daily stock closes
-
-Open positions are marked with daily NSE prices obtained through the free `yfinance` library. New entries prefer the close returned directly by Chartink.
-
-## One-time setup
-
-Open this repository on GitHub and go to:
-
-**Settings → Secrets and variables → Actions → New repository secret**
+**Repository → Settings → Secrets and variables → Actions → New repository secret**
 
 Add:
 
-1. `CHARTINK_SCAN_URL` — the full URL of your saved Vertex scanner, for example `https://chartink.com/screener/...`
-2. `CHARTINK_SCAN_CLAUSE` — recommended, especially if the scanner is private. In Chrome while running the scanner: DevTools → Network → choose the request named `process` → Payload/Form Data → copy the value of `scan_clause`.
-3. `CHARTINK_COOKIE` — optional. Only use this if your private scanner page cannot be accessed with the clause alone. Copy the full Cookie request header from a logged-in Chartink browser session. Cookies expire, so the clause-secret method is preferred.
+- `CHARTINK_USER` = your Chartink login email/user ID
+- `CHARTINK_PASSWORD` = your Chartink password
 
-**Do not put your Chartink ID/password, cookie, or clause into a public file or commit.**
+You do **not** need a `CHARTINK_SCAN_CLAUSE` secret anymore.
 
-Then go to **Actions → Vertex daily paper trade → Run workflow** once to test.
+Alternative: instead of login/password you can add `CHARTINK_COOKIE`, but browser cookies expire, so login secrets are generally more durable.
 
-The workflow is scheduled for **16:45 IST, Monday–Friday**. On an NSE holiday it checks the latest NIFTY daily date and exits without changing the portfolio.
+Do not post these values in an issue, commit, README, or other public repository content.
+
+Then open:
+
+**Actions → Vertex daily paper trade → Run workflow**
+
+The workflow installs Chromium automatically and runs the scraper in a free GitHub-hosted runner.
+
+## Daily schedule
+
+The workflow is scheduled for **16:45 IST, Monday–Friday**. On an NSE holiday it checks the latest NIFTY daily date and exits without modifying the portfolio.
+
+## Daily stock prices
+
+Open positions are marked with daily NSE prices through the free `yfinance` library. Fresh entries prefer the daily close scraped from Chartink.
 
 ## Zerodha charge model
 
@@ -74,7 +85,7 @@ For NSE equity delivery the project estimates:
 - stamp duty: 0.015% on buy side;
 - DP charge on delivery sell: ₹15.34 per scrip.
 
-These are analytics estimates, not a replacement for a real contract note. Regulatory/exchange rates can change.
+These are analytics estimates and not a replacement for a real contract note. Regulatory/exchange rates can change.
 
 ## Run locally
 
@@ -82,9 +93,11 @@ These are analytics estimates, not a replacement for a real contract note. Regul
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+python -m playwright install chromium
 
-export CHARTINK_SCAN_URL="https://chartink.com/screener/your-scan"
-export CHARTINK_SCAN_CLAUSE="( {cash} ( ... ) )"
+export CHARTINK_SCAN_URL="https://chartink.com/screener/rahul-606569"
+export CHARTINK_USER="your-chartink-login"
+export CHARTINK_PASSWORD="your-chartink-password"
 python -m src.main
 ```
 
@@ -94,11 +107,9 @@ Optional dashboard:
 streamlit run app.py
 ```
 
-## Next phase: options
+## Next phase: stock options
 
-The codebase is intentionally separated into scanner, price, charge, strategy and reporting layers so stock-option data can be added without changing the portfolio engine.
-
-Direct automated aggregation/scraping of the NSE option-chain webpage may conflict with the NSE site's stated Terms of Use and can also be blocked from cloud runners. The safer next phase is to plug in an authorized broker/data API (for example a broker option-chain endpoint) and store end-of-day option snapshots for each Vertex stock. Do not add credentials to the repository; use GitHub Actions Secrets.
+The scanner, market-data, charge, strategy and reporting layers are separated so we can add an options-data module next. The intended next step is to capture the relevant stock's option-chain snapshot when a Vertex stock appears, then paper-test stock-vs-option execution separately.
 
 ## Important
 
