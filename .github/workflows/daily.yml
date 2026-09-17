@@ -16,7 +16,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,12 +27,15 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install -r requirements.txt
+      - name: Install Chromium for Chartink scraping
+        run: python -m playwright install --with-deps chromium
       - name: Run daily engine
         env:
           CHARTINK_SCAN_URL: https://chartink.com/screener/rahul-606569
-          CHARTINK_SCAN_CLAUSE: ${{ secrets.CHARTINK_SCAN_CLAUSE }}
+          CHARTINK_USER: ${{ secrets.CHARTINK_USER }}
+          CHARTINK_PASSWORD: ${{ secrets.CHARTINK_PASSWORD }}
           CHARTINK_COOKIE: ${{ secrets.CHARTINK_COOKIE }}
         run: python -m src.main
       - name: Commit daily state and reports
