@@ -1,0 +1,12 @@
+starting_capital: 100000
+per_stock_target: 10000
+average_add_pct_of_initial: 0.10
+exchange: NSE
+execution_price: chartink_close
+skip_if_market_not_open_today: true
+timezone: Asia/Kolkata
+
+# Scanner details are read from environment variables in GitHub Actions:
+# CHARTINK_SCAN_URL
+# CHARTINK_SCAN_CLAUSE (recommended for private scanners)
+# CHARTINK_COOKIE (optional; only if a private scanner requires an authenticated session)
