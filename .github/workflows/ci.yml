@@ -8,6 +8,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -19,19 +20,15 @@ jobs:
         run: python -m compileall -q src app.py tests
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
-      - name: Live Chartink scanner smoke test
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+      - name: Public Chartink browser-scraping smoke test
         env:
-          CHARTINK_SCAN_URL: https://chartink.com/screener/rahul-606569
-          CHARTINK_SCAN_CLAUSE: ${{ secrets.CHARTINK_SCAN_CLAUSE }}
-          CHARTINK_COOKIE: ${{ secrets.CHARTINK_COOKIE }}
+          CHARTINK_SCAN_URL: https://chartink.com/screener/scan-c
         run: |
-          if [ -z "$CHARTINK_SCAN_CLAUSE" ] && [ -z "$CHARTINK_COOKIE" ]; then
-            echo "Private Chartink scanner detected; live test skipped until CHARTINK_SCAN_CLAUSE or CHARTINK_COOKIE is configured."
-            exit 0
-          fi
           python - <<'PY'
           from src.chartink import fetch_chartink_signals
-          rows = fetch_chartink_signals()
-          print(f"Chartink scanner request succeeded. Rows returned: {len(rows)}")
+          rows = fetch_chartink_signals(timeout=60)
+          print(f"Browser scraping succeeded. Rows returned: {len(rows)}")
           print("Sample symbols:", [r["symbol"] for r in rows[:10]])
           PY
