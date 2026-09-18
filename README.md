@@ -95,7 +95,7 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python -m playwright install chromium
 
-export CHARTINK_SCAN_URL="https://chartink.com/screener/rahul-606569"
+export CHARTINK_SCAN_URL="https://chartink.com"
 export CHARTINK_USER="your-chartink-login"
 export CHARTINK_PASSWORD="your-chartink-password"
 python -m src.main
