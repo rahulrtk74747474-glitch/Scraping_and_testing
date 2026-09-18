@@ -8,7 +8,7 @@ from typing import Any
 from playwright.sync_api import BrowserContext, Page, TimeoutError as PlaywrightTimeoutError, sync_playwright
 
 
-DEFAULT_SCAN_URL = "https://chartink.com/screener/rahul-606569"
+DEFAULT_SCAN_URL = "https://chartink.com/screener/vertex-53"
 DEFAULT_UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/140.0 Safari/537.36"
@@ -236,10 +236,11 @@ def fetch_chartink_signals(
 ) -> list[dict[str, Any]]:
     """Scrape a saved Chartink scanner with a real headless Chromium browser.
 
-    Authentication options, in priority order:
-      1. CHARTINK_COOKIE: a complete Cookie header from an already logged-in browser.
-      2. CHARTINK_USER + CHARTINK_PASSWORD: Playwright signs in before opening the scanner.
-      3. No auth: works for public scanners.
+    The browser always tries the scanner directly first.
+    If Chartink requires authentication, it then uses:
+      1. CHARTINK_COOKIE, when supplied.
+      2. CHARTINK_USER + CHARTINK_PASSWORD.
+    Public scanners therefore need no credentials.
 
     This implementation intentionally does not use Chartink's /screener/process API
     or require a scan_clause.
@@ -264,12 +265,11 @@ def fetch_chartink_signals(
         context.set_default_timeout(timeout_ms)
 
         try:
+            # Prefer direct browser scraping first. Only authenticate if Chartink
+            # actually redirects this scanner to login. This lets public scanners
+            # work even when old login secrets are present in GitHub.
             if raw_cookie:
                 _add_cookie_header(context, raw_cookie)
-            elif user and password:
-                login_page = context.new_page()
-                _login(login_page, user, password, timeout_ms)
-                login_page.close()
 
             page = context.new_page()
             page.goto(scan_url, wait_until="domcontentloaded", timeout=timeout_ms)
