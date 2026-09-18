@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
   push:
     branches: [vertex-500-paper]
+    paths:
+      - ".vertex500-trigger"
 
 permissions:
   contents: write
