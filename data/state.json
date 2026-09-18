@@ -1,10 +1,25 @@
 {
-  "cash": 100000.0,
+  "cash": 91985.69,
   "equity_peak": 100000.0,
-  "last_run_date": null,
-  "max_capital_deployed": 0.0,
-  "max_drawdown_pct": 0.0,
-  "positions": {},
+  "last_run_date": "2026-09-18",
+  "max_capital_deployed": 8014.31,
+  "max_drawdown_pct": 0.0332,
+  "positions": {
+    "PFIZER": {
+      "average_add_count": 0,
+      "average_added_notional": 0.0,
+      "entry_date": "2026-09-18",
+      "entry_price": 4002.4,
+      "initial_invested_notional": 8004.8,
+      "name": "Pfizer Limited",
+      "qty": 2,
+      "symbol": "PFIZER",
+      "total_buy_charges": 9.51,
+      "total_buy_cost": 8014.31,
+      "total_buy_turnover": 8004.8,
+      "weighted_avg_price": 4002.4
+    }
+  },
   "realized_pnl": 0.0,
   "starting_capital": 100000.0,
   "version": 1
