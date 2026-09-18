@@ -1,0 +1,15 @@
+{
+  "balance": 100.0,
+  "closed_trades": 0,
+  "equity_peak": 100.0,
+  "last_processed_close_time": null,
+  "losses": 0,
+  "max_drawdown_pct": 0.0,
+  "open_position": null,
+  "realized_pnl": 0.0,
+  "starting_capital": 100.0,
+  "symbol": "BTCUSDT",
+  "timeframe": "15m",
+  "version": 1,
+  "wins": 0
+}
