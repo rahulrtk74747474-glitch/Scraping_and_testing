@@ -1,16 +1,15 @@
-name: Vertex daily paper trade
+name: Vertex 500 daily paper trade
 
 on:
   workflow_dispatch:
-  schedule:
-    # 11:15 UTC = 16:45 IST. GitHub cron uses UTC.
-    - cron: "15 11 * * 1-5"
+  push:
+    branches: [vertex-500-paper]
 
 permissions:
   contents: write
 
 concurrency:
-  group: vertex-daily-paper-trade
+  group: vertex-500-daily-paper-trade
   cancel-in-progress: false
 
 jobs:
@@ -33,7 +32,7 @@ jobs:
         run: python -m playwright install --with-deps chromium
       - name: Run daily engine
         env:
-          CHARTINK_SCAN_URL: https://chartink.com/screener/vertex-53
+          CHARTINK_SCAN_URL: https://chartink.com/screener/vertex-500
           CHARTINK_USER: ${{ secrets.CHARTINK_USER }}
           CHARTINK_PASSWORD: ${{ secrets.CHARTINK_PASSWORD }}
           CHARTINK_COOKIE: ${{ secrets.CHARTINK_COOKIE }}
