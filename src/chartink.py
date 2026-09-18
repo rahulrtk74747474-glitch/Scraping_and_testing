@@ -8,7 +8,7 @@ from typing import Any
 from playwright.sync_api import BrowserContext, Page, TimeoutError as PlaywrightTimeoutError, sync_playwright
 
 
-DEFAULT_SCAN_URL = "https://chartink.com/screener/vertex-53"
+DEFAULT_SCAN_URL = "https://chartink.com/screener/vertex-500"
 DEFAULT_UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/140.0 Safari/537.36"
