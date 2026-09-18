@@ -2,7 +2,7 @@
   "balance": 100.0,
   "closed_trades": 0,
   "equity_peak": 100.0,
-  "last_processed_close_time": null,
+  "last_processed_close_time": 1789762499999,
   "losses": 0,
   "max_drawdown_pct": 0.0,
   "open_position": null,
