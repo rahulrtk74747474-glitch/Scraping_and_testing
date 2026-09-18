@@ -1,0 +1,49 @@
+name: BTCUSDT 15m paper trader
+
+on:
+  schedule:
+    - cron: "2,17,32,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: btcusdt-15m-paper
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout isolated BTC paper branch
+        uses: actions/checkout@v4
+        with:
+          ref: btcusdt-paper
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run BTCUSDT 15m paper trader
+        env:
+          BTC_STARTING_CAPITAL: "100"
+          BTC_FEE_RATE: "0.001"
+        run: python -m src.btc_main
+
+      - name: Commit BTC state and reports to btcusdt-paper only
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "btcusdt-paper-bot"
+          git config user.email "btcusdt-paper-bot@users.noreply.github.com"
+          git add data/btc_*.csv data/btc_state.json reports/btc_latest.md
+          git commit -m "chore: BTCUSDT 15m paper update"
+          git push origin HEAD:btcusdt-paper
