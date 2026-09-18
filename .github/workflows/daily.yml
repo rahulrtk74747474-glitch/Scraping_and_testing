@@ -33,7 +33,7 @@ jobs:
         run: python -m playwright install --with-deps chromium
       - name: Run daily engine
         env:
-          CHARTINK_SCAN_URL: https://chartink.com/screener/rahul-606569
+          CHARTINK_SCAN_URL: https://chartink.com/screener/vertex-53
           CHARTINK_USER: ${{ secrets.CHARTINK_USER }}
           CHARTINK_PASSWORD: ${{ secrets.CHARTINK_PASSWORD }}
           CHARTINK_COOKIE: ${{ secrets.CHARTINK_COOKIE }}
