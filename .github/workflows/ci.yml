@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [vertex-500-paper]
   pull_request:
 
 jobs:
@@ -22,9 +22,9 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Install Chromium
         run: python -m playwright install --with-deps chromium
-      - name: Vertex-53 Chartink browser-scraping smoke test
+      - name: Vertex-500 Chartink browser-scraping smoke test
         env:
-          CHARTINK_SCAN_URL: https://chartink.com/screener/vertex-53
+          CHARTINK_SCAN_URL: https://chartink.com/screener/vertex-500
         run: |
           python - <<'PY'
           from src.chartink import fetch_chartink_signals
