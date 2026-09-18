@@ -22,9 +22,9 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Install Chromium
         run: python -m playwright install --with-deps chromium
-      - name: Public Chartink browser-scraping smoke test
+      - name: Vertex-53 Chartink browser-scraping smoke test
         env:
-          CHARTINK_SCAN_URL: https://chartink.com/screener/scan-c
+          CHARTINK_SCAN_URL: https://chartink.com/screener/vertex-53
         run: |
           python - <<'PY'
           from src.chartink import fetch_chartink_signals
