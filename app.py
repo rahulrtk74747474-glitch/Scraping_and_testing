@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parent; DATA = ROOT / "data"
-st.set_page_config(page_title="Vertex Paper Trader", layout="wide"); st.title("Vertex Paper Trader"); st.caption("End-of-day Chartink paper-trading dashboard")
+st.set_page_config(page_title="Vertex 500 Paper Trader", layout="wide"); st.title("Vertex 500 Paper Trader"); st.caption("Vertex-500 end-of-day Chartink paper-trading dashboard")
 
 def read_csv(name: str) -> pd.DataFrame:
     path = DATA / name
