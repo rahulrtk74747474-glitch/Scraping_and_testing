@@ -18,6 +18,11 @@ VERTEX = [
  ("Vertex 500 Daily","vertex-500-paper"),
 ]
 BTC_BRANCH = "btcusdt-paper"
+SMC = [
+ ("SMC NIFTY 15m","smc-nifty-15m-paper","smc_nifty"),
+ ("SMC BANKNIFTY 15m","smc-banknifty-15m-paper","smc_banknifty"),
+ ("SMC BTCUSDT 4h","smc-btcusdt-4h-paper","smc_btcusdt"),
+]
 
 def show(branch, path):
     p = subprocess.run(["git","show",f"origin/{branch}:{path}"], cwd=ROOT, text=True, capture_output=True)
@@ -82,6 +87,40 @@ def btc():
     eq=n(snap.get("equity"),s.get("balance",start))
     return dict(kind="btc",name="BTCUSDT 15m Existing Strategy",branch=BTC_BRANCH,state=s,snap=snap,sig=sig,order=order,trade=trade,
                 start=start,equity=eq,pnl=eq-start,ret=((eq/start)-1)*100 if start else 0)
+
+def smc(name, branch, slug):
+    s=j(branch,f"data/{slug}_state.json")
+    snap=last(branch,f"data/{slug}_snapshots.csv")
+    sig=last(branch,f"data/{slug}_signals.csv")
+    order=last(branch,f"data/{slug}_orders.csv")
+    trade=last(branch,f"data/{slug}_trades.csv")
+    start=n(s.get("starting_capital_inr",100000))
+    eq=n(snap.get("equity_inr"),s.get("cash_inr",start))
+    return dict(kind="smc",name=name,branch=branch,slug=slug,state=s,snap=snap,sig=sig,order=order,trade=trade,
+                start=start,equity=eq,pnl=eq-start,ret=((eq/start)-1)*100 if start else 0)
+
+def detail_smc(d):
+    s=d["state"]; sig=d["sig"]; o=d["order"]; t=d["trade"]; snap=d["snap"]; pos=s.get("position")
+    x=["## "+d["name"],"",
+       "- Branch: "+d["branch"],
+       "- Status: **"+("LONG" if pos else "FLAT")+"**",
+       "- Starting: **"+ni(d["start"])+"**",
+       "- Equity: **"+ni(d["equity"])+"**",
+       "- P&L: **"+ni(d["pnl"])+" ("+pc(d["ret"])+")**",
+       "- Cash: **"+ni(s.get("cash_inr",d["start"]))+"**",
+       "- Realized / unrealized: **"+ni(s.get("realized_pnl_inr",0))+" / "+ni(snap.get("unrealized_pnl_inr",0) if snap else 0)+"**",
+       "- Last candle: **"+mst(s.get("last_processed_close_time"))+"**","",
+       "### Latest activity","",
+       "- Confirmed swing: **"+(sig.get("signal","None") if sig else "None")+"**",
+       "- Executed order: **"+((o.get("side","")+" step "+o.get("ladder_step","")+" / "+o.get("fraction_pct","")+"%").strip() if o else "None")+"**"]
+    if o: x.append("- Executed value: **"+ni(o.get("gross_notional_inr"))+"**")
+    if t: x.append("- Latest realized slice: **"+ni(t.get("net_pnl_inr"))+" ("+pc(t.get("return_pct"))+")**")
+    if pos:
+        x += ["","### Open position","",
+              "- Quantity: **"+format(n(pos.get("qty")),".10f")+"**",
+              "- Remaining cost basis: **"+ni(pos.get("cost_basis_inr"))+"**"]
+    url="https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/"+d["branch"]+"/reports/"+d["slug"]+"_latest.md"
+    return x+["","[Open individual report]("+url+")",""]
 
 def detail_ob(d):
     s=d["state"]; sig=d["sig"]; o=d["order"]; t=d["trade"]; snap=d["snap"]; pos=s.get("position")
@@ -155,8 +194,9 @@ def detail_btc(d):
 def main():
     obs=[ob(*x) for x in OB]
     verts=[vertex(*x) for x in VERTEX]
+    smcs=[smc(*x) for x in SMC]
     b=btc()
-    rupee=obs+verts
+    rupee=obs+verts+smcs
     st=sum(x["start"] for x in rupee); eq=sum(x["equity"] for x in rupee)
     lines=["# All Strategies — Combined Paper-Trading Report","",
            "_Auto-updated from every current strategy branch. Generated "+datetime.now(timezone.utc).isoformat()+"._","",
@@ -177,11 +217,17 @@ def main():
     for d in verts:
         latest=(d["order"].get("event","")+" "+d["order"].get("symbol","")).strip() if d["order"] else d["sig"].get("symbol","-") if d["sig"] else "-"
         lines.append("| "+d["name"]+" | INR | "+str(len(d["positions"]))+" open | "+ni(d["equity"])+" | "+ni(d["pnl"])+" | "+pc(d["ret"])+" | "+latest+" |")
+    for d in smcs:
+        latest=((d["order"].get("side","")+" "+d["order"].get("fraction_pct","")+"%").strip() if d["order"] else d["sig"].get("signal","-") if d["sig"] else "-")
+        status="LONG" if d["state"].get("position") else "FLAT"
+        lines.append("| "+d["name"]+" | INR | "+status+" | "+ni(d["equity"])+" | "+ni(d["pnl"])+" | "+pc(d["ret"])+" | "+latest+" |")
     status=b["state"].get("open_position",{}).get("dir","FLAT").upper() if b["state"].get("open_position") else "FLAT"
     latest=b["order"].get("event") if b["order"] else b["sig"].get("event") if b["sig"] else "-"
     lines.append("| "+b["name"]+" | USD | "+status+" | "+usd(b["equity"])+" | "+usd(b["pnl"])+" | "+pc(b["ret"])+" | "+latest+" |")
     lines += ["","---","","# Order Block Strategies",""]
     for d in obs: lines += detail_ob(d)+["---",""]
+    lines += ["# SMC Clean Wave Strategies",""]
+    for d in smcs: lines += detail_smc(d)+["---",""]
     lines += ["# Vertex Strategies",""]
     for d in verts: lines += detail_vertex(d)+["---",""]
     lines += ["# Other Strategy",""]+detail_btc(b)+["---","","Paper trading only. This report does not place real orders.",""]
