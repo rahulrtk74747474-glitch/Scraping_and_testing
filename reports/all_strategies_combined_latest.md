@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-19T14:57:39.014747+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-19T16:46:45.473011+00:00._
 
 ## Master summary
 
@@ -8,7 +8,7 @@ _Auto-updated from every current strategy branch. Generated 2026-09-19T14:57:39.
 - INR starting capital: **₹1,000,000.00**
 - INR current equity: **₹999,933.68**
 - INR total P&L: **₹-66.32 (-0.01%)**
-- Existing BTC account: **$100.7069 equity; $0.7069 P&L (0.71%)**
+- Existing BTC account: **$100.2408 equity; $0.2408 P&L (0.24%)**
 
 USD and INR are intentionally kept separate.
 
@@ -26,7 +26,7 @@ USD and INR are intentionally kept separate.
 | SMC NIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | SMC BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
-| BTCUSDT 15m Existing Strategy | USD | SHORT | $100.7069 | $0.7069 | 0.71% | ENTRY |
+| BTCUSDT 15m Existing Strategy | USD | FLAT | $100.2408 | $0.2408 | 0.24% | EXIT |
 
 ---
 
@@ -261,26 +261,20 @@ USD and INR are intentionally kept separate.
 ## BTCUSDT 15m Existing Strategy
 
 - Branch: btcusdt-paper
-- Status: **SHORT**
+- Status: **FLAT**
 - Starting: **$100.0000**
-- Equity: **$100.7069**
-- P&L: **$0.7069 (0.71%)**
-- Balance: **$100.6650**
-- Realized / unrealized: **$0.6650 / $0.0419**
-- Closed trades: **1**
-- Last candle: **2026-09-19T13:14:59.999000+00:00**
+- Equity: **$100.2408**
+- P&L: **$0.2408 (0.24%)**
+- Balance: **$100.2408**
+- Realized / unrealized: **$0.2408 / $0.0000**
+- Closed trades: **2**
+- Last candle: **2026-09-19T16:44:59.999000+00:00**
 
 ### Latest activity
 
-- Strategy event: **dist_confirmed**
-- Executed order: **ENTRY / SELL_SHORT**
-- Latest closed trade: **$0.6650 (0.67%)**
-
-### Open position
-
-- Direction: **SHORT**
-- Entry: **$81,435.11**
-- Stop / target: **$81,615.62 / $80,602.67**
+- Strategy event: **outcome**
+- Executed order: **EXIT / BUY_TO_COVER**
+- Latest closed trade: **$-0.4243 (-0.42%)**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/btcusdt-paper/reports/btc_latest.md)
 
