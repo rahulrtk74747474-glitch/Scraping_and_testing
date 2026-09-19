@@ -48,6 +48,6 @@ jobs:
           fi
           git config user.name "btcusdt-paper-bot"
           git config user.email "btcusdt-paper-bot@users.noreply.github.com"
-          git add data/btc_*.csv data/btc_state.json reports/btc_latest.md
+          git add data/btc_*.csv data/btc_state.json data/trade_journal.csv reports/btc_latest.md reports/trade_journal.md
           git commit -m "chore: BTCUSDT 15m paper update"
           git push origin HEAD:btcusdt-paper
