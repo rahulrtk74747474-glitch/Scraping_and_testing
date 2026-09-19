@@ -50,12 +50,14 @@ jobs:
             git fetch origin "$b:refs/remotes/origin/$b"
           done
 
-      - name: Build master report
-        run: python -m src.all_strategies_report
+      - name: Build master reports and trade journal
+        run: |
+          python -m src.all_strategies_report
+          python -m src.all_trades_journal
 
       - name: Commit master report
         run: |
-          git add reports/all_strategies_combined_latest.md
+          git add reports/all_strategies_combined_latest.md reports/all_trades_journal.md
           if [ -z "$(git status --porcelain)" ]; then
             echo "Master report already up to date."
             exit 0
