@@ -8,6 +8,9 @@ on:
       - "BANKNIFTY Order Block 15m paper trader"
       - "BTCUSDT Order Block 15m paper trader"
       - "XAUUSDT Order Block 15m paper trader"
+      - "NIFTY SMC Clean Wave 15m paper trader"
+      - "BANKNIFTY SMC Clean Wave 15m paper trader"
+      - "BTCUSDT SMC Clean Wave 4h paper trader"
       - "Vertex 3:15 PM paper trade"
       - "Vertex 500 3:15 PM paper trade"
       - "Vertex 500 daily paper trade"
@@ -42,7 +45,7 @@ jobs:
       - name: Fetch every paper strategy branch
         run: |
           git pull --ff-only origin main
-          for b in             ob-nifty-15m-paper             ob-banknifty-15m-paper             ob-btcusdt-15m-paper             ob-xauusdt-15m-paper             vertex-315-paper             vertex-500-315-paper             vertex-500-paper             btcusdt-paper
+          for b in             ob-nifty-15m-paper             ob-banknifty-15m-paper             ob-btcusdt-15m-paper             ob-xauusdt-15m-paper             smc-nifty-15m-paper             smc-banknifty-15m-paper             smc-btcusdt-4h-paper             vertex-315-paper             vertex-500-315-paper             vertex-500-paper             btcusdt-paper
           do
             git fetch origin "$b:refs/remotes/origin/$b"
           done
