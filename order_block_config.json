@@ -1,13 +1,13 @@
 {
-  "slug": "ob_nifty",
-  "display_symbol": "NIFTY",
+  "slug": "ob_banknifty",
+  "display_symbol": "BANKNIFTY",
   "source": "yahoo",
-  "ticker": "^NSEI",
+  "ticker": "^NSEBANK",
   "quote_currency": "INR",
   "starting_capital_inr": 100000,
   "periods": 5,
-  "threshold_pct": 0.0,
+  "threshold_pct": 0,
   "use_wicks": false,
-  "fee_rate": 0.0,
-  "source_note": "NIFTY 50 index candles from Yahoo Finance. Paper units are synthetic index units, not exchange-tradable shares."
+  "fee_rate": 0,
+  "source_note": "NIFTY BANK index candles from Yahoo Finance. Paper units are synthetic index units, not exchange-tradable shares."
 }
