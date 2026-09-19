@@ -45,6 +45,6 @@ jobs:
           fi
           git config user.name "ob-xauusdt-paper-bot"
           git config user.email "ob-xauusdt-paper-bot@users.noreply.github.com"
-          git add data/ob_xauusdt_*.csv data/ob_xauusdt_state.json reports/ob_xauusdt_latest.md
+          git add data/ob_xauusdt_*.csv data/ob_xauusdt_state.json data/trade_journal.csv reports/ob_xauusdt_latest.md reports/trade_journal.md
           git commit -m "chore: ob_xauusdt 15m order-block paper update"
           git push origin HEAD:ob-xauusdt-15m-paper
