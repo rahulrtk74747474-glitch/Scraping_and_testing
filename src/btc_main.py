@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from .btc_market import INTERVAL_MS, fetch_klines_from, fetch_recent_klines
 from .btc_paper import DATA, append_csv, load_state, mark_equity, process_events, save_state, write_report
 from .btc_strategy import StrategyParams, compute_events
+from .trade_journal import write_trade_journal
 
 WARMUP_BARS = 500
 
@@ -36,10 +37,12 @@ def main() -> None:
             "unrealized_pnl": 0.0, "open_position": "", "note": "initialized_no_historical_replay",
         }], ["close_time","utc","price","balance","equity","unrealized_pnl","open_position","note"])
         write_report(state, newest.close, newest.close_time, fee_rate)
+        write_trade_journal("btc")
         print(f"Initialized BTCUSDT paper trader at {newest.close_time}; next new signal will be traded.")
         return
 
     if newest.close_time <= int(last_processed):
+        write_trade_journal("btc")
         print("No new completed 15m candle yet.")
         return
 
@@ -69,6 +72,7 @@ def main() -> None:
         "open_position": (state.get("open_position") or {}).get("dir", ""), "note": "",
     }], ["close_time","utc","price","balance","equity","unrealized_pnl","open_position","note"])
     write_report(state, newest.close, newest.close_time, fee_rate)
+    write_trade_journal("btc")
     print(f"BTCUSDT processed through {newest.close_time}: events={len(new_events)} orders={len(orders)} trades={len(trades)} equity=${equity:.4f}")
 
 if __name__ == "__main__":
