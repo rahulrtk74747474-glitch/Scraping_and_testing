@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "2,17,32,47 * * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".ob-xauusdt-trigger"
 
 permissions:
   contents: write
