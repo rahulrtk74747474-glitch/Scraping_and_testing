@@ -118,17 +118,20 @@ def px_inr(price: float, cfg: dict, usdinr: float) -> float:
     raise RuntimeError(f"Unsupported quote currency: {q}")
 
 def detect_signal(bars: list[Bar], i: int, periods: int = 5, threshold_pct: float = 0.0, use_wicks: bool = False) -> Optional[dict]:
-    ob_period = periods + 1
-    if i < ob_period:
+    # Pine evaluates OB_bull/OB_bear on the next live bar using only [1..periods]
+    # plus the OB candle at [periods+1]. When we run just after a 15m close,
+    # bars[i] is Pine's [1], so the OB candle is i-periods and the five
+    # qualifying candles are i-periods+1 .. i. This avoids an extra-bar delay.
+    if i < periods:
         return None
-    ob = bars[i - ob_period]
-    last_follow = bars[i - 1]
+    ob = bars[i - periods]
+    last_follow = bars[i]
     absmove = abs(ob.close - last_follow.close) / ob.close * 100.0 if ob.close else 0.0
     if absmove < threshold_pct:
         return None
-    following = [bars[i - j] for j in range(1, periods + 1)]
-    bull = ob.close < ob.open and all(b.close > b.open for b in following)
-    bear = ob.close > ob.open and all(b.close < b.open for b in following)
+    following = bars[i - periods + 1:i + 1]
+    bull = ob.close < ob.open and len(following) == periods and all(b.close > b.open for b in following)
+    bear = ob.close > ob.open and len(following) == periods and all(b.close < b.open for b in following)
     if bull:
         high = ob.high if use_wicks else ob.open
         low = ob.low
