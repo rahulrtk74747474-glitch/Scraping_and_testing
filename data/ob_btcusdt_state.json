@@ -1,0 +1,17 @@
+{
+  "cash_inr": 100000.0,
+  "closed_trades": 0,
+  "equity_peak_inr": 100000.0,
+  "last_processed_close_time": 1789825499999,
+  "last_signal": null,
+  "losses": 0,
+  "max_drawdown_pct": 0.0,
+  "position": null,
+  "realized_pnl_inr": 0.0,
+  "starting_capital_inr": 100000.0,
+  "strategy": "Order Block Finder v4 logic",
+  "symbol": "BTCUSDT",
+  "timeframe": "15m",
+  "version": 1,
+  "wins": 0
+}
