@@ -1,0 +1,1 @@
+trade_id,strategy,symbol,timeframe,currency,direction,entry_time,exit_time,entry_signal,entry_reason,exit_signal,exit_reason,entry_price,exit_price,quantity,entry_value,exit_value,stop,target,gross_pnl,fees,net_pnl,return_pct,result,holding_period,notes
