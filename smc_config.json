@@ -1,0 +1,13 @@
+{
+  "slug": "smc_banknifty",
+  "display_symbol": "BANKNIFTY",
+  "source": "yahoo",
+  "ticker": "^NSEBANK",
+  "quote_currency": "INR",
+  "starting_capital_inr": 100000,
+  "timeframe": "15m",
+  "sig_sens": 10,
+  "fee_rate": 0,
+  "min_trade_inr": 1,
+  "source_note": "NIFTY Bank index candles from Yahoo Finance. Paper units are synthetic index units."
+}
