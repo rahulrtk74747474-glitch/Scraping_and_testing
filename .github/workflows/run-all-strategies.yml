@@ -1,0 +1,44 @@
+name: Run all strategies - one click
+
+on:
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start every strategy workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+
+          workflows=(
+            "daily.yml"
+            "vertex-500-daily.yml"
+            "vertex-315.yml"
+            "vertex-500-315.yml"
+            "btcusdt-paper.yml"
+            "ob-nifty-15m.yml"
+            "ob-banknifty-15m.yml"
+            "ob-btcusdt-15m.yml"
+            "ob-xauusdt-15m.yml"
+            "smc-nifty-15m.yml"
+            "smc-banknifty-15m.yml"
+            "smc-btcusdt-4h.yml"
+          )
+
+          echo "Starting ${#workflows[@]} strategy workflows from main..."
+          for wf in "${workflows[@]}"; do
+            echo "Dispatching $wf"
+            gh workflow run "$wf" --ref main --repo "$GH_REPO"
+            sleep 1
+          done
+
+          echo "All strategy workflows were dispatched."
+          echo "Open the Actions tab to watch each strategy run independently."
