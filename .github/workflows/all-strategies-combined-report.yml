@@ -11,6 +11,7 @@ on:
       - "NIFTY SMC Clean Wave 15m paper trader"
       - "BANKNIFTY SMC Clean Wave 15m paper trader"
       - "BTCUSDT SMC Clean Wave 4h paper trader"
+      - "Vertex daily paper trade"
       - "Vertex 3:15 PM paper trade"
       - "Vertex 500 3:15 PM paper trade"
       - "Vertex 500 daily paper trade"
