@@ -1,0 +1,50 @@
+name: BANKNIFTY SMC Clean Wave 15m paper trader
+
+on:
+  schedule:
+    - cron: "6,21,36,51 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".smc-banknifty-trigger"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: smc-banknifty-15m-paper
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout isolated SMC branch
+        uses: actions/checkout@v4
+        with:
+          ref: smc-banknifty-15m-paper
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run BANKNIFTY 15m SMC paper trader
+        run: python -m src.smc_clean_wave_paper
+
+      - name: Commit SMC state and report
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "smc-banknifty-paper-bot"
+          git config user.email "smc-banknifty-paper-bot@users.noreply.github.com"
+          git add data/smc_banknifty_*.csv data/smc_banknifty_state.json reports/smc_banknifty_latest.md
+          git commit -m "chore: BANKNIFTY 15m SMC paper update"
+          git push origin HEAD:smc-banknifty-15m-paper
