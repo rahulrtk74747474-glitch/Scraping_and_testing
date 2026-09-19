@@ -1,0 +1,2 @@
+close_time,utc,price_quote,price_inr,cash_inr,equity_inr,unrealized_pnl_inr,position_qty,note
+1789725599999,2026-09-18T09:59:59.999000+00:00,56358.69921875,56358.69921875,100000.0,100000.0,0.0,0,initialized_no_historical_replay
