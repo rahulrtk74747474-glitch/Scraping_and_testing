@@ -9,6 +9,7 @@ from .engine import StrategyConfig, mark_to_market, process_day
 from .market_data import latest_daily_closes, latest_market_date
 from .report import write_markdown_report
 from .storage import DATA_DIR, append_csv, load_state, save_state
+from .trade_journal import write_trade_journal
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "config.yaml"
@@ -40,6 +41,7 @@ def main() -> None:
 
     # Prevent duplicate signals/orders/averaging when a manual workflow is re-run on the same market day.
     if state.get("last_run_date") == trade_date:
+        write_trade_journal("vertex")
         print(f"Already processed market date {trade_date}; no changes made.")
         return
 
@@ -108,6 +110,7 @@ def main() -> None:
         ],
     )
     stats = write_markdown_report(trade_date, metrics, open_rows)
+    write_trade_journal("vertex")
     print(
         f"{trade_date}: signals={len(signals)}, orders={len(orders)}, "
         f"open={metrics['open_positions']}, equity={metrics['equity']:.2f}, "
