@@ -1,0 +1,22 @@
+{
+  "buy_sequence_base_inr": 0.0,
+  "buy_step": 0,
+  "cash_inr": 100000.0,
+  "equity_peak_inr": 100000.0,
+  "last_processed_close_time": 1789819199999,
+  "last_sequence_direction": null,
+  "last_signal": null,
+  "losses": 0,
+  "max_drawdown_pct": 0.0,
+  "position": null,
+  "realized_pnl_inr": 0.0,
+  "sell_executions": 0,
+  "sell_sequence_base_qty": 0.0,
+  "sell_step": 0,
+  "starting_capital_inr": 100000.0,
+  "strategy": "SMC Clean Wave major swings",
+  "symbol": "BTCUSDT",
+  "timeframe": "4h",
+  "version": 1,
+  "wins": 0
+}
