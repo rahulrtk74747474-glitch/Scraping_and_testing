@@ -1,8 +1,8 @@
 {
   "balance": 100.66502137142567,
   "closed_trades": 1,
-  "equity_peak": 100.66502137142567,
-  "last_processed_close_time": 1789810199999,
+  "equity_peak": 100.706880073761,
+  "last_processed_close_time": 1789823699999,
   "losses": 0,
   "max_drawdown_pct": 0.1689658336404459,
   "open_position": {
