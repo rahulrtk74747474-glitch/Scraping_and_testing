@@ -45,6 +45,6 @@ jobs:
           fi
           git config user.name "ob-nifty-paper-bot"
           git config user.email "ob-nifty-paper-bot@users.noreply.github.com"
-          git add data/ob_nifty_*.csv data/ob_nifty_state.json reports/ob_nifty_latest.md
+          git add data/ob_nifty_*.csv data/ob_nifty_state.json data/trade_journal.csv reports/ob_nifty_latest.md reports/trade_journal.md
           git commit -m "chore: ob_nifty 15m order-block paper update"
           git push origin HEAD:ob-nifty-15m-paper
