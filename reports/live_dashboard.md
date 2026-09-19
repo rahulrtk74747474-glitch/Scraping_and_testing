@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-19T21:39:02.322301+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-19T21:40:07.348446+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -44,7 +44,7 @@ _Position price chart appears automatically after at least two stored position s
 | Vertex 500 3:15 | 1 open | ₹99,966.84 | ₹-33.16 | BUY ENTRY PFIZER | 2026-09-18 |
 | OB NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
 | OB BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
-| OB BTCUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 | BEARISH_OB | 2026-09-19T19:14:59.999000+00:00 |
+| OB BTCUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 | BEARISH_OB | 2026-09-19T21:29:59.999000+00:00 |
 | OB XAUUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T20:59:59.999000+00:00 |
 | SMC NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
 | SMC BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
