@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-19T17:11:01.653448+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-19T17:14:43.670729+00:00._
 
 ## Master summary
 
