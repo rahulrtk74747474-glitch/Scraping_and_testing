@@ -1,12 +1,12 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-19T14:03:56.005245+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-19T14:49:42.728413+00:00._
 
 ## Master summary
 
-- INR accounts: **7**
-- INR starting capital: **₹700,000.00**
-- INR current equity: **₹699,933.68**
+- INR accounts: **10**
+- INR starting capital: **₹1,000,000.00**
+- INR current equity: **₹999,933.68**
 - INR total P&L: **₹-66.32 (-0.01%)**
 - Existing BTC account: **$100.7069 equity; $0.7069 P&L (0.71%)**
 
@@ -23,6 +23,9 @@ USD and INR are intentionally kept separate.
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 1 open | ₹99,966.84 | ₹-33.16 | -0.03% | ENTRY PFIZER |
 | Vertex 500 Daily | INR | 1 open | ₹99,966.84 | ₹-33.16 | -0.03% | ENTRY PFIZER |
+| SMC NIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
+| SMC BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
+| SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | BTCUSDT 15m Existing Strategy | USD | SHORT | $100.7069 | $0.7069 | 0.71% | ENTRY |
 
 ---
@@ -114,6 +117,68 @@ USD and INR are intentionally kept separate.
 - Latest closed trade: **None**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/ob-xauusdt-15m-paper/reports/ob_xauusdt_latest.md)
+
+---
+
+# SMC Clean Wave Strategies
+
+## SMC NIFTY 15m
+
+- Branch: smc-nifty-15m-paper
+- Status: **FLAT**
+- Starting: **₹100,000.00**
+- Equity: **₹100,000.00**
+- P&L: **₹0.00 (0.00%)**
+- Cash: **₹100,000.00**
+- Realized / unrealized: **₹0.00 / ₹0.00**
+- Last candle: **2026-09-18T09:59:59.999000+00:00**
+
+### Latest activity
+
+- Confirmed swing: **None**
+- Executed order: **None**
+
+[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/smc-nifty-15m-paper/reports/smc_nifty_latest.md)
+
+---
+
+## SMC BANKNIFTY 15m
+
+- Branch: smc-banknifty-15m-paper
+- Status: **FLAT**
+- Starting: **₹100,000.00**
+- Equity: **₹100,000.00**
+- P&L: **₹0.00 (0.00%)**
+- Cash: **₹100,000.00**
+- Realized / unrealized: **₹0.00 / ₹0.00**
+- Last candle: **2026-09-18T09:59:59.999000+00:00**
+
+### Latest activity
+
+- Confirmed swing: **None**
+- Executed order: **None**
+
+[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/smc-banknifty-15m-paper/reports/smc_banknifty_latest.md)
+
+---
+
+## SMC BTCUSDT 4h
+
+- Branch: smc-btcusdt-4h-paper
+- Status: **FLAT**
+- Starting: **₹100,000.00**
+- Equity: **₹100,000.00**
+- P&L: **₹0.00 (0.00%)**
+- Cash: **₹100,000.00**
+- Realized / unrealized: **₹0.00 / ₹0.00**
+- Last candle: **2026-09-19T11:59:59.999000+00:00**
+
+### Latest activity
+
+- Confirmed swing: **None**
+- Executed order: **None**
+
+[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/smc-btcusdt-4h-paper/reports/smc_btcusdt_latest.md)
 
 ---
 
