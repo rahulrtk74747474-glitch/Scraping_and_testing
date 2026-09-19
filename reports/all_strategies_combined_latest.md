@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-19T23:35:49.197740+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-19T23:36:57.957276+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -20,7 +20,7 @@ USD and INR are intentionally kept separate.
 |---|---|---|---:|---:|---:|---|
 | OB NIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | OB BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
-| OB BTCUSDT 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | BEARISH_OB |
+| OB BTCUSDT 15m | INR | LONG | ₹100,000.00 | ₹0.00 | 0.00% | BUY |
 | OB XAUUSDT 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 1 open | ₹99,966.84 | ₹-33.16 | -0.03% | ENTRY PFIZER |
@@ -81,20 +81,26 @@ USD and INR are intentionally kept separate.
 ## OB BTCUSDT 15m
 
 - Branch: ob-btcusdt-15m-paper
-- Status: **FLAT**
+- Status: **LONG**
 - Starting: **₹100,000.00**
 - Equity: **₹100,000.00**
 - P&L: **₹0.00 (0.00%)**
-- Cash: **₹100,000.00**
+- Cash: **₹0.00**
 - Realized / unrealized: **₹0.00 / ₹0.00**
 - Closed trades: **0**
-- Last candle: **2026-09-19T21:29:59.999000+00:00**
+- Last candle: **2026-09-19T23:29:59.999000+00:00**
 
 ### Latest activity
 
-- Signal: **BEARISH_OB**
-- Executed order: **None**
+- Signal: **BULLISH_OB**
+- Executed order: **BUY BULLISH_OB**
+- Executed value: **₹100,000.00**
 - Latest closed trade: **None**
+
+### Open position
+
+- Entry INR: **₹7,794,236.99**
+- Quantity: **0.0128299922**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/ob-btcusdt-15m-paper/reports/ob_btcusdt_latest.md)
 
