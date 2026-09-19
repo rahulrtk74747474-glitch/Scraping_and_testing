@@ -2,12 +2,12 @@
   "slug": "ob_xauusdt",
   "display_symbol": "XAUUSDT",
   "source": "yahoo",
-  "ticker": "XAUUSD=X",
+  "ticker": "GC=F",
   "quote_currency": "USD",
   "starting_capital_inr": 100000,
   "periods": 5,
   "threshold_pct": 0,
   "use_wicks": false,
   "fee_rate": 0,
-  "source_note": "Yahoo XAU/USD spot candles are used as the historical 15-minute price proxy for XAUUSDT. Binance exposes the XAUUSDT options underlying index, but its public options API does not provide historical underlying-index klines. USD values are converted to INR for paper reporting."
+  "source_note": "COMEX Gold futures (Yahoo GC=F) 15-minute candles are used as a gold-price proxy for XAUUSDT because Binance's public Options API exposes the live XAUUSDT underlying index but not historical underlying-index OHLC klines. USD values are converted to INR for paper reporting."
 }
