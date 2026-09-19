@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Seeded from the latest committed strategy state. It will be rebuilt automatically by GitHub Actions._
+_Auto-generated from the latest committed strategy state at 2026-09-19T18:34:55.554437+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -12,43 +12,61 @@ _Seeded from the latest committed strategy state. It will be rebuilt automatical
 
 - Status: **OPEN LONG**
 - Entry date: **2026-09-18**
-- Entry / weighted average: **₹4,002.40 / ₹4,002.40**
+- Entry / average: **₹4,002.40 / ₹4,002.40**
 - Quantity: **2**
 - Capital in trade: **₹8,014.31**
-- Latest portfolio unrealized P&L: **₹-33.16**
-- Position price chart: _starts automatically after at least two per-position price snapshots are stored._
+- Latest stored close: **not yet persisted**
+- Unrealized P&L: **available after next position snapshot**
+- Latest activity: **BUY ENTRY PFIZER**
+
+_Position price chart appears automatically after at least two stored position snapshots._
 
 ### Vertex 500 3:15 — PFIZER
 
 - Status: **OPEN LONG**
 - Entry date: **2026-09-18**
-- Entry / weighted average: **₹4,002.40 / ₹4,002.40**
+- Entry / average: **₹4,002.40 / ₹4,002.40**
 - Quantity: **2**
 - Capital in trade: **₹8,014.31**
-- Latest portfolio unrealized P&L: **₹-33.16**
-- Position price chart: _starts automatically after at least two per-position price snapshots are stored._
+- Latest stored close: **not yet persisted**
+- Unrealized P&L: **available after next position snapshot**
+- Latest activity: **BUY ENTRY PFIZER**
+
+_Position price chart appears automatically after at least two stored position snapshots._
 
 ## Strategy status
 
-| Strategy | Status | Equity | P&L |
-|---|---|---:|---:|
-| Vertex Daily | FLAT | ₹100,000.00 | ₹0.00 |
-| Vertex 3:15 | FLAT | ₹100,000.00 | ₹0.00 |
-| Vertex 500 Daily | 1 open | ₹99,966.84 | ₹-33.16 |
-| Vertex 500 3:15 | 1 open | ₹99,966.84 | ₹-33.16 |
-| BTCUSDT 15m Existing Strategy | FLAT | $100.2408 | $0.2408 |
-| OB NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 |
-| OB BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 |
-| OB BTCUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 |
-| OB XAUUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 |
-| SMC NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 |
-| SMC BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 |
-| SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 |
+| Strategy | Status | Equity | P&L | Latest activity | Last processed |
+|---|---|---:|---:|---|---|
+| Vertex Daily | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-18 |
+| Vertex 3:15 | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-18 |
+| Vertex 500 Daily | 1 open | ₹99,966.84 | ₹-33.16 | BUY ENTRY PFIZER | 2026-09-18 |
+| Vertex 500 3:15 | 1 open | ₹99,966.84 | ₹-33.16 | BUY ENTRY PFIZER | 2026-09-18 |
+| OB NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
+| OB BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
+| OB BTCUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-19T17:14:59.999000+00:00 |
+| OB XAUUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T20:59:59.999000+00:00 |
+| SMC NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
+| SMC BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
+| SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-19T15:59:59.999000+00:00 |
+| BTCUSDT 15m Existing Strategy | FLAT | $100.2408 | $0.2408 | BUY_TO_COVER EXIT | 2026-09-19T17:14:59.999000+00:00 |
+
+## Recent strategy charts
+
+### OB BTCUSDT 15m
+
+![OB BTCUSDT 15m chart](charts/ob_btcusdt.svg)
+
+### SMC BTCUSDT 4h
+
+![SMC BTCUSDT 4h chart](charts/smc_btcusdt.svg)
+
+### BTCUSDT 15m Existing Strategy
+
+![BTCUSDT 15m Existing Strategy chart](charts/btc_15m.svg)
 
 ## Automation
 
-- GitHub rebuilds this dashboard after strategy workflows and on the master reporting refresh.
-- Open-position data comes from the strategy branches themselves.
-- Price/equity SVG charts are generated automatically from stored snapshots.
-- The trade journal also updates automatically when a position or realized slice closes.
-- **No ChatGPT intervention or subscription is required.**
+- Dashboard rebuilds automatically in the master GitHub reporting workflow.
+- The trade journal also updates from GitHub without ChatGPT.
+- No ChatGPT subscription or open ChatGPT session is required.
