@@ -10,6 +10,7 @@ from typing import Iterable, Optional
 
 import requests
 import yfinance as yf
+from .trade_journal import write_trade_journal
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT / "order_block_config.json"
@@ -415,10 +416,12 @@ def main() -> None:
             "note": "initialized_no_historical_replay",
         }], ["close_time", "utc", "price_quote", "price_inr", "cash_inr", "equity_inr", "unrealized_pnl_inr", "position", "note"])
         write_report(state, cfg, p, newest, usdinr)
+        write_trade_journal("order_block", cfg)
         print(f"Initialized {cfg['display_symbol']} at latest completed 15m candle; no historical trade replay.")
         return
 
     if newest.close_time <= int(last_processed):
+        write_trade_journal("order_block", cfg)
         print(f"No new completed 15m candle for {cfg['display_symbol']}.")
         return
 
@@ -472,6 +475,7 @@ def main() -> None:
         "note": "",
     }], ["close_time", "utc", "price_quote", "price_inr", "cash_inr", "equity_inr", "unrealized_pnl_inr", "position", "note"])
     write_report(state, cfg, p, newest, usdinr)
+    write_trade_journal("order_block", cfg)
     print(f"{cfg['display_symbol']} processed through {fmt_time(newest.close_time)}; signals={len(signals)} orders={len(orders)} trades={len(trades)} equity=₹{equity:.2f}")
 
 if __name__ == "__main__":
