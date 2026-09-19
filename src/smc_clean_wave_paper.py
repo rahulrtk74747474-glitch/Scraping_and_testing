@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from datetime import datetime,timezone
 from pathlib import Path
 import requests,yfinance as yf
+from .trade_journal import write_trade_journal
 
 ROOT=Path(__file__).resolve().parents[1]; CFG=ROOT/'smc_config.json'; DATA=ROOT/'data'; REPORTS=ROOT/'reports'
 @dataclass(frozen=True)
@@ -196,8 +197,8 @@ def report(s,c,p,last,fx):
 def main():
     c=cfgload();p=paths(c);xs=bars(c);sens=int(c['sig_sens']);fx=1.0 if c['quote_currency'].upper()=='INR' else usdinr();s=load(c,p);new=xs[-1];last=s.get('last_processed_close_time')
     if last is None:
-        s['last_processed_close_time']=new.close_time; equity,un=eq(s,inr(new.close,c,fx));s['equity_peak_inr']=max(float(s['equity_peak_inr']),equity);save(s,p);addcsv(p['snapshots'],[{'close_time':new.close_time,'utc':fmt(new.close_time),'price_quote':new.close,'price_inr':inr(new.close,c,fx),'cash_inr':s['cash_inr'],'equity_inr':equity,'unrealized_pnl_inr':un,'position_qty':0,'note':'initialized_no_historical_replay'}],['close_time','utc','price_quote','price_inr','cash_inr','equity_inr','unrealized_pnl_inr','position_qty','note']);report(s,c,p,new,fx);return
-    if new.close_time<=int(last):report(s,c,p,new,fx);return
+        s['last_processed_close_time']=new.close_time; equity,un=eq(s,inr(new.close,c,fx));s['equity_peak_inr']=max(float(s['equity_peak_inr']),equity);save(s,p);addcsv(p['snapshots'],[{'close_time':new.close_time,'utc':fmt(new.close_time),'price_quote':new.close,'price_inr':inr(new.close,c,fx),'cash_inr':s['cash_inr'],'equity_inr':equity,'unrealized_pnl_inr':un,'position_qty':0,'note':'initialized_no_historical_replay'}],['close_time','utc','price_quote','price_inr','cash_inr','equity_inr','unrealized_pnl_inr','position_qty','note']);report(s,c,p,new,fx);write_trade_journal('smc',c);return
+    if new.close_time<=int(last):report(s,c,p,new,fx);write_trade_journal('smc',c);return
     start=next((i for i,x in enumerate(xs) if x.close_time>int(last)),None); sigs=[];orders=[];trades=[]
     if start is not None:
         for i in range(start,len(xs)):
@@ -208,5 +209,5 @@ def main():
     addcsv(p['orders'],orders,['close_time','signal','side','sizing_rule','ladder_step','fraction_pct','sequence_base','price_quote','price_inr','qty','gross_notional_inr','fee_inr','cash_after_inr'])
     addcsv(p['trades'],trades,['entry_time','exit_time','exit_ladder_step','fraction_pct','exit_price_quote','exit_price_inr','qty','allocated_cost_inr','exit_proceeds_inr','net_pnl_inr','return_pct'])
     addcsv(p['snapshots'],[{'close_time':new.close_time,'utc':fmt(new.close_time),'price_quote':new.close,'price_inr':inr(new.close,c,fx),'cash_inr':s['cash_inr'],'equity_inr':equity,'unrealized_pnl_inr':un,'position_qty':float((s.get('position') or {}).get('qty',0)),'note':''}],['close_time','utc','price_quote','price_inr','cash_inr','equity_inr','unrealized_pnl_inr','position_qty','note'])
-    report(s,c,p,new,fx);print(c['display_symbol'],'signals',len(sigs),'orders',len(orders),'equity',round(equity,2))
+    report(s,c,p,new,fx);write_trade_journal('smc',c);print(c['display_symbol'],'signals',len(sigs),'orders',len(orders),'equity',round(equity,2))
 if __name__=='__main__':main()
