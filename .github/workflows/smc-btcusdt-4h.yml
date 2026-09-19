@@ -45,6 +45,6 @@ jobs:
           fi
           git config user.name "smc-btcusdt-paper-bot"
           git config user.email "smc-btcusdt-paper-bot@users.noreply.github.com"
-          git add data/smc_btcusdt_*.csv data/smc_btcusdt_state.json reports/smc_btcusdt_latest.md
+          git add data/smc_btcusdt_*.csv data/smc_btcusdt_state.json data/trade_journal.csv reports/smc_btcusdt_latest.md reports/trade_journal.md
           git commit -m "chore: BTCUSDT 4h SMC paper update"
           git push origin HEAD:smc-btcusdt-4h-paper
