@@ -1,13 +1,13 @@
 {
-  "slug": "ob_nifty",
-  "display_symbol": "NIFTY",
-  "source": "yahoo",
-  "ticker": "^NSEI",
-  "quote_currency": "INR",
+  "slug": "ob_btcusdt",
+  "display_symbol": "BTCUSDT",
+  "source": "binance_spot",
+  "ticker": "BTCUSDT",
+  "quote_currency": "USDT",
   "starting_capital_inr": 100000,
   "periods": 5,
-  "threshold_pct": 0.0,
+  "threshold_pct": 0,
   "use_wicks": false,
-  "fee_rate": 0.0,
-  "source_note": "NIFTY 50 index candles from Yahoo Finance. Paper units are synthetic index units, not exchange-tradable shares."
+  "fee_rate": 0,
+  "source_note": "BTCUSDT 15-minute spot candles from Binance public market data. USDT values are converted to INR using the latest USD/INR rate for paper-account reporting."
 }
