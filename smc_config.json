@@ -1,0 +1,13 @@
+{
+  "slug": "smc_btcusdt",
+  "display_symbol": "BTCUSDT",
+  "source": "binance_spot",
+  "ticker": "BTCUSDT",
+  "quote_currency": "USDT",
+  "starting_capital_inr": 100000,
+  "timeframe": "4h",
+  "sig_sens": 10,
+  "fee_rate": 0,
+  "min_trade_inr": 1,
+  "source_note": "BTCUSDT spot candles from Binance public data; paper account is valued in INR."
+}
