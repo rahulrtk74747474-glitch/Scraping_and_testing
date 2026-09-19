@@ -39,7 +39,7 @@ jobs:
 
       - name: Commit state and reports to ob-xauusdt-15m-paper only
         run: |
-          if git diff --quiet && git diff --cached --quiet; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit."
             exit 0
           fi
