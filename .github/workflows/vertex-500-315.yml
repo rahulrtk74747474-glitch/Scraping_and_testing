@@ -1,0 +1,57 @@
+name: Vertex 500 3:15 PM paper trade
+
+on:
+  schedule:
+    # 09:45 UTC = 15:15 IST, Monday-Friday.
+    - cron: "45 9 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vertex-500-315-paper-trade
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout isolated Vertex 500 3:15 branch
+        uses: actions/checkout@v4
+        with:
+          ref: vertex-500-315-paper
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Chromium for Chartink scraping
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run Vertex 500 3:15 engine
+        env:
+          CHARTINK_SCAN_URL: https://chartink.com/screener/vertex-500
+          CHARTINK_USER: ${{ secrets.CHARTINK_USER }}
+          CHARTINK_PASSWORD: ${{ secrets.CHARTINK_PASSWORD }}
+          CHARTINK_COOKIE: ${{ secrets.CHARTINK_COOKIE }}
+        run: python -m src.main
+
+      - name: Commit state and reports to vertex-500-315-paper only
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "vertex-paper-bot"
+          git config user.email "vertex-paper-bot@users.noreply.github.com"
+          git add data reports
+          git commit -m "chore: 3:15 PM paper-trading update"
+          git push origin HEAD:vertex-500-315-paper
