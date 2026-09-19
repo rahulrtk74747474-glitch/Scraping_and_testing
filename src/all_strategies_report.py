@@ -112,7 +112,7 @@ def detail_smc(d):
        "- Last candle: **"+mst(s.get("last_processed_close_time"))+"**","",
        "### Latest activity","",
        "- Confirmed swing: **"+(sig.get("signal","None") if sig else "None")+"**",
-       "- Executed order: **"+((o.get("side","")+" step "+o.get("ladder_step","")+" / "+o.get("fraction_pct","")+"%").strip() if o else "None")+"**"]
+       "- Executed order: **"+(((o.get("side","")+" "+o.get("sizing_rule","")).strip()+" / "+((o.get("fraction_pct","")+"%") if o.get("fraction_pct","") else "restore exact qty")) if o else "None")+"**"]
     if o: x.append("- Executed value: **"+ni(o.get("gross_notional_inr"))+"**")
     if t: x.append("- Latest realized slice: **"+ni(t.get("net_pnl_inr"))+" ("+pc(t.get("return_pct"))+")**")
     if pos:
@@ -218,7 +218,7 @@ def main():
         latest=(d["order"].get("event","")+" "+d["order"].get("symbol","")).strip() if d["order"] else d["sig"].get("symbol","-") if d["sig"] else "-"
         lines.append("| "+d["name"]+" | INR | "+str(len(d["positions"]))+" open | "+ni(d["equity"])+" | "+ni(d["pnl"])+" | "+pc(d["ret"])+" | "+latest+" |")
     for d in smcs:
-        latest=((d["order"].get("side","")+" "+d["order"].get("fraction_pct","")+"%").strip() if d["order"] else d["sig"].get("signal","-") if d["sig"] else "-")
+        latest=(((d["order"].get("side","")+" "+d["order"].get("sizing_rule","")).strip()+" "+((d["order"].get("fraction_pct","")+"%") if d["order"].get("fraction_pct","") else "exact qty")) if d["order"] else d["sig"].get("signal","-") if d["sig"] else "-")
         status="LONG" if d["state"].get("position") else "FLAT"
         lines.append("| "+d["name"]+" | INR | "+status+" | "+ni(d["equity"])+" | "+ni(d["pnl"])+" | "+pc(d["ret"])+" | "+latest+" |")
     status=b["state"].get("open_position",{}).get("dir","FLAT").upper() if b["state"].get("open_position") else "FLAT"
