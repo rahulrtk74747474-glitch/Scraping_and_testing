@@ -200,6 +200,7 @@ def main():
     st=sum(x["start"] for x in rupee); eq=sum(x["equity"] for x in rupee)
     lines=["# All Strategies — Combined Paper-Trading Report","",
            "_Auto-updated from every current strategy branch. Generated "+datetime.now(timezone.utc).isoformat()+"._","",
+           "[Open the full closed-trade journal](all_trades_journal.md)","",
            "## Master summary","",
            "- INR accounts: **"+str(len(rupee))+"**",
            "- INR starting capital: **"+ni(st)+"**",
