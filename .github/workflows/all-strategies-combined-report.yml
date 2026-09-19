@@ -1,0 +1,68 @@
+
+name: All strategies combined report
+
+on:
+  workflow_run:
+    workflows:
+      - "NIFTY Order Block 15m paper trader"
+      - "BANKNIFTY Order Block 15m paper trader"
+      - "BTCUSDT Order Block 15m paper trader"
+      - "XAUUSDT Order Block 15m paper trader"
+      - "Vertex 3:15 PM paper trade"
+      - "Vertex 500 3:15 PM paper trade"
+      - "Vertex 500 daily paper trade"
+      - "BTCUSDT 15m paper trader"
+    types: [completed]
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".all-strategies-report-trigger"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: all-strategies-combined-report
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fetch every paper strategy branch
+        run: |
+          git pull --ff-only origin main
+          for b in             ob-nifty-15m-paper             ob-banknifty-15m-paper             ob-btcusdt-15m-paper             ob-xauusdt-15m-paper             vertex-315-paper             vertex-500-315-paper             vertex-500-paper             btcusdt-paper
+          do
+            git fetch origin "$b:refs/remotes/origin/$b"
+          done
+
+      - name: Build master report
+        run: python -m src.all_strategies_report
+
+      - name: Commit master report
+        run: |
+          git add reports/all_strategies_combined_latest.md
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Master report already up to date."
+            exit 0
+          fi
+          git config user.name "all-strategies-report-bot"
+          git config user.email "all-strategies-report-bot@users.noreply.github.com"
+          git commit -m "chore: refresh all-strategies combined report"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            echo "Push attempt $attempt failed; retrying."
+            sleep 2
+          done
+          exit 1
