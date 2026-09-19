@@ -101,6 +101,16 @@ def main() -> None:
     )
     append_csv(DATA_DIR / "skipped.csv", skipped, ["date", "symbol", "reason"])
     append_csv(
+        DATA_DIR / "position_snapshots.csv",
+        [{"date": trade_date, **row} for row in open_rows],
+        [
+            "date", "symbol", "entry_date", "entry_price", "weighted_avg_price",
+            "qty", "latest_close", "latest_price_date", "capital_in_trade",
+            "average_add_count", "average_added_notional",
+            "unrealized_net_pnl_est", "return_pct_est",
+        ],
+    )
+    append_csv(
         DATA_DIR / "daily_snapshots.csv",
         [{"date": trade_date, **metrics}],
         [
