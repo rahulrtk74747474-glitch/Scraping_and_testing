@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-20T23:25:24.594832+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-20T23:26:53.990240+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -58,17 +58,21 @@ _Position price chart appears automatically after at least two stored position s
 | OB NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
 | OB BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
 | OB BTCUSDT 15m | LONG | ₹98,521.54 | ₹-1,478.46 | BUY BULLISH_OB | 2026-09-20T23:14:59.999000+00:00 |
-| OB XAUUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T20:59:59.999000+00:00 |
+| OB XAUUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-20T23:14:59.999000+00:00 |
 | SMC NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
 | SMC BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
 | SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-20T19:59:59.999000+00:00 |
-| BTCUSDT 15m Existing Strategy | FLAT | $99.7279 | $-0.2721 | BUY_TO_COVER EXIT | 2026-09-20T21:14:59.999000+00:00 |
+| BTCUSDT 15m Existing Strategy | FLAT | $99.7279 | $-0.2721 | BUY_TO_COVER EXIT | 2026-09-20T23:14:59.999000+00:00 |
 
 ## Recent strategy charts
 
 ### OB BTCUSDT 15m
 
 ![OB BTCUSDT 15m chart](charts/ob_btcusdt.svg)
+
+### OB XAUUSDT 15m
+
+![OB XAUUSDT 15m chart](charts/ob_xauusdt.svg)
 
 ### SMC BTCUSDT 4h
 
