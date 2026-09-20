@@ -4,20 +4,41 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **3**
-- Profits / losses: **1 / 2**
+- Closed trade records: **4**
+- Profits / losses: **1 / 3**
 - Net INR P&L: **₹-1,213.22**
-- Net USD P&L: **$0.2408**
+- Net USD P&L: **$-0.2721**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-20 20:44:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.5128 | -0.5116% | Configured stop level was hit. |
 | 2026-09-20 16:29:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | LOSS | ₹-1,213.22 | -1.2132% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.28853411460919437%. |
 | 2026-09-19 20:14:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.4243 | -0.4215% | Configured stop level was hit. |
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### BTCUSDT 15m — BTCUSDT — LOSS
+
+- Trade ID: `BTCUSDT-1789872300000`
+- Branch: `btcusdt-paper`
+- Entry: **2026-09-20 19:44:59 IST** at **80592.0100**
+- Entry signal: **DISTRIBUTION_DOWN_CONFIRMED**
+- Why taken: A confirmed distribution signal opened a SHORT after the strategy's sweep/distribution conditions.
+- Stop: **80843.2800**
+- Target: **79794.3900**
+- Exit: **2026-09-20 20:44:59 IST** at **80843.2800**
+- Exit signal: **STOP**
+- Why closed/reduced: Configured stop level was hit.
+- Quantity: **0.0012425625890038253**
+- Gross P&L: **$-0.3122**
+- Fees/charges: **$0.2006**
+- Net P&L: **$-0.5128**
+- Profit/Loss percentage: **-0.5116%**
+- Holding period: **0d 1h 0m**
+- Notes: Outcome=STOP; R multiple=-1.0; balance after=$99.7279.
 
 ### OB BTCUSDT 15m — BTCUSDT — LOSS
 

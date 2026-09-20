@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-20T16:13:00.698307+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-20T16:15:40.238241+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -10,7 +10,7 @@ _Auto-updated from every current strategy branch. Generated 2026-09-20T16:13:00.
 - INR starting capital: **₹1,000,000.00**
 - INR current equity: **₹998,720.46**
 - INR total P&L: **₹-1,279.54 (-0.13%)**
-- Existing BTC account: **$100.2408 equity; $0.2408 P&L (0.24%)**
+- Existing BTC account: **$99.7279 equity; $-0.2721 P&L (-0.27%)**
 
 USD and INR are intentionally kept separate.
 
@@ -28,7 +28,7 @@ USD and INR are intentionally kept separate.
 | SMC NIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | SMC BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
-| BTCUSDT 15m Existing Strategy | USD | FLAT | $100.2408 | $0.2408 | 0.24% | EXIT |
+| BTCUSDT 15m Existing Strategy | USD | FLAT | $99.7279 | $-0.2721 | -0.27% | EXIT |
 
 ---
 
@@ -266,18 +266,18 @@ USD and INR are intentionally kept separate.
 - Branch: btcusdt-paper
 - Status: **FLAT**
 - Starting: **$100.0000**
-- Equity: **$100.2408**
-- P&L: **$0.2408 (0.24%)**
-- Balance: **$100.2408**
-- Realized / unrealized: **$0.2408 / $0.0000**
-- Closed trades: **2**
-- Last candle: **2026-09-20T11:59:59.999000+00:00**
+- Equity: **$99.7279**
+- P&L: **$-0.2721 (-0.27%)**
+- Balance: **$99.7279**
+- Realized / unrealized: **$-0.2721 / $0.0000**
+- Closed trades: **3**
+- Last candle: **2026-09-20T16:14:59.999000+00:00**
 
 ### Latest activity
 
-- Strategy event: **sweep**
+- Strategy event: **outcome**
 - Executed order: **EXIT / BUY_TO_COVER**
-- Latest closed trade: **$-0.4243 (-0.42%)**
+- Latest closed trade: **$-0.5128 (-0.51%)**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/btcusdt-paper/reports/btc_latest.md)
 
