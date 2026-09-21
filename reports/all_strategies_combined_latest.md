@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-21T16:03:05.607455+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-21T17:01:20.239756+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,8 +8,8 @@ _Auto-updated from every current strategy branch. Generated 2026-09-21T16:03:05.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹1,002,338.49**
-- INR total P&L: **₹2,338.49 (0.23%)**
+- INR current equity: **₹1,002,405.02**
+- INR total P&L: **₹2,405.02 (0.24%)**
 - Existing BTC account: **$99.7279 equity; $-0.2721 P&L (-0.27%)**
 
 USD and INR are intentionally kept separate.
@@ -24,7 +24,7 @@ USD and INR are intentionally kept separate.
 | OB XAUUSDT 15m | INR | LONG | ₹99,008.49 | ₹-991.51 | -0.99% | BUY |
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
-| Vertex 500 Daily | INR | 1 open | ₹99,966.84 | ₹-33.16 | -0.03% | ENTRY PFIZER |
+| Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | SMC NIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | SMC BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | SELL |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
@@ -248,23 +248,17 @@ USD and INR are intentionally kept separate.
 
 - Branch: vertex-500-paper
 - Starting: **₹100,000.00**
-- Equity: **₹99,966.84**
-- P&L: **₹-33.16 (-0.03%)**
-- Cash: **₹91,985.69**
-- Realized / unrealized: **₹0.00 / ₹-33.16**
-- Open positions: **1**
-- Last run: **2026-09-18**
+- Equity: **₹100,033.37**
+- P&L: **₹33.37 (0.03%)**
+- Cash: **₹100,033.37**
+- Realized / unrealized: **₹33.37 / ₹0.00**
+- Open positions: **0**
+- Last run: **2026-09-21**
 
 ### Latest activity
 
 - Scanner signal: **PFIZER — Pfizer Limited**
-- Executed order: **ENTRY BUY PFIZER**
-
-### Open positions
-
-| Symbol | Qty | Entry | Avg | Capital |
-|---|---:|---:|---:|---:|
-| PFIZER | 2 | 4002.40 | 4002.40 | ₹8,014.31 |
+- Executed order: **EXIT SELL PFIZER**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-500-paper/reports/latest.md)
 

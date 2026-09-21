@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **5**
-- Profits / losses: **2 / 3**
-- Net INR P&L: **₹-1,179.85**
+- Closed trade records: **6**
+- Profits / losses: **3 / 3**
+- Net INR P&L: **₹-1,146.48**
 - Net USD P&L: **$-0.2721**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-21 | Vertex 500 Daily | PFIZER | LONG | PROFIT | ₹33.37 | 0.4164% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
 | 2026-09-21 | Vertex 500 3:15 | PFIZER | LONG | PROFIT | ₹33.37 | 0.4164% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
 | 2026-09-20 20:44:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.5128 | -0.5116% | Configured stop level was hit. |
 | 2026-09-20 16:29:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | LOSS | ₹-1,213.22 | -1.2132% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.28853411460919437%. |
@@ -20,6 +21,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### Vertex 500 Daily — PFIZER — PROFIT
+
+- Trade ID: `VERTEX-PFIZER-2026-09-18-2026-09-21`
+- Branch: `vertex-500-paper`
+- Entry: **2026-09-18** at **4002.4000**
+- Entry signal: **VERTEX_CHARTINK_SIGNAL**
+- Why taken: Stock appeared in the configured Chartink/Vertex screener on the entry date. Scanner name: Pfizer Limited. Scanner change: -0.31%.
+- Stop: **Not used — no fixed stop is configured.**
+- Target: **Rule-based target: first later daily close above original entry price.**
+- Exit: **2026-09-21** at **4035.7000**
+- Exit signal: **DAILY_CLOSE_ABOVE_ORIGINAL_ENTRY**
+- Why closed/reduced: A later completed daily close was above the original entry price, which is the configured Vertex exit rule.
+- Quantity: **2**
+- Gross P&L: **₹66.60**
+- Fees/charges: **₹33.23**
+- Net P&L: **₹33.37**
+- Profit/Loss percentage: **0.4164%**
+- Holding period: **3 day(s)**
+- Notes: Average-add count: 0; average-added notional: ₹0.00; maximum capital in trade: ₹8,014.31.
 
 ### Vertex 500 3:15 — PFIZER — PROFIT
 

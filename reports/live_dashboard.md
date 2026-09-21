@@ -1,25 +1,12 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-21T16:03:05.757166+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-21T17:01:20.417169+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
 [Combined performance](all_strategies_combined_latest.md) · [Full trade journal](all_trades_journal.md)
 
 ## Open positions
-
-### Vertex 500 Daily — PFIZER
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-18**
-- Entry / average: **₹4,002.40 / ₹4,002.40**
-- Quantity: **2**
-- Capital in trade: **₹8,014.31**
-- Latest stored close: **not yet persisted**
-- Unrealized P&L: **available after next position snapshot**
-- Latest activity: **BUY ENTRY PFIZER**
-
-_Position price chart appears automatically after at least two stored position snapshots._
 
 ### OB NIFTY 15m — NIFTY
 
@@ -66,7 +53,7 @@ _Position price chart appears automatically after at least two stored position s
 |---|---|---:|---:|---|---|
 | Vertex Daily | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-18 |
 | Vertex 3:15 | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-21 |
-| Vertex 500 Daily | 1 open | ₹99,966.84 | ₹-33.16 | BUY ENTRY PFIZER | 2026-09-18 |
+| Vertex 500 Daily | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-21 |
 | Vertex 500 3:15 | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-21 |
 | OB NIFTY 15m | LONG | ₹100,108.31 | ₹108.31 | BUY BULLISH_OB | 2026-09-21T09:59:59.999000+00:00 |
 | OB BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-21T09:59:59.999000+00:00 |
@@ -82,6 +69,10 @@ _Position price chart appears automatically after at least two stored position s
 ### Vertex 3:15
 
 ![Vertex 3:15 chart](charts/vertex_315.svg)
+
+### Vertex 500 Daily
+
+![Vertex 500 Daily chart](charts/vertex_500_daily.svg)
 
 ### Vertex 500 3:15
 
