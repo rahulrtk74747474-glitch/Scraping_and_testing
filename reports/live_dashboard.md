@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-21T13:44:20.187270+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-21T13:56:56.431187+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -51,9 +51,9 @@ _Position price chart appears automatically after at least two stored position s
 
 - Status: **OPEN LONG**
 - Average/entry: **₹7,800,948.36**
-- Current stored price: **₹7,824,367.72**
+- Current stored price: **₹8,151,144.99**
 - Quantity: **0.0126634322**
-- Unrealized P&L: **₹296.57**
+- Unrealized P&L: **₹4,434.69**
 - Latest activity: **BUY BULLISH_OB**
 
 - Exit rule: **Confirmed bearish order block; no fixed numeric stop/target.**
@@ -70,7 +70,7 @@ _Position price chart appears automatically after at least two stored position s
 | Vertex 500 3:15 | 1 open | ₹99,966.84 | ₹-33.16 | BUY ENTRY PFIZER | 2026-09-18 |
 | OB NIFTY 15m | LONG | ₹100,108.31 | ₹108.31 | BUY BULLISH_OB | 2026-09-21T09:59:59.999000+00:00 |
 | OB BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-21T07:14:59.999000+00:00 |
-| OB BTCUSDT 15m | LONG | ₹99,083.35 | ₹-916.65 | BUY BULLISH_OB | 2026-09-21T06:59:59.999000+00:00 |
+| OB BTCUSDT 15m | LONG | ₹103,221.47 | ₹3,221.47 | BUY BULLISH_OB | 2026-09-21T13:44:59.999000+00:00 |
 | OB XAUUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-21T06:59:59.999000+00:00 |
 | SMC NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-21T06:59:59.999000+00:00 |
 | SMC BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | SELL | 2026-09-21T09:59:59.999000+00:00 |
