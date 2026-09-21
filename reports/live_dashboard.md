@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-21T22:38:38.749469+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-21T22:51:04.786387+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -38,9 +38,9 @@ _Auto-generated from the latest committed strategy state at 2026-09-21T22:38:38.
 
 - Status: **OPEN LONG**
 - Average/entry: **₹422,250.95**
-- Current stored price: **₹420,057.02**
+- Current stored price: **₹420,488.15**
 - Quantity: **0.2368259923**
-- Unrealized P&L: **₹-519.58**
+- Unrealized P&L: **₹-417.48**
 - Latest activity: **BUY BULLISH_OB**
 
 - Exit rule: **Confirmed bearish order block; no fixed numeric stop/target.**
@@ -58,11 +58,11 @@ _Auto-generated from the latest committed strategy state at 2026-09-21T22:38:38.
 | OB NIFTY 15m | LONG | ₹100,108.31 | ₹108.31 | BUY BULLISH_OB | 2026-09-21T09:59:59.999000+00:00 |
 | OB BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-21T09:59:59.999000+00:00 |
 | OB BTCUSDT 15m | LONG | ₹104,845.21 | ₹4,845.21 | BUY BULLISH_OB | 2026-09-21T22:29:59.999000+00:00 |
-| OB XAUUSDT 15m | LONG | ₹99,480.42 | ₹-519.58 | BUY BULLISH_OB | 2026-09-21T19:29:59.999000+00:00 |
+| OB XAUUSDT 15m | LONG | ₹99,582.52 | ₹-417.48 | BUY BULLISH_OB | 2026-09-21T22:44:59.999000+00:00 |
 | SMC NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-21T09:59:59.999000+00:00 |
 | SMC BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | SELL | 2026-09-21T09:59:59.999000+00:00 |
 | SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-21T19:59:59.999000+00:00 |
-| BTCUSDT 15m Existing Strategy | FLAT | $99.7279 | $-0.2721 | BUY_TO_COVER EXIT | 2026-09-21T19:29:59.999000+00:00 |
+| BTCUSDT 15m Existing Strategy | FLAT | $99.7279 | $-0.2721 | BUY_TO_COVER EXIT | 2026-09-21T22:44:59.999000+00:00 |
 
 ## Recent strategy charts
 

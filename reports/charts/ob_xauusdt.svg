@@ -3,9 +3,9 @@
 <text x="64" y="22" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#111827">OB XAUUSDT 15m — recent snapshots</text>
 <line x1="64" y1="208" x2="796" y2="208" stroke="#d1d5db"/>
 <line x1="64" y1="34" x2="64" y2="208" stroke="#d1d5db"/>
-<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,34.0 210.4,70.5 356.8,55.3 503.2,129.8 649.6,208.0 796.0,151.3"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,34.0 186.0,70.5 308.0,55.3 430.0,129.8 552.0,208.0 674.0,151.3 796.0,139.1"/>
 <text x="8" y="42" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">424,184.17</text>
 <text x="8" y="208" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">418,064.30</text>
 <text x="64" y="236" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-18T20:59</text>
-<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-21T19:29</text>
+<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-21T22:44</text>
 </svg>
