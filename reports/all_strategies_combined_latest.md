@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-21T06:25:37.598981+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-21T06:52:07.701953+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,8 +8,8 @@ _Auto-updated from every current strategy branch. Generated 2026-09-21T06:25:37.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹999,227.88**
-- INR total P&L: **₹-772.12 (-0.08%)**
+- INR current equity: **₹999,287.91**
+- INR total P&L: **₹-712.09 (-0.07%)**
 - Existing BTC account: **$99.7279 equity; $-0.2721 P&L (-0.27%)**
 
 USD and INR are intentionally kept separate.
@@ -18,7 +18,7 @@ USD and INR are intentionally kept separate.
 
 | Strategy | Currency | Status | Equity | P&L | Return | Latest |
 |---|---|---|---:|---:|---:|---|
-| OB NIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
+| OB NIFTY 15m | INR | LONG | ₹100,060.03 | ₹60.03 | 0.06% | BUY |
 | OB BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | OB BTCUSDT 15m | INR | LONG | ₹99,294.20 | ₹-705.80 | -0.71% | BUY |
 | OB XAUUSDT 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
@@ -37,20 +37,26 @@ USD and INR are intentionally kept separate.
 ## OB NIFTY 15m
 
 - Branch: ob-nifty-15m-paper
-- Status: **FLAT**
+- Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹100,000.00**
-- P&L: **₹0.00 (0.00%)**
-- Cash: **₹100,000.00**
-- Realized / unrealized: **₹0.00 / ₹0.00**
+- Equity: **₹100,060.03**
+- P&L: **₹60.03 (0.06%)**
+- Cash: **₹0.00**
+- Realized / unrealized: **₹0.00 / ₹60.03**
 - Closed trades: **0**
-- Last candle: **2026-09-18T09:59:59.999000+00:00**
+- Last candle: **2026-09-21T06:44:59.999000+00:00**
 
 ### Latest activity
 
-- Signal: **None**
-- Executed order: **None**
+- Signal: **BULLISH_OB**
+- Executed order: **BUY BULLISH_OB**
+- Executed value: **₹100,000.00**
 - Latest closed trade: **None**
+
+### Open position
+
+- Entry INR: **₹23,403.65**
+- Quantity: **4.2728377125**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/ob-nifty-15m-paper/reports/ob_nifty_latest.md)
 

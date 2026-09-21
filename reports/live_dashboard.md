@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-21T06:25:37.785100+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-21T06:52:07.878935+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -34,6 +34,19 @@ _Position price chart appears automatically after at least two stored position s
 
 _Position price chart appears automatically after at least two stored position snapshots._
 
+### OB NIFTY 15m — NIFTY
+
+- Status: **OPEN LONG**
+- Average/entry: **₹23,403.65**
+- Current stored price: **₹23,417.70**
+- Quantity: **4.2728377125**
+- Unrealized P&L: **₹60.03**
+- Latest activity: **BUY BULLISH_OB**
+
+- Exit rule: **Confirmed bearish order block; no fixed numeric stop/target.**
+
+![OB NIFTY 15m chart](charts/ob_nifty.svg)
+
 ### OB BTCUSDT 15m — BTCUSDT
 
 - Status: **OPEN LONG**
@@ -55,7 +68,7 @@ _Position price chart appears automatically after at least two stored position s
 | Vertex 3:15 | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-18 |
 | Vertex 500 Daily | 1 open | ₹99,966.84 | ₹-33.16 | BUY ENTRY PFIZER | 2026-09-18 |
 | Vertex 500 3:15 | 1 open | ₹99,966.84 | ₹-33.16 | BUY ENTRY PFIZER | 2026-09-18 |
-| OB NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
+| OB NIFTY 15m | LONG | ₹100,060.03 | ₹60.03 | BUY BULLISH_OB | 2026-09-21T06:44:59.999000+00:00 |
 | OB BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-18T09:59:59.999000+00:00 |
 | OB BTCUSDT 15m | LONG | ₹99,294.20 | ₹-705.80 | BUY BULLISH_OB | 2026-09-21T01:14:59.999000+00:00 |
 | OB XAUUSDT 15m | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-21T01:29:59.999000+00:00 |
@@ -65,6 +78,10 @@ _Position price chart appears automatically after at least two stored position s
 | BTCUSDT 15m Existing Strategy | FLAT | $99.7279 | $-0.2721 | BUY_TO_COVER EXIT | 2026-09-21T01:29:59.999000+00:00 |
 
 ## Recent strategy charts
+
+### OB NIFTY 15m
+
+![OB NIFTY 15m chart](charts/ob_nifty.svg)
 
 ### OB BTCUSDT 15m
 
