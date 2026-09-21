@@ -1,2 +1,3 @@
 date,symbol,event,side,qty,price,turnover,charges,cash_flow
 2026-09-18,PFIZER,ENTRY,BUY,2,4002.4,8004.8,9.51,-8014.31
+2026-09-21,PFIZER,EXIT,SELL,2,4035.7,8071.4,23.72,8047.68

@@ -1,0 +1,2 @@
+symbol,entry_date,exit_date,entry_price,exit_price,qty,buy_turnover,sell_turnover,buy_charges,sell_charges,total_charges,gross_pnl,net_pnl,return_pct,days_held,average_add_count,average_added_notional,max_capital_in_trade
+PFIZER,2026-09-18,2026-09-21,4002.4,4035.7,2,8004.8,8071.4,9.51,23.72,33.23,66.6,33.37,0.4164,3,0,0.0,8014.31
