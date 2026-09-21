@@ -1,0 +1,2 @@
+close_time,signal,side,price_quote,price_inr,qty,gross_notional_inr,fee_inr,cash_after_inr
+1789992899999,BULLISH_OB,BUY,4407.39990234375,422250.9489890747,0.2368259923143178,100000.0,0.0,0.0
