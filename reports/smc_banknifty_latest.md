@@ -6,7 +6,7 @@
 - Total P&L: **₹0.00 (0.00%)**
 - Realized / unrealized: **₹0.00 / ₹0.00**
 - Max drawdown: **0.00%**
-- Last processed candle: **2026-09-21T06:14:59.999000+00:00**
+- Last processed candle: **2026-09-21T09:59:59.999000+00:00**
 - Next same-side size: **50.000000% on the first executable signal**
 
 ## Position
@@ -15,7 +15,7 @@ _Flat. SELL while flat does not open a short._
 
 ## Latest confirmed major swing
 
-_None recorded since initialization._
+- **SELL** confirmed 2026-09-21T06:29:59.999000+00:00; pivot candle 2026-09-21T03:45:00+00:00; pivot 56,510.101562 INR
 
 ## Updated sizing rules
 
