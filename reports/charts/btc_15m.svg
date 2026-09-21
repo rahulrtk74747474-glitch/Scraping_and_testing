@@ -3,9 +3,9 @@
 <text x="64" y="22" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#111827">BTCUSDT 15m Existing Strategy — recent snapshots</text>
 <line x1="64" y1="208" x2="796" y2="208" stroke="#d1d5db"/>
 <line x1="64" y1="34" x2="64" y2="208" stroke="#d1d5db"/>
-<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,125.9 104.7,120.5 145.3,123.4 186.0,132.3 226.7,87.0 267.3,107.1 308.0,34.0 348.7,51.0 389.3,84.8 430.0,135.1 470.7,102.1 511.3,120.8 552.0,208.0 592.7,194.6 633.3,116.3 674.0,109.5 714.7,162.2 755.3,116.6 796.0,66.5"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,125.9 102.5,120.5 141.1,123.4 179.6,132.3 218.1,87.0 256.6,107.1 295.2,34.0 333.7,51.0 372.2,84.8 410.7,135.1 449.3,102.1 487.8,120.8 526.3,208.0 564.8,194.6 603.4,116.3 641.9,109.5 680.4,162.2 718.9,116.6 757.5,66.5 796.0,60.0"/>
 <text x="8" y="42" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">81,861.08</text>
 <text x="8" y="208" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">80,379.06</text>
 <text x="64" y="236" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-18T20:14</text>
-<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-21T01:29</text>
+<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-21T06:59</text>
 </svg>
