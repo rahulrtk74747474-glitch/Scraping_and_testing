@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-21T22:18:47.414343+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-21T22:30:53.557206+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
