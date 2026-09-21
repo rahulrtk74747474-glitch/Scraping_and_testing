@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-21T15:04:54.837772+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-21T16:02:07.640841+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -78,7 +78,7 @@ _Position price chart appears automatically after at least two stored position s
 | Strategy | Status | Equity | P&L | Latest activity | Last processed |
 |---|---|---:|---:|---|---|
 | Vertex Daily | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-18 |
-| Vertex 3:15 | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-18 |
+| Vertex 3:15 | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-21 |
 | Vertex 500 Daily | 1 open | ₹99,966.84 | ₹-33.16 | BUY ENTRY PFIZER | 2026-09-18 |
 | Vertex 500 3:15 | 1 open | ₹99,966.84 | ₹-33.16 | BUY ENTRY PFIZER | 2026-09-18 |
 | OB NIFTY 15m | LONG | ₹100,108.31 | ₹108.31 | BUY BULLISH_OB | 2026-09-21T09:59:59.999000+00:00 |
@@ -91,6 +91,10 @@ _Position price chart appears automatically after at least two stored position s
 | BTCUSDT 15m Existing Strategy | FLAT | $99.7279 | $-0.2721 | BUY_TO_COVER EXIT | 2026-09-21T14:14:59.999000+00:00 |
 
 ## Recent strategy charts
+
+### Vertex 3:15
+
+![Vertex 3:15 chart](charts/vertex_315.svg)
 
 ### OB NIFTY 15m
 
