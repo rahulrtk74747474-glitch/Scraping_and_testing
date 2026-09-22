@@ -1,37 +1,26 @@
 {
-  "cash_inr": 0.0,
-  "closed_trades": 1,
+  "cash_inr": 104074.83809463648,
+  "closed_trades": 2,
   "equity_peak_inr": 104845.20951983701,
-  "last_processed_close_time": 1790038799999,
+  "last_processed_close_time": 1790057699999,
   "last_signal": {
-    "confirmed_close_time": 1790019899999,
-    "confirmed_price": 86577.63,
-    "move_pct": 0.7618563686425367,
-    "ob_avg": 85939.685,
-    "ob_high": 85987.64,
-    "ob_low": 85891.73,
-    "ob_open_time": 1790014500000,
-    "signal": "BULLISH_OB"
+    "confirmed_close_time": 1790054099999,
+    "confirmed_price": 85404.72,
+    "move_pct": 0.3362124929238544,
+    "ob_avg": 85614.79000000001,
+    "ob_high": 85742.74,
+    "ob_low": 85486.84,
+    "ob_open_time": 1790048700000,
+    "signal": "BEARISH_OB"
   },
   "losses": 1,
   "max_drawdown_pct": 1.9494340968790929,
-  "position": {
-    "entry_cost_inr": 98786.78080338475,
-    "entry_fee_inr": 0.0,
-    "entry_price_inr": 7800948.362194442,
-    "entry_price_quote": 81376.01,
-    "entry_time": 1789922699999,
-    "ob_avg": 80716.33,
-    "ob_high": 80766.0,
-    "ob_low": 80666.66,
-    "ob_open_time": 1789917300000,
-    "qty": 0.012663432215771722
-  },
-  "realized_pnl_inr": -1213.219196615246,
+  "position": null,
+  "realized_pnl_inr": 4074.8380946364778,
   "starting_capital_inr": 100000.0,
   "strategy": "Order Block Finder v4 logic",
   "symbol": "BTCUSDT",
   "timeframe": "15m",
   "version": 1,
-  "wins": 0
+  "wins": 1
 }
