@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-22T14:13:23.661355+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-22T15:31:17.951144+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -38,7 +38,7 @@ _Auto-generated from the latest committed strategy state at 2026-09-22T14:13:23.
 
 | Strategy | Status | Equity | P&L | Latest activity | Last processed |
 |---|---|---:|---:|---|---|
-| Vertex Daily | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-18 |
+| Vertex Daily | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-22 |
 | Vertex 3:15 | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-22 |
 | Vertex 500 Daily | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-21 |
 | Vertex 500 3:15 | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-22 |
@@ -52,6 +52,10 @@ _Auto-generated from the latest committed strategy state at 2026-09-22T14:13:23.
 | BTCUSDT 15m Existing Strategy | FLAT | $100.5659 | $0.5659 | SELL EXIT | 2026-09-22T12:29:59.999000+00:00 |
 
 ## Recent strategy charts
+
+### Vertex Daily
+
+![Vertex Daily chart](charts/vertex_daily.svg)
 
 ### Vertex 3:15
 
