@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-22T12:00:05.486146+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-22T12:00:38.366714+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -25,7 +25,7 @@ USD and INR are intentionally kept separate.
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
-| SMC NIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
+| SMC NIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | SELL |
 | SMC BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | SELL |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | BTCUSDT 15m Existing Strategy | USD | FLAT | $99.7279 | $-0.2721 | -0.27% | EXIT |
@@ -146,11 +146,11 @@ USD and INR are intentionally kept separate.
 - P&L: **₹0.00 (0.00%)**
 - Cash: **₹100,000.00**
 - Realized / unrealized: **₹0.00 / ₹0.00**
-- Last candle: **2026-09-22T06:14:59.999000+00:00**
+- Last candle: **2026-09-22T09:59:59.999000+00:00**
 
 ### Latest activity
 
-- Confirmed swing: **None**
+- Confirmed swing: **SELL**
 - Executed order: **None**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/smc-nifty-15m-paper/reports/smc_nifty_latest.md)
