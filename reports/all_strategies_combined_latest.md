@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-22T06:50:14.908534+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-22T06:50:31.426065+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -19,7 +19,7 @@ USD and INR are intentionally kept separate.
 | Strategy | Currency | Status | Equity | P&L | Return | Latest |
 |---|---|---|---:|---:|---:|---|
 | OB NIFTY 15m | INR | LONG | ₹99,862.20 | ₹-137.80 | -0.14% | BUY |
-| OB BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
+| OB BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | BEARISH_OB |
 | OB BTCUSDT 15m | INR | FLAT | ₹104,074.84 | ₹4,074.84 | 4.07% | SELL |
 | OB XAUUSDT 15m | INR | LONG | ₹98,771.17 | ₹-1,228.83 | -1.23% | BUY |
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
@@ -72,11 +72,11 @@ USD and INR are intentionally kept separate.
 - Cash: **₹100,000.00**
 - Realized / unrealized: **₹0.00 / ₹0.00**
 - Closed trades: **0**
-- Last candle: **2026-09-21T09:59:59.999000+00:00**
+- Last candle: **2026-09-22T06:44:59.999000+00:00**
 
 ### Latest activity
 
-- Signal: **None**
+- Signal: **BEARISH_OB**
 - Executed order: **None**
 - Latest closed trade: **None**
 
@@ -271,7 +271,7 @@ USD and INR are intentionally kept separate.
 - Balance: **$99.7279**
 - Realized / unrealized: **$-0.2721 / $0.0000**
 - Closed trades: **3**
-- Last candle: **2026-09-22T01:29:59.999000+00:00**
+- Last candle: **2026-09-22T06:44:59.999000+00:00**
 
 ### Latest activity
 
