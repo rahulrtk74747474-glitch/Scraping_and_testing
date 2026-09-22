@@ -4,20 +4,47 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **3**
-- Profits / losses: **1 / 2**
-- Net realized P&L in journal: **$-0.2721**
-- Average return per closed trade: **-0.0894%**
+- Closed trade records: **4**
+- Profits / losses: **2 / 2**
+- Net realized P&L in journal: **$0.5659**
+- Average return per closed trade: **0.1430%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-09-20 20:44:59 IST | BTCUSDT | SHORT | LOSS | $-0.5128 | -0.5116% | Configured stop level was hit. |
-| 2 | 2026-09-19 20:14:59 IST | BTCUSDT | SHORT | LOSS | $-0.4243 | -0.4215% | Configured stop level was hit. |
-| 3 | 2026-09-19 06:44:59 IST | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
+| 1 | 2026-09-22 14:29:59 IST | BTCUSDT | LONG | PROFIT | $0.8380 | 0.8402% | Configured profit target was hit. |
+| 2 | 2026-09-20 20:44:59 IST | BTCUSDT | SHORT | LOSS | $-0.5128 | -0.5116% | Configured stop level was hit. |
+| 3 | 2026-09-19 20:14:59 IST | BTCUSDT | SHORT | LOSS | $-0.4243 | -0.4215% | Configured stop level was hit. |
+| 4 | 2026-09-19 06:44:59 IST | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Full trade details
+
+### Trade 4 — PROFIT — BTCUSDT
+
+- Trade ID: `BTCUSDT-1790039700000`
+- Strategy: **BTCUSDT confirmed-distribution paper trader**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-09-22 12:59:59 IST**
+- Entry signal: **DISTRIBUTION_UP_CONFIRMED**
+- Why entry was taken: A confirmed distribution signal opened a LONG after the strategy's sweep/distribution conditions.
+- Entry price: **$85,322.7100**
+- Quantity: **0.0011676647019865868**
+- Entry value/cost: **$99.6283**
+- Stop: **$85,095.1000**
+- Target: **$86,211.8800**
+- Exit time: **2026-09-22 14:29:59 IST**
+- Exit signal: **TARGET**
+- Why position was closed/reduced: Configured profit target was hit.
+- Exit price: **$86,211.8800**
+- Exit value/proceeds: **$100.6666**
+- Gross P&L: **$1.0383**
+- Fees/charges: **$0.2003**
+- Net P&L: **$0.8380**
+- Profit/Loss percentage: **0.8402%**
+- Holding period: **0d 1h 30m**
+- Notes: Outcome=TARGET; R multiple=3.906550678792654; balance after=$100.5659.
 
 ### Trade 3 — LOSS — BTCUSDT
 
