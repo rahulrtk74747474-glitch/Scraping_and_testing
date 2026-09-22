@@ -6,13 +6,13 @@
   "last_executed_notional_inr": 0.0,
   "last_executed_qty": 0.0,
   "last_executed_side": null,
-  "last_processed_close_time": 1790055899999,
+  "last_processed_close_time": 1790071199999,
   "last_sequence_direction": "SELL",
   "last_signal": {
-    "confirmed_close_time": 1789972199999,
-    "confirmed_price": 56471.05078125,
-    "pivot_open_time": 1789962300000,
-    "pivot_price": 56510.1015625,
+    "confirmed_close_time": 1790059499999,
+    "confirmed_price": 56265.6015625,
+    "pivot_open_time": 1790049600000,
+    "pivot_price": 56671.0,
     "sig_sens": 10,
     "signal": "SELL"
   },
