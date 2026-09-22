@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-22T11:48:59.307928+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-22T12:00:05.486146+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -94,7 +94,7 @@ USD and INR are intentionally kept separate.
 - Cash: **₹104,074.84**
 - Realized / unrealized: **₹4,074.84 / ₹0.00**
 - Closed trades: **2**
-- Last candle: **2026-09-22T06:14:59.999000+00:00**
+- Last candle: **2026-09-22T11:44:59.999000+00:00**
 
 ### Latest activity
 
