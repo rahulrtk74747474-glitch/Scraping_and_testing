@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **6**
-- Profits / losses: **3 / 3**
-- Net INR P&L: **₹-1,146.48**
+- Closed trade records: **7**
+- Profits / losses: **4 / 3**
+- Net INR P&L: **₹4,141.58**
 - Net USD P&L: **$-0.2721**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-22 06:44:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | PROFIT | ₹5,288.06 | 5.3530% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.9625836989147929%. |
 | 2026-09-21 | Vertex 500 Daily | PFIZER | LONG | PROFIT | ₹33.37 | 0.4164% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
 | 2026-09-21 | Vertex 500 3:15 | PFIZER | LONG | PROFIT | ₹33.37 | 0.4164% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
 | 2026-09-20 20:44:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.5128 | -0.5116% | Configured stop level was hit. |
@@ -21,6 +22,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### OB BTCUSDT 15m — BTCUSDT — PROFIT
+
+- Trade ID: `OB_BTCUSDT-2-1789922699999`
+- Branch: `ob-btcusdt-15m-paper`
+- Entry: **2026-09-20 22:14:59 IST** at **7800948.3622**
+- Entry signal: **BULLISH_OB**
+- Why taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=0.8786842731618274%.
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit: **2026-09-22 06:44:59 IST** at **8218533.2003**
+- Exit signal: **BEARISH_OB**
+- Why closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.9625836989147929%.
+- Quantity: **0.012663432215771722**
+- Gross P&L: **₹5,288.06**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹5,288.06**
+- Profit/Loss percentage: **5.3530%**
+- Holding period: **1d 8h 30m**
+- Notes: Entry OB candle=2026-09-20 20:45:00 IST; exit OB candle=2026-09-22 05:15:00 IST; use_wicks=False; threshold=0%.
 
 ### Vertex 500 Daily — PFIZER — PROFIT
 
