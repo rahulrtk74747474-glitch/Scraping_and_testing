@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **7**
-- Profits / losses: **4 / 3**
+- Closed trade records: **8**
+- Profits / losses: **5 / 3**
 - Net INR P&L: **₹4,141.58**
-- Net USD P&L: **$-0.2721**
+- Net USD P&L: **$0.5659**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-22 14:29:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.8380 | 0.8402% | Configured profit target was hit. |
 | 2026-09-22 06:44:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | PROFIT | ₹5,288.06 | 5.3530% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.9625836989147929%. |
 | 2026-09-21 | Vertex 500 Daily | PFIZER | LONG | PROFIT | ₹33.37 | 0.4164% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
 | 2026-09-21 | Vertex 500 3:15 | PFIZER | LONG | PROFIT | ₹33.37 | 0.4164% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
@@ -22,6 +23,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### BTCUSDT 15m — BTCUSDT — PROFIT
+
+- Trade ID: `BTCUSDT-1790039700000`
+- Branch: `btcusdt-paper`
+- Entry: **2026-09-22 12:59:59 IST** at **85322.7100**
+- Entry signal: **DISTRIBUTION_UP_CONFIRMED**
+- Why taken: A confirmed distribution signal opened a LONG after the strategy's sweep/distribution conditions.
+- Stop: **85095.1000**
+- Target: **86211.8800**
+- Exit: **2026-09-22 14:29:59 IST** at **86211.8800**
+- Exit signal: **TARGET**
+- Why closed/reduced: Configured profit target was hit.
+- Quantity: **0.0011676647019865868**
+- Gross P&L: **$1.0383**
+- Fees/charges: **$0.2003**
+- Net P&L: **$0.8380**
+- Profit/Loss percentage: **0.8402%**
+- Holding period: **0d 1h 30m**
+- Notes: Outcome=TARGET; R multiple=3.906550678792654; balance after=$100.5659.
 
 ### OB BTCUSDT 15m — BTCUSDT — PROFIT
 
