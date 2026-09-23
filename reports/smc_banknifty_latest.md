@@ -6,7 +6,7 @@
 - Total P&L: **₹39.23 (0.04%)**
 - Realized / unrealized: **₹39.23 / ₹0.00**
 - Max drawdown: **0.00%**
-- Last processed candle: **2026-09-23T09:29:59.999000+00:00**
+- Last processed candle: **2026-09-23T09:59:59.999000+00:00**
 - Next same-side size: **50.000000% of current position unless a BUY reverses first**
 
 ## Position
