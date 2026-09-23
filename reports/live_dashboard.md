@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-23T06:33:16.778560+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-23T06:35:08.667992+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -20,19 +20,6 @@ _Auto-generated from the latest committed strategy state at 2026-09-23T06:33:16.
 - Exit rule: **Confirmed bearish order block; no fixed numeric stop/target.**
 
 ![OB NIFTY 15m chart](charts/ob_nifty.svg)
-
-### OB XAUUSDT 15m — XAUUSDT
-
-- Status: **OPEN LONG**
-- Average/entry: **₹422,250.95**
-- Current stored price: **₹419,309.47**
-- Quantity: **0.2368259923**
-- Unrealized P&L: **₹-696.62**
-- Latest activity: **BUY BULLISH_OB**
-
-- Exit rule: **Confirmed bearish order block; no fixed numeric stop/target.**
-
-![OB XAUUSDT 15m chart](charts/ob_xauusdt.svg)
 
 ### BTCUSDT 15m Existing Strategy — BTCUSDT
 
@@ -57,7 +44,7 @@ _Auto-generated from the latest committed strategy state at 2026-09-23T06:33:16.
 | OB NIFTY 15m | LONG | ₹100,150.19 | ₹150.19 | BUY BULLISH_OB | 2026-09-23T06:14:59.999000+00:00 |
 | OB BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | BEARISH_OB | 2026-09-22T09:59:59.999000+00:00 |
 | OB BTCUSDT 15m | FLAT | ₹104,074.84 | ₹4,074.84 | SELL BEARISH_OB | 2026-09-23T06:29:59.999000+00:00 |
-| OB XAUUSDT 15m | LONG | ₹99,303.38 | ₹-696.62 | BUY BULLISH_OB | 2026-09-23T01:14:59.999000+00:00 |
+| OB XAUUSDT 15m | FLAT | ₹99,246.76 | ₹-753.24 | SELL BEARISH_OB | 2026-09-23T06:29:59.999000+00:00 |
 | SMC NIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | SELL | 2026-09-22T09:59:59.999000+00:00 |
 | SMC BANKNIFTY 15m | FLAT | ₹100,000.00 | ₹0.00 | SELL | 2026-09-23T04:44:59.999000+00:00 |
 | SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 | - | 2026-09-23T03:59:59.999000+00:00 |
