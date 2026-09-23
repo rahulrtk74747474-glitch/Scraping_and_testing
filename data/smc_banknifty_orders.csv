@@ -1,0 +1,3 @@
+close_time,signal,side,sizing_rule,ladder_step,fraction_pct,sequence_base,price_quote,price_inr,qty,gross_notional_inr,fee_inr,cash_after_inr
+1790139599999,BUY,BUY,LADDER,1,50.0,current_cash,56523.1484375,56523.1484375,0.8845933282589006,50000.0,0.0,50000.0
+1790151299999,SELL,SELL,RESTORE_LAST_BUY_QTY,0,,current_position,56567.5,56567.5,0.8845933282589006,50039.23309628536,0.0,100039.23309628536
