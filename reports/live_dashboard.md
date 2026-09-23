@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-23T14:23:12.666006+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-23T14:27:14.095656+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -39,7 +39,7 @@ _Auto-generated from the latest committed strategy state at 2026-09-23T14:23:12.
 | Strategy | Status | Equity | P&L | Latest activity | Last processed |
 |---|---|---:|---:|---|---|
 | Vertex Daily | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-22 |
-| Vertex 3:15 | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-22 |
+| Vertex 3:15 | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-23 |
 | Vertex 500 Daily | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-22 |
 | Vertex 500 3:15 | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-22 |
 | OB NIFTY 15m | LONG | ₹100,184.37 | ₹184.37 | BUY BULLISH_OB | 2026-09-23T09:59:59.999000+00:00 |
