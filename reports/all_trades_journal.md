@@ -4,16 +4,17 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **10**
-- Profits / losses: **5 / 5**
+- Closed trade records: **11**
+- Profits / losses: **5 / 6**
 - Net INR P&L: **₹3,388.34**
-- Net USD P&L: **$0.1046**
+- Net USD P&L: **$-0.4908**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
 | 2026-09-23 10:59:59 IST | OB XAUUSDT 15m | XAUUSDT | LONG | LOSS | ₹-753.24 | -0.7532% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.11179079269419598%. |
+| 2026-09-23 09:14:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.5954 | -0.5948% | Configured stop level was hit. |
 | 2026-09-22 21:14:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.4613 | -0.4587% | Configured stop level was hit. |
 | 2026-09-22 14:29:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.8380 | 0.8402% | Configured profit target was hit. |
 | 2026-09-22 06:44:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | PROFIT | ₹5,288.06 | 5.3530% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.9625836989147929%. |
@@ -45,6 +46,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 - Profit/Loss percentage: **-0.7532%**
 - Holding period: **1d 17h 15m**
 - Notes: Entry OB candle=2026-09-21 16:15:00 IST; exit OB candle=2026-09-23 09:30:00 IST; use_wicks=False; threshold=0%.
+
+### BTCUSDT 15m — BTCUSDT — LOSS
+
+- Trade ID: `BTCUSDT-1790089200000`
+- Branch: `btcusdt-paper`
+- Entry: **2026-09-23 06:59:59 IST** at **86632.6800**
+- Entry signal: **DISTRIBUTION_DOWN_CONFIRMED**
+- Why taken: A confirmed distribution signal opened a SHORT after the strategy's sweep/distribution conditions.
+- Stop: **86974.8700**
+- Target: **85577.3000**
+- Exit: **2026-09-23 09:14:59 IST** at **86974.8700**
+- Exit signal: **STOP**
+- Why closed/reduced: Configured stop level was hit.
+- Quantity: **0.0011543523426639157**
+- Gross P&L: **$-0.3950**
+- Fees/charges: **$0.2004**
+- Net P&L: **$-0.5954**
+- Profit/Loss percentage: **-0.5948%**
+- Holding period: **0d 2h 15m**
+- Notes: Outcome=STOP; R multiple=-1.0; balance after=$99.5092.
 
 ### BTCUSDT 15m — BTCUSDT — LOSS
 
