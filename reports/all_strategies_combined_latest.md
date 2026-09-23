@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-23T06:35:08.466927+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-23T06:35:44.569872+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,8 +8,8 @@ _Auto-updated from every current strategy branch. Generated 2026-09-23T06:35:08.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹1,003,538.53**
-- INR total P&L: **₹3,538.53 (0.35%)**
+- INR current equity: **₹1,003,605.20**
+- INR total P&L: **₹3,605.20 (0.36%)**
 - Existing BTC account: **$99.9046 equity; $-0.0954 P&L (-0.10%)**
 
 USD and INR are intentionally kept separate.
@@ -25,7 +25,7 @@ USD and INR are intentionally kept separate.
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
-| SMC NIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | SELL |
+| SMC NIFTY 15m | INR | LONG | ₹100,066.67 | ₹66.67 | 0.07% | BUY LADDER 50.0% |
 | SMC BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | SELL |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | BTCUSDT 15m Existing Strategy | USD | SHORT | $99.9046 | $-0.0954 | -0.10% | ENTRY |
@@ -135,18 +135,24 @@ USD and INR are intentionally kept separate.
 ## SMC NIFTY 15m
 
 - Branch: smc-nifty-15m-paper
-- Status: **FLAT**
+- Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹100,000.00**
-- P&L: **₹0.00 (0.00%)**
-- Cash: **₹100,000.00**
-- Realized / unrealized: **₹0.00 / ₹0.00**
-- Last candle: **2026-09-22T09:59:59.999000+00:00**
+- Equity: **₹100,066.67**
+- P&L: **₹66.67 (0.07%)**
+- Cash: **₹50,000.00**
+- Realized / unrealized: **₹0.00 / ₹66.67**
+- Last candle: **2026-09-23T06:29:59.999000+00:00**
 
 ### Latest activity
 
-- Confirmed swing: **SELL**
-- Executed order: **None**
+- Confirmed swing: **BUY**
+- Executed order: **BUY LADDER / 50.0%**
+- Executed value: **₹50,000.00**
+
+### Open position
+
+- Quantity: **2.1369028515**
+- Remaining cost basis: **₹50,000.00**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/smc-nifty-15m-paper/reports/smc_nifty_latest.md)
 
