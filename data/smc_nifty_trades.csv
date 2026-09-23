@@ -1,0 +1,2 @@
+entry_time,exit_time,exit_ladder_step,fraction_pct,exit_price_quote,exit_price_inr,qty,allocated_cost_inr,exit_proceeds_inr,net_pnl_inr,return_pct
+1790139599999,1790155799999,0,,23422.44921875,23422.44921875,2.1369028514714787,50000.0,50051.498523992785,51.49852399278461,0.10299704798556923
