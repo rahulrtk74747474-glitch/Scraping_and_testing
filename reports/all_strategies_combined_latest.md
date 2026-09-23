@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-23T01:25:30.023671+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-23T01:26:55.992421+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,8 +8,8 @@ _Auto-updated from every current strategy branch. Generated 2026-09-23T01:25:30.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹1,003,424.79**
-- INR total P&L: **₹3,424.79 (0.34%)**
+- INR current equity: **₹1,003,125.99**
+- INR total P&L: **₹3,125.99 (0.31%)**
 - Existing BTC account: **$100.1046 equity; $0.1046 P&L (0.10%)**
 
 USD and INR are intentionally kept separate.
@@ -21,7 +21,7 @@ USD and INR are intentionally kept separate.
 | OB NIFTY 15m | INR | LONG | ₹99,681.03 | ₹-318.97 | -0.32% | BUY |
 | OB BANKNIFTY 15m | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | BEARISH_OB |
 | OB BTCUSDT 15m | INR | FLAT | ₹104,074.84 | ₹4,074.84 | 4.07% | SELL |
-| OB XAUUSDT 15m | INR | LONG | ₹99,602.18 | ₹-397.82 | -0.40% | BUY |
+| OB XAUUSDT 15m | INR | LONG | ₹99,303.38 | ₹-696.62 | -0.70% | BUY |
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
@@ -112,12 +112,12 @@ USD and INR are intentionally kept separate.
 - Branch: ob-xauusdt-15m-paper
 - Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹99,602.18**
-- P&L: **₹-397.82 (-0.40%)**
+- Equity: **₹99,303.38**
+- P&L: **₹-696.62 (-0.70%)**
 - Cash: **₹0.00**
-- Realized / unrealized: **₹0.00 / ₹-397.82**
+- Realized / unrealized: **₹0.00 / ₹-696.62**
 - Closed trades: **0**
-- Last candle: **2026-09-22T22:59:59.999000+00:00**
+- Last candle: **2026-09-23T01:14:59.999000+00:00**
 
 ### Latest activity
 
