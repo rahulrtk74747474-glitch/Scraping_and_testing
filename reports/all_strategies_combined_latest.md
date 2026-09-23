@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-23T12:18:06.062121+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-23T12:20:00.583067+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,8 +8,8 @@ _Auto-updated from every current strategy branch. Generated 2026-09-23T12:18:06.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹1,003,750.75**
-- INR total P&L: **₹3,750.75 (0.38%)**
+- INR current equity: **₹1,003,709.00**
+- INR total P&L: **₹3,709.00 (0.37%)**
 - Existing BTC account: **$99.5092 equity; $-0.4908 P&L (-0.49%)**
 
 USD and INR are intentionally kept separate.
@@ -19,7 +19,7 @@ USD and INR are intentionally kept separate.
 | Strategy | Currency | Status | Equity | P&L | Return | Latest |
 |---|---|---|---:|---:|---:|---|
 | OB NIFTY 15m | INR | LONG | ₹100,184.37 | ₹184.37 | 0.18% | BUY |
-| OB BANKNIFTY 15m | INR | LONG | ₹100,087.31 | ₹87.31 | 0.09% | BUY |
+| OB BANKNIFTY 15m | INR | LONG | ₹100,045.56 | ₹45.56 | 0.05% | BUY |
 | OB BTCUSDT 15m | INR | FLAT | ₹104,074.84 | ₹4,074.84 | 4.07% | SELL |
 | OB XAUUSDT 15m | INR | FLAT | ₹99,246.76 | ₹-753.24 | -0.75% | SELL |
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
@@ -67,12 +67,12 @@ USD and INR are intentionally kept separate.
 - Branch: ob-banknifty-15m-paper
 - Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹100,087.31**
-- P&L: **₹87.31 (0.09%)**
+- Equity: **₹100,045.56**
+- P&L: **₹45.56 (0.05%)**
 - Cash: **₹0.00**
-- Realized / unrealized: **₹0.00 / ₹87.31**
+- Realized / unrealized: **₹0.00 / ₹45.56**
 - Closed trades: **0**
-- Last candle: **2026-09-23T06:44:59.999000+00:00**
+- Last candle: **2026-09-23T09:59:59.999000+00:00**
 
 ### Latest activity
 
