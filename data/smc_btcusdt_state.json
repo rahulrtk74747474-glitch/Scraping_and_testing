@@ -6,7 +6,7 @@
   "last_executed_notional_inr": 0.0,
   "last_executed_qty": 0.0,
   "last_executed_side": null,
-  "last_processed_close_time": 1790251199999,
+  "last_processed_close_time": 1790265599999,
   "last_sequence_direction": "SELL",
   "last_signal": {
     "confirmed_close_time": 1790179199999,
