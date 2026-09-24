@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-24T09:32:44.005987+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-24T11:48:42.610010+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,8 +8,8 @@ _Auto-updated from every current strategy branch. Generated 2026-09-24T09:32:44.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹1,000,590.93**
-- INR total P&L: **₹590.93 (0.06%)**
+- INR current equity: **₹1,000,375.58**
+- INR total P&L: **₹375.58 (0.04%)**
 - Existing BTC account: **$99.6520 equity; $-0.3480 P&L (-0.35%)**
 
 USD and INR are intentionally kept separate.
@@ -18,7 +18,7 @@ USD and INR are intentionally kept separate.
 
 | Strategy | Currency | Status | Equity | P&L | Return | Latest |
 |---|---|---|---:|---:|---:|---|
-| OB NIFTY 15m | INR | LONG | ₹99,228.33 | ₹-771.67 | -0.77% | BUY |
+| OB NIFTY 15m | INR | FLAT | ₹99,012.97 | ₹-987.03 | -0.99% | SELL |
 | OB BANKNIFTY 15m | INR | LONG | ₹98,369.96 | ₹-1,630.04 | -1.63% | BUY |
 | OB BTCUSDT 15m | INR | FLAT | ₹103,963.92 | ₹3,963.92 | 3.96% | SELL |
 | OB XAUUSDT 15m | INR | LONG | ₹99,017.83 | ₹-982.17 | -0.98% | BUY |
@@ -37,26 +37,21 @@ USD and INR are intentionally kept separate.
 ## OB NIFTY 15m
 
 - Branch: ob-nifty-15m-paper
-- Status: **LONG**
+- Status: **FLAT**
 - Starting: **₹100,000.00**
-- Equity: **₹99,228.33**
-- P&L: **₹-771.67 (-0.77%)**
-- Cash: **₹0.00**
-- Realized / unrealized: **₹0.00 / ₹-771.67**
-- Closed trades: **0**
-- Last candle: **2026-09-24T05:59:59.999000+00:00**
+- Equity: **₹99,012.97**
+- P&L: **₹-987.03 (-0.99%)**
+- Cash: **₹99,012.97**
+- Realized / unrealized: **₹-987.03 / ₹0.00**
+- Closed trades: **1**
+- Last candle: **2026-09-24T09:59:59.999000+00:00**
 
 ### Latest activity
 
-- Signal: **BULLISH_OB**
-- Executed order: **BUY BULLISH_OB**
-- Executed value: **₹100,000.00**
-- Latest closed trade: **None**
-
-### Open position
-
-- Entry INR: **₹23,403.65**
-- Quantity: **4.2728377125**
+- Signal: **BEARISH_OB**
+- Executed order: **SELL BEARISH_OB**
+- Executed value: **₹99,012.97**
+- Latest closed trade: **₹-987.03 (-0.99%)**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/ob-nifty-15m-paper/reports/ob_nifty_latest.md)
 
