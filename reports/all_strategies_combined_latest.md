@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-24T13:31:49.075062+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-24T14:14:14.543636+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,8 +8,8 @@ _Auto-updated from every current strategy branch. Generated 2026-09-24T13:31:49.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹999,730.56**
-- INR total P&L: **₹-269.44 (-0.03%)**
+- INR current equity: **₹999,736.04**
+- INR total P&L: **₹-263.96 (-0.03%)**
 - Existing BTC account: **$100.8064 equity; $0.8064 P&L (0.81%)**
 
 USD and INR are intentionally kept separate.
@@ -26,7 +26,7 @@ USD and INR are intentionally kept separate.
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | SMC NIFTY 15m | INR | FLAT | ₹100,051.50 | ₹51.50 | 0.05% | SELL RESTORE_LAST_BUY_QTY exact qty |
-| SMC BANKNIFTY 15m | INR | LONG | ₹99,892.66 | ₹-107.34 | -0.11% | BUY RESTORE_LAST_SELL_QTY exact qty |
+| SMC BANKNIFTY 15m | INR | LONG | ₹99,898.14 | ₹-101.86 | -0.10% | BUY RESTORE_LAST_SELL_QTY exact qty |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | SELL |
 | BTCUSDT 15m Existing Strategy | USD | FLAT | $100.8064 | $0.8064 | 0.81% | EXIT |
 
@@ -165,11 +165,11 @@ USD and INR are intentionally kept separate.
 - Branch: smc-banknifty-15m-paper
 - Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹99,892.66**
-- P&L: **₹-107.34 (-0.11%)**
+- Equity: **₹99,898.14**
+- P&L: **₹-101.86 (-0.10%)**
 - Cash: **₹50,857.61**
-- Realized / unrealized: **₹39.23 / ₹-146.58**
-- Last candle: **2026-09-24T08:59:59.999000+00:00**
+- Realized / unrealized: **₹39.23 / ₹-141.09**
+- Last candle: **2026-09-24T09:59:59.999000+00:00**
 
 ### Latest activity
 
