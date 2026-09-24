@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-24T01:27:43.279912+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-24T01:28:02.572667+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,8 +8,8 @@ _Auto-updated from every current strategy branch. Generated 2026-09-24T01:27:43.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹1,003,598.08**
-- INR total P&L: **₹3,598.08 (0.36%)**
+- INR current equity: **₹1,003,694.26**
+- INR total P&L: **₹3,694.26 (0.37%)**
 - Existing BTC account: **$99.2174 equity; $-0.7826 P&L (-0.78%)**
 
 USD and INR are intentionally kept separate.
@@ -21,7 +21,7 @@ USD and INR are intentionally kept separate.
 | OB NIFTY 15m | INR | LONG | ₹100,184.37 | ₹184.37 | 0.18% | BUY |
 | OB BANKNIFTY 15m | INR | LONG | ₹100,045.56 | ₹45.56 | 0.05% | BUY |
 | OB BTCUSDT 15m | INR | FLAT | ₹103,963.92 | ₹3,963.92 | 3.96% | SELL |
-| OB XAUUSDT 15m | INR | FLAT | ₹99,246.76 | ₹-753.24 | -0.75% | SELL |
+| OB XAUUSDT 15m | INR | LONG | ₹99,342.93 | ₹-657.07 | -0.66% | BUY |
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
@@ -116,21 +116,26 @@ USD and INR are intentionally kept separate.
 ## OB XAUUSDT 15m
 
 - Branch: ob-xauusdt-15m-paper
-- Status: **FLAT**
+- Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹99,246.76**
-- P&L: **₹-753.24 (-0.75%)**
-- Cash: **₹99,246.76**
-- Realized / unrealized: **₹-753.24 / ₹0.00**
+- Equity: **₹99,342.93**
+- P&L: **₹-657.07 (-0.66%)**
+- Cash: **₹0.00**
+- Realized / unrealized: **₹-753.24 / ₹96.18**
 - Closed trades: **1**
-- Last candle: **2026-09-23T22:59:59.999000+00:00**
+- Last candle: **2026-09-24T01:14:59.999000+00:00**
 
 ### Latest activity
 
-- Signal: **BEARISH_OB**
-- Executed order: **SELL BEARISH_OB**
+- Signal: **BULLISH_OB**
+- Executed order: **BUY BULLISH_OB**
 - Executed value: **₹99,246.76**
 - Latest closed trade: **₹-753.24 (-0.75%)**
+
+### Open position
+
+- Entry INR: **₹414,865.13**
+- Quantity: **0.2392265545**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/ob-xauusdt-15m-paper/reports/ob_xauusdt_latest.md)
 
