@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-24T06:43:09.234789+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-24T09:15:07.991240+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,8 +8,8 @@ _Auto-updated from every current strategy branch. Generated 2026-09-24T06:43:09.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹1,000,737.51**
-- INR total P&L: **₹737.51 (0.07%)**
+- INR current equity: **₹1,000,590.93**
+- INR total P&L: **₹590.93 (0.06%)**
 - Existing BTC account: **$99.6520 equity; $-0.3480 P&L (-0.35%)**
 
 USD and INR are intentionally kept separate.
@@ -26,7 +26,7 @@ USD and INR are intentionally kept separate.
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | SMC NIFTY 15m | INR | FLAT | ₹100,051.50 | ₹51.50 | 0.05% | SELL RESTORE_LAST_BUY_QTY exact qty |
-| SMC BANKNIFTY 15m | INR | FLAT | ₹100,039.23 | ₹39.23 | 0.04% | SELL RESTORE_LAST_BUY_QTY exact qty |
+| SMC BANKNIFTY 15m | INR | LONG | ₹99,892.66 | ₹-107.34 | -0.11% | BUY RESTORE_LAST_SELL_QTY exact qty |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | SELL |
 | BTCUSDT 15m Existing Strategy | USD | SHORT | $99.6520 | $-0.3480 | -0.35% | ENTRY |
 
@@ -168,20 +168,25 @@ USD and INR are intentionally kept separate.
 ## SMC BANKNIFTY 15m
 
 - Branch: smc-banknifty-15m-paper
-- Status: **FLAT**
+- Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹100,039.23**
-- P&L: **₹39.23 (0.04%)**
-- Cash: **₹100,039.23**
-- Realized / unrealized: **₹39.23 / ₹0.00**
-- Last candle: **2026-09-24T03:59:59.999000+00:00**
+- Equity: **₹99,892.66**
+- P&L: **₹-107.34 (-0.11%)**
+- Cash: **₹50,857.61**
+- Realized / unrealized: **₹39.23 / ₹-146.58**
+- Last candle: **2026-09-24T08:59:59.999000+00:00**
 
 ### Latest activity
 
-- Confirmed swing: **SELL**
-- Executed order: **SELL RESTORE_LAST_BUY_QTY / restore exact qty**
-- Executed value: **₹50,039.23**
+- Confirmed swing: **BUY**
+- Executed order: **BUY RESTORE_LAST_SELL_QTY / restore exact qty**
+- Executed value: **₹49,181.62**
 - Latest realized slice: **₹39.23 (0.08%)**
+
+### Open position
+
+- Quantity: **0.8845933283**
+- Remaining cost basis: **₹49,181.62**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/smc-banknifty-15m-paper/reports/smc_banknifty_latest.md)
 
