@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-24T04:38:08.170624+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-24T04:39:58.551614+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -73,7 +73,7 @@ _Auto-generated from the latest committed strategy state at 2026-09-24T04:38:08.
 | OB XAUUSDT 15m | LONG | ₹99,342.93 | ₹-657.07 | BUY BULLISH_OB | 2026-09-24T01:14:59.999000+00:00 |
 | SMC NIFTY 15m | FLAT | ₹100,051.50 | ₹51.50 | SELL SELL | 2026-09-23T09:59:59.999000+00:00 |
 | SMC BANKNIFTY 15m | FLAT | ₹100,039.23 | ₹39.23 | SELL SELL | 2026-09-24T03:59:59.999000+00:00 |
-| SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 | SELL | 2026-09-23T19:59:59.999000+00:00 |
+| SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 | SELL | 2026-09-24T03:59:59.999000+00:00 |
 | BTCUSDT 15m Existing Strategy | SHORT | $99.5484 | $-0.4516 | SELL_SHORT ENTRY | 2026-09-24T01:14:59.999000+00:00 |
 
 ## Recent strategy charts
