@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **15**
-- Profits / losses: **7 / 8**
+- Closed trade records: **16**
+- Profits / losses: **8 / 8**
 - Net INR P&L: **₹2,381.12**
-- Net USD P&L: **$-0.4908**
+- Net USD P&L: **$0.8064**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-24 15:14:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | PROFIT | $1.2972 | 1.3036% | Configured profit target was hit. |
 | 2026-09-24 12:44:59 IST | OB NIFTY 15m | NIFTY | LONG | LOSS | ₹-987.03 | -0.9870% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.21702743149359446%. |
 | 2026-09-24 05:44:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | LOSS | ₹-110.92 | -0.1066% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.242434605863716%. |
 | 2026-09-23 14:59:59 IST | SMC NIFTY 15m | NIFTY | LONG | PROFIT | ₹51.50 | 0.1030% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
@@ -30,6 +31,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### BTCUSDT 15m — BTCUSDT — PROFIT
+
+- Trade ID: `BTCUSDT-1790180100000`
+- Branch: `btcusdt-paper`
+- Entry: **2026-09-24 03:59:59 IST** at **84484.0100**
+- Entry signal: **DISTRIBUTION_DOWN_CONFIRMED**
+- Why taken: A confirmed distribution signal opened a SHORT after the strategy's sweep/distribution conditions.
+- Stop: **84824.6900**
+- Target: **83213.9000**
+- Exit: **2026-09-24 15:14:59 IST** at **83213.9000**
+- Exit signal: **TARGET**
+- Why closed/reduced: Configured profit target was hit.
+- Quantity: **0.0011766702340047948**
+- Gross P&L: **$1.4945**
+- Fees/charges: **$0.1973**
+- Net P&L: **$1.2972**
+- Profit/Loss percentage: **1.3036%**
+- Holding period: **0d 11h 15m**
+- Notes: Outcome=TARGET; R multiple=3.7281613244099225; balance after=$100.8064.
 
 ### OB NIFTY 15m — NIFTY — LOSS
 
