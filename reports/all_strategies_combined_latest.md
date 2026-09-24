@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-24T06:41:09.741080+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-24T06:42:19.040575+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -10,7 +10,7 @@ _Auto-updated from every current strategy branch. Generated 2026-09-24T06:41:09.
 - INR starting capital: **₹1,000,000.00**
 - INR current equity: **₹1,002,413.10**
 - INR total P&L: **₹2,413.10 (0.24%)**
-- Existing BTC account: **$99.5484 equity; $-0.4516 P&L (-0.45%)**
+- Existing BTC account: **$99.6520 equity; $-0.3480 P&L (-0.35%)**
 
 USD and INR are intentionally kept separate.
 
@@ -28,7 +28,7 @@ USD and INR are intentionally kept separate.
 | SMC NIFTY 15m | INR | FLAT | ₹100,051.50 | ₹51.50 | 0.05% | SELL RESTORE_LAST_BUY_QTY exact qty |
 | SMC BANKNIFTY 15m | INR | FLAT | ₹100,039.23 | ₹39.23 | 0.04% | SELL RESTORE_LAST_BUY_QTY exact qty |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | SELL |
-| BTCUSDT 15m Existing Strategy | USD | SHORT | $99.5484 | $-0.4516 | -0.45% | ENTRY |
+| BTCUSDT 15m Existing Strategy | USD | SHORT | $99.6520 | $-0.3480 | -0.35% | ENTRY |
 
 ---
 
@@ -276,12 +276,12 @@ USD and INR are intentionally kept separate.
 - Branch: btcusdt-paper
 - Status: **SHORT**
 - Starting: **$100.0000**
-- Equity: **$99.5484**
-- P&L: **$-0.4516 (-0.45%)**
+- Equity: **$99.6520**
+- P&L: **$-0.3480 (-0.35%)**
 - Balance: **$99.5092**
-- Realized / unrealized: **$-0.4908 / $0.0392**
+- Realized / unrealized: **$-0.4908 / $0.1428**
 - Closed trades: **6**
-- Last candle: **2026-09-24T01:14:59.999000+00:00**
+- Last candle: **2026-09-24T06:29:59.999000+00:00**
 
 ### Latest activity
 
