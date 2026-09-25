@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-25T12:18:16.029068+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-25T12:57:25.355022+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -82,7 +82,7 @@ _Auto-generated from the latest committed strategy state at 2026-09-25T12:18:16.
 | Vertex 500 3:15 | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-24 |
 | OB NIFTY 15m | LONG | ₹99,091.98 | ₹-908.02 | BUY BULLISH_OB | 2026-09-25T09:59:59.999000+00:00 |
 | OB BANKNIFTY 15m | LONG | ₹98,183.58 | ₹-1,816.42 | BUY BULLISH_OB | 2026-09-25T07:29:59.999000+00:00 |
-| OB BTCUSDT 15m | FLAT | ₹103,857.29 | ₹3,857.29 | SELL BEARISH_OB | 2026-09-25T07:29:59.999000+00:00 |
+| OB BTCUSDT 15m | FLAT | ₹103,857.29 | ₹3,857.29 | SELL BEARISH_OB | 2026-09-25T12:44:59.999000+00:00 |
 | OB XAUUSDT 15m | FLAT | ₹98,242.30 | ₹-1,757.70 | SELL BEARISH_OB | 2026-09-25T07:29:59.999000+00:00 |
 | SMC NIFTY 15m | LONG | ₹99,975.53 | ₹-24.47 | BUY BUY | 2026-09-25T07:29:59.999000+00:00 |
 | SMC BANKNIFTY 15m | LONG | ₹99,948.84 | ₹-51.16 | SELL SELL | 2026-09-25T09:44:59.999000+00:00 |
