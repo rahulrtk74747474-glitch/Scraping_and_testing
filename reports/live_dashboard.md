@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-25T13:41:47.866789+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-25T14:45:35.942194+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -63,11 +63,11 @@ _Auto-generated from the latest committed strategy state at 2026-09-25T13:41:47.
 ### SMC BANKNIFTY 15m — BANKNIFTY
 
 - Status: **OPEN LONG**
-- Average/entry: **₹55,595.77**
-- Current stored price: **₹55,522.50**
-- Quantity: **0.8845933283**
-- Unrealized P&L: **₹-64.81**
-- Latest activity: **SELL SELL**
+- Average/entry: **₹55,590.53**
+- Current stored price: **₹55,580.40**
+- Quantity: **1.3420163128**
+- Unrealized P&L: **₹-13.60**
+- Latest activity: **BUY BUY**
 
 - Exit rule: **Confirmed opposite major swing; no fixed numeric stop/target.**
 
@@ -78,7 +78,7 @@ _Auto-generated from the latest committed strategy state at 2026-09-25T13:41:47.
 | Strategy | Status | Equity | P&L | Latest activity | Last processed |
 |---|---|---:|---:|---|---|
 | Vertex Daily | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-24 |
-| Vertex 3:15 | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-24 |
+| Vertex 3:15 | 0 open | ₹100,000.00 | ₹0.00 | - | 2026-09-25 |
 | Vertex 500 Daily | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-24 |
 | Vertex 500 3:15 | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-24 |
 | OB NIFTY 15m | LONG | ₹99,091.98 | ₹-908.02 | BUY BULLISH_OB | 2026-09-25T09:59:59.999000+00:00 |
@@ -86,7 +86,7 @@ _Auto-generated from the latest committed strategy state at 2026-09-25T13:41:47.
 | OB BTCUSDT 15m | FLAT | ₹103,857.29 | ₹3,857.29 | SELL BEARISH_OB | 2026-09-25T12:44:59.999000+00:00 |
 | OB XAUUSDT 15m | LONG | ₹98,428.46 | ₹-1,571.54 | BUY BULLISH_OB | 2026-09-25T12:59:59.999000+00:00 |
 | SMC NIFTY 15m | LONG | ₹100,188.79 | ₹188.79 | BUY BUY | 2026-09-25T09:59:59.999000+00:00 |
-| SMC BANKNIFTY 15m | LONG | ₹99,948.84 | ₹-51.16 | SELL SELL | 2026-09-25T09:44:59.999000+00:00 |
+| SMC BANKNIFTY 15m | LONG | ₹100,000.06 | ₹0.06 | BUY BUY | 2026-09-25T09:59:59.999000+00:00 |
 | SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 | SELL | 2026-09-25T11:59:59.999000+00:00 |
 | BTCUSDT 15m Existing Strategy | FLAT | $100.3275 | $0.3275 | BUY_TO_COVER EXIT | 2026-09-25T12:59:59.999000+00:00 |
 
