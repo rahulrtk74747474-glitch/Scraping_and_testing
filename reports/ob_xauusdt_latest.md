@@ -1,28 +1,31 @@
 # XAUUSDT 15m Order-Block Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹98,242.30**
-- Cash: **₹98,242.30**
-- Total P&L: **₹-1,757.70 (-1.76%)**
+- Current equity: **₹98,428.46**
+- Cash: **₹0.00**
+- Total P&L: **₹-1,571.54 (-1.57%)**
 - Realized P&L: **₹-1,757.70**
-- Unrealized P&L: **₹0.00**
+- Unrealized P&L: **₹186.16**
 - Closed trades: **3** | Wins: **0** | Losses: **3** | Win rate: **0.00%**
 - Max drawdown: **1.76%**
-- Latest source close: **4,308.000000 USD**
-- USD/INR used this run: **95.8900**
-- Last processed candle: `2026-09-25T07:29:59.999000+00:00`
+- Latest source close: **4,335.700195 USD**
+- USD/INR used this run: **95.8125**
+- Last processed candle: `2026-09-25T12:59:59.999000+00:00`
 
 ## Position
 
-_Flat. Waiting for the next confirmed bullish order block._
+- Status: **LONG / fully invested**
+- Entry time: `2026-09-25T08:44:59.999000+00:00`
+- Entry price: **4,327.500000 USD**
+- Quantity (synthetic units): **0.2369404840**
 
 ## Latest detected order block
 
-- Signal: **BEARISH_OB**
-- Confirmation time: `2026-09-25T03:29:59.999000+00:00`
-- Original OB candle open time: `2026-09-25T02:00:00+00:00`
-- OB high / avg / low: **4330.500000 / 4326.850098 / 4323.200195**
-- Move used by indicator: **0.2821%**
+- Signal: **BULLISH_OB**
+- Confirmation time: `2026-09-25T08:44:59.999000+00:00`
+- Original OB candle open time: `2026-09-25T07:15:00+00:00`
+- OB high / avg / low: **4310.700195 / 4308.750000 / 4306.799805**
+- Move used by indicator: **0.4223%**
 
 ## Rules mirrored from the supplied Pine indicator
 
