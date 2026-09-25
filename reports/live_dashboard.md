@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-25T07:39:31.721056+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-25T09:45:28.425182+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -37,11 +37,11 @@ _Auto-generated from the latest committed strategy state at 2026-09-25T07:39:31.
 ### SMC BANKNIFTY 15m — BANKNIFTY
 
 - Status: **OPEN LONG**
-- Average/entry: **₹55,598.00**
-- Current stored price: **₹55,436.35**
+- Average/entry: **₹55,595.77**
+- Current stored price: **₹55,522.50**
 - Quantity: **0.8845933283**
-- Unrealized P&L: **₹-142.99**
-- Latest activity: **BUY BUY**
+- Unrealized P&L: **₹-64.81**
+- Latest activity: **SELL SELL**
 
 - Exit rule: **Confirmed opposite major swing; no fixed numeric stop/target.**
 
@@ -72,7 +72,7 @@ _Auto-generated from the latest committed strategy state at 2026-09-25T07:39:31.
 | OB BTCUSDT 15m | FLAT | ₹103,857.29 | ₹3,857.29 | SELL BEARISH_OB | 2026-09-25T07:29:59.999000+00:00 |
 | OB XAUUSDT 15m | FLAT | ₹98,242.30 | ₹-1,757.70 | SELL BEARISH_OB | 2026-09-25T07:29:59.999000+00:00 |
 | SMC NIFTY 15m | LONG | ₹99,975.53 | ₹-24.47 | BUY BUY | 2026-09-25T07:29:59.999000+00:00 |
-| SMC BANKNIFTY 15m | LONG | ₹99,896.24 | ₹-103.76 | BUY BUY | 2026-09-25T04:14:59.999000+00:00 |
+| SMC BANKNIFTY 15m | LONG | ₹99,948.84 | ₹-51.16 | SELL SELL | 2026-09-25T09:44:59.999000+00:00 |
 | SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 | SELL | 2026-09-25T03:59:59.999000+00:00 |
 | BTCUSDT 15m Existing Strategy | SHORT | $101.3834 | $1.3834 | SELL_SHORT ENTRY | 2026-09-25T07:29:59.999000+00:00 |
 

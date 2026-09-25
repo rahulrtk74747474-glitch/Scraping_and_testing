@@ -3,9 +3,9 @@
 <text x="64" y="22" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#111827">SMC BANKNIFTY 15m — recent snapshots</text>
 <line x1="64" y1="208" x2="796" y2="208" stroke="#d1d5db"/>
 <line x1="64" y1="34" x2="64" y2="208" stroke="#d1d5db"/>
-<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,63.6 130.5,46.9 197.1,42.4 263.6,63.1 330.2,85.9 396.7,45.5 463.3,39.4 529.8,34.0 596.4,164.4 662.9,208.0 729.5,207.0 796.0,207.4"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,63.6 125.0,46.9 186.0,42.4 247.0,63.1 308.0,85.9 369.0,45.5 430.0,39.4 491.0,34.0 552.0,164.4 613.0,208.0 674.0,207.0 735.0,207.4 796.0,193.9"/>
 <text x="8" y="42" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">56,548.90</text>
 <text x="8" y="208" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">55,432.30</text>
 <text x="64" y="236" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-18T09:59</text>
-<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-25T04:14</text>
+<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-25T09:44</text>
 </svg>
