@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-25T07:38:48.840797+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-25T07:39:18.147982+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -12,9 +12,9 @@ _Auto-generated from the latest committed strategy state at 2026-09-25T07:38:48.
 
 - Status: **OPEN LONG**
 - Average/entry: **₹56,523.15**
-- Current stored price: **₹55,438.50**
+- Current stored price: **₹55,496.45**
 - Quantity: **1.7691866565**
-- Unrealized P&L: **₹-1,918.95**
+- Unrealized P&L: **₹-1,816.42**
 - Latest activity: **BUY BULLISH_OB**
 
 - Exit rule: **Confirmed bearish order block; no fixed numeric stop/target.**
@@ -51,10 +51,10 @@ _Auto-generated from the latest committed strategy state at 2026-09-25T07:38:48.
 
 - Status: **OPEN SHORT**
 - Entry: **$84,700.03**
-- Current stored price: **$84,479.69**
+- Current stored price: **$84,046.00**
 - Quantity: **0.00118897 BTC**
 - Stop / target: **$84,933.20 / $83,524.39**
-- Unrealized P&L: **$0.0608**
+- Unrealized P&L: **$0.5770**
 - Latest activity: **SELL_SHORT ENTRY**
 
 ![BTCUSDT 15m Existing Strategy chart](charts/btc_15m.svg)
@@ -68,13 +68,13 @@ _Auto-generated from the latest committed strategy state at 2026-09-25T07:38:48.
 | Vertex 500 Daily | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-24 |
 | Vertex 500 3:15 | 0 open | ₹100,033.37 | ₹33.37 | SELL EXIT PFIZER | 2026-09-24 |
 | OB NIFTY 15m | FLAT | ₹99,012.97 | ₹-987.03 | SELL BEARISH_OB | 2026-09-25T06:29:59.999000+00:00 |
-| OB BANKNIFTY 15m | LONG | ₹98,081.05 | ₹-1,918.95 | BUY BULLISH_OB | 2026-09-24T09:59:59.999000+00:00 |
+| OB BANKNIFTY 15m | LONG | ₹98,183.58 | ₹-1,816.42 | BUY BULLISH_OB | 2026-09-25T07:29:59.999000+00:00 |
 | OB BTCUSDT 15m | FLAT | ₹103,857.29 | ₹3,857.29 | SELL BEARISH_OB | 2026-09-25T07:29:59.999000+00:00 |
 | OB XAUUSDT 15m | FLAT | ₹98,242.30 | ₹-1,757.70 | SELL BEARISH_OB | 2026-09-25T07:29:59.999000+00:00 |
 | SMC NIFTY 15m | LONG | ₹99,975.53 | ₹-24.47 | BUY BUY | 2026-09-25T07:29:59.999000+00:00 |
 | SMC BANKNIFTY 15m | LONG | ₹99,896.24 | ₹-103.76 | BUY BUY | 2026-09-25T04:14:59.999000+00:00 |
 | SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 | SELL | 2026-09-25T03:59:59.999000+00:00 |
-| BTCUSDT 15m Existing Strategy | SHORT | $100.8672 | $0.8672 | SELL_SHORT ENTRY | 2026-09-25T01:44:59.999000+00:00 |
+| BTCUSDT 15m Existing Strategy | SHORT | $101.3834 | $1.3834 | SELL_SHORT ENTRY | 2026-09-25T07:29:59.999000+00:00 |
 
 ## Recent strategy charts
 
