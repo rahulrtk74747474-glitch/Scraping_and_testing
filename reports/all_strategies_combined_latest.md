@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-25T17:55:35.969590+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-25T17:56:05.060075+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,8 +8,8 @@ _Auto-updated from every current strategy branch. Generated 2026-09-25T17:55:35.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹999,965.42**
-- INR total P&L: **₹-34.58 (-0.00%)**
+- INR current equity: **₹999,614.15**
+- INR total P&L: **₹-385.85 (-0.04%)**
 - Existing BTC account: **$100.3275 equity; $0.3275 P&L (0.33%)**
 
 USD and INR are intentionally kept separate.
@@ -21,7 +21,7 @@ USD and INR are intentionally kept separate.
 | OB NIFTY 15m | INR | LONG | ₹99,091.98 | ₹-908.02 | -0.91% | BUY |
 | OB BANKNIFTY 15m | INR | LONG | ₹98,332.10 | ₹-1,667.90 | -1.67% | BUY |
 | OB BTCUSDT 15m | INR | FLAT | ₹103,857.29 | ₹3,857.29 | 3.86% | SELL |
-| OB XAUUSDT 15m | INR | LONG | ₹98,428.46 | ₹-1,571.54 | -1.57% | BUY |
+| OB XAUUSDT 15m | INR | LONG | ₹98,077.18 | ₹-1,922.82 | -1.92% | BUY |
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
@@ -118,12 +118,12 @@ USD and INR are intentionally kept separate.
 - Branch: ob-xauusdt-15m-paper
 - Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹98,428.46**
-- P&L: **₹-1,571.54 (-1.57%)**
+- Equity: **₹98,077.18**
+- P&L: **₹-1,922.82 (-1.92%)**
 - Cash: **₹0.00**
-- Realized / unrealized: **₹-1,757.70 / ₹186.16**
+- Realized / unrealized: **₹-1,757.70 / ₹-165.12**
 - Closed trades: **3**
-- Last candle: **2026-09-25T12:59:59.999000+00:00**
+- Last candle: **2026-09-25T17:44:59.999000+00:00**
 
 ### Latest activity
 
@@ -291,7 +291,7 @@ USD and INR are intentionally kept separate.
 - Balance: **$100.3275**
 - Realized / unrealized: **$0.3275 / $0.0000**
 - Closed trades: **8**
-- Last candle: **2026-09-25T12:59:59.999000+00:00**
+- Last candle: **2026-09-25T17:44:59.999000+00:00**
 
 ### Latest activity
 
