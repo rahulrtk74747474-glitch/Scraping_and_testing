@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **20**
-- Profits / losses: **8 / 12**
+- Closed trade records: **21**
+- Profits / losses: **8 / 13**
 - Net INR P&L: **₹1,244.46**
-- Net USD P&L: **$0.8064**
+- Net USD P&L: **$0.3275**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-25 16:44:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.4789 | -0.4751% | Configured stop level was hit. |
 | 2026-09-25 12:44:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-25.58 | -0.1006% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-09-25 08:59:59 IST | OB XAUUSDT 15m | XAUUSDT | LONG | LOSS | ₹-320.72 | -0.3254% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.2820545992679788%. |
 | 2026-09-24 23:14:59 IST | OB XAUUSDT 15m | XAUUSDT | LONG | LOSS | ₹-683.73 | -0.6889% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.38738331693043265%. |
@@ -35,6 +36,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### BTCUSDT 15m — BTCUSDT — LOSS
+
+- Trade ID: `BTCUSDT-1790273700000`
+- Branch: `btcusdt-paper`
+- Entry: **2026-09-25 06:44:59 IST** at **84700.0300**
+- Entry signal: **DISTRIBUTION_DOWN_CONFIRMED**
+- Why taken: A confirmed distribution signal opened a SHORT after the strategy's sweep/distribution conditions.
+- Stop: **84933.2000**
+- Target: **83524.3900**
+- Exit: **2026-09-25 16:44:59 IST** at **84933.2000**
+- Exit signal: **STOP**
+- Why closed/reduced: Configured stop level was hit.
+- Quantity: **0.00118896887555602**
+- Gross P&L: **$-0.2772**
+- Fees/charges: **$0.2017**
+- Net P&L: **$-0.4789**
+- Profit/Loss percentage: **-0.4751%**
+- Holding period: **0d 10h 0m**
+- Notes: Outcome=STOP; R multiple=-1.0; balance after=$100.3275.
 
 ### SMC BANKNIFTY 15m — BANKNIFTY — LOSS
 
