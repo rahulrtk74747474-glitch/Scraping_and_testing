@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-25T21:24:41.195411+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-25T21:27:53.008062+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -8,9 +8,9 @@ _Auto-updated from every current strategy branch. Generated 2026-09-25T21:24:41.
 
 - INR accounts: **10**
 - INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹999,614.15**
-- INR total P&L: **₹-385.85 (-0.04%)**
-- Existing BTC account: **$100.3275 equity; $0.3275 P&L (0.33%)**
+- INR current equity: **₹999,609.60**
+- INR total P&L: **₹-390.40 (-0.04%)**
+- Existing BTC account: **$100.3537 equity; $0.3537 P&L (0.35%)**
 
 USD and INR are intentionally kept separate.
 
@@ -21,14 +21,14 @@ USD and INR are intentionally kept separate.
 | OB NIFTY 15m | INR | LONG | ₹99,091.98 | ₹-908.02 | -0.91% | BUY |
 | OB BANKNIFTY 15m | INR | LONG | ₹98,332.10 | ₹-1,667.90 | -1.67% | BUY |
 | OB BTCUSDT 15m | INR | FLAT | ₹103,857.29 | ₹3,857.29 | 3.86% | SELL |
-| OB XAUUSDT 15m | INR | LONG | ₹98,077.18 | ₹-1,922.82 | -1.92% | BUY |
+| OB XAUUSDT 15m | INR | LONG | ₹98,072.64 | ₹-1,927.36 | -1.93% | BUY |
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | SMC NIFTY 15m | INR | LONG | ₹100,188.79 | ₹188.79 | 0.19% | BUY LADDER 50.0% |
 | SMC BANKNIFTY 15m | INR | LONG | ₹100,000.06 | ₹0.06 | 0.00% | BUY RESTORE_LAST_SELL_QTY exact qty |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | SELL |
-| BTCUSDT 15m Existing Strategy | USD | FLAT | $100.3275 | $0.3275 | 0.33% | EXIT |
+| BTCUSDT 15m Existing Strategy | USD | SHORT | $100.3537 | $0.3537 | 0.35% | ENTRY |
 
 ---
 
@@ -118,12 +118,12 @@ USD and INR are intentionally kept separate.
 - Branch: ob-xauusdt-15m-paper
 - Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹98,077.18**
-- P&L: **₹-1,922.82 (-1.92%)**
+- Equity: **₹98,072.64**
+- P&L: **₹-1,927.36 (-1.93%)**
 - Cash: **₹0.00**
-- Realized / unrealized: **₹-1,757.70 / ₹-165.12**
+- Realized / unrealized: **₹-1,757.70 / ₹-169.66**
 - Closed trades: **3**
-- Last candle: **2026-09-25T17:44:59.999000+00:00**
+- Last candle: **2026-09-25T20:59:59.999000+00:00**
 
 ### Latest activity
 
@@ -284,20 +284,26 @@ USD and INR are intentionally kept separate.
 ## BTCUSDT 15m Existing Strategy
 
 - Branch: btcusdt-paper
-- Status: **FLAT**
+- Status: **SHORT**
 - Starting: **$100.0000**
-- Equity: **$100.3275**
-- P&L: **$0.3275 (0.33%)**
+- Equity: **$100.3537**
+- P&L: **$0.3537 (0.35%)**
 - Balance: **$100.3275**
-- Realized / unrealized: **$0.3275 / $0.0000**
+- Realized / unrealized: **$0.3275 / $0.0262**
 - Closed trades: **8**
-- Last candle: **2026-09-25T17:44:59.999000+00:00**
+- Last candle: **2026-09-25T21:14:59.999000+00:00**
 
 ### Latest activity
 
-- Strategy event: **outcome**
-- Executed order: **EXIT / BUY_TO_COVER**
+- Strategy event: **dist_confirmed**
+- Executed order: **ENTRY / SELL_SHORT**
 - Latest closed trade: **$-0.4789 (-0.48%)**
+
+### Open position
+
+- Direction: **SHORT**
+- Entry: **$83,886.00**
+- Stop / target: **$84,335.54 / $82,948.75**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/btcusdt-paper/reports/btc_latest.md)
 
