@@ -1,0 +1,114 @@
+name: Rahul-606569 Friday 3:15 paper trade
+
+on:
+  schedule:
+    # 09:45 UTC = 15:15 IST, every Friday.
+    - cron: "45 9 * * 5"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/vertex-rahul-friday-315.yml"
+  workflow_run:
+    workflows:
+      - "All strategies combined report"
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vertex-rahul-606569-friday-paper
+  cancel-in-progress: false
+
+jobs:
+  run_strategy:
+    if: github.event_name != 'workflow_run'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout isolated Friday strategy branch
+        uses: actions/checkout@v4
+        with:
+          ref: vertex-rahul-606569-friday-paper
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Chromium for Chartink scraping
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run Rahul-606569 Friday strategy
+        env:
+          CHARTINK_SCAN_URL: https://chartink.com/screener/rahul-606569
+          CHARTINK_USER: ${{ secrets.CHARTINK_USER }}
+          CHARTINK_PASSWORD: ${{ secrets.CHARTINK_PASSWORD }}
+          CHARTINK_COOKIE: ${{ secrets.CHARTINK_COOKIE }}
+          FRIDAY_ALLOW_LATEST_MARKET_DATE: ${{ github.event_name == 'push' && 'true' || 'false' }}
+        run: python -m src.friday_main
+
+      - name: Commit Friday state and reports to isolated branch only
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No strategy changes to commit."
+            exit 0
+          fi
+          git config user.name "friday-paper-bot"
+          git config user.email "friday-paper-bot@users.noreply.github.com"
+          git add data reports
+          git commit -m "chore: Rahul-606569 Friday paper-trading update"
+          git push origin HEAD:vertex-rahul-606569-friday-paper
+
+  refresh_combined:
+    needs: [run_strategy]
+    if: always() && (github.event_name == 'workflow_run' || needs.run_strategy.result == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout main without changing existing source files
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fetch every strategy branch including Friday strategy
+        run: |
+          git pull --ff-only origin main
+          for b in             ob-nifty-15m-paper             ob-banknifty-15m-paper             ob-btcusdt-15m-paper             ob-xauusdt-15m-paper             smc-nifty-15m-paper             smc-banknifty-15m-paper             smc-btcusdt-4h-paper             vertex-315-paper             vertex-500-315-paper             vertex-500-paper             btcusdt-paper             vertex-rahul-606569-friday-paper
+          do
+            git fetch origin "$b:refs/remotes/origin/$b"
+          done
+
+      - name: Build combined report using branch-local generator
+        run: |
+          git show origin/vertex-rahul-606569-friday-paper:src/all_strategies_report.py > src/_friday_all_strategies_report.py
+          git show origin/vertex-rahul-606569-friday-paper:src/all_trades_journal.py > src/_friday_all_trades_journal.py
+          git show origin/vertex-rahul-606569-friday-paper:src/live_dashboard.py > src/_friday_live_dashboard.py
+          python src/_friday_all_strategies_report.py
+          python src/_friday_all_trades_journal.py
+          python src/_friday_live_dashboard.py
+          rm -f src/_friday_all_strategies_report.py src/_friday_all_trades_journal.py src/_friday_live_dashboard.py
+
+      - name: Commit refreshed combined reports only
+        run: |
+          git add reports/all_strategies_combined_latest.md reports/all_trades_journal.md reports/live_dashboard.md reports/charts/*.svg
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Combined reports already up to date."
+            exit 0
+          fi
+          git config user.name "friday-combined-report-bot"
+          git config user.email "friday-combined-report-bot@users.noreply.github.com"
+          git commit -m "chore: include Rahul Friday strategy in combined reports"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            echo "Push attempt $attempt failed; retrying."
+            sleep 2
+          done
+          exit 1
