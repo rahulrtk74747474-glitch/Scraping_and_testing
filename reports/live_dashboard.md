@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-26T00:06:39.058431+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-26T00:07:06.734740+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -77,10 +77,10 @@ _Auto-generated from the latest committed strategy state at 2026-09-26T00:06:39.
 
 - Status: **OPEN SHORT**
 - Entry: **$83,886.00**
-- Current stored price: **$83,696.49**
+- Current stored price: **$84,099.99**
 - Quantity: **0.00119480 BTC**
 - Stop / target: **$84,335.54 / $82,948.75**
-- Unrealized P&L: **$0.0262**
+- Unrealized P&L: **$-0.4564**
 - Latest activity: **SELL_SHORT ENTRY**
 
 ![BTCUSDT 15m Existing Strategy chart](charts/btc_15m.svg)
@@ -100,7 +100,7 @@ _Auto-generated from the latest committed strategy state at 2026-09-26T00:06:39.
 | SMC NIFTY 15m | LONG | ₹100,188.79 | ₹188.79 | BUY BUY | 2026-09-25T09:59:59.999000+00:00 |
 | SMC BANKNIFTY 15m | LONG | ₹100,000.06 | ₹0.06 | BUY BUY | 2026-09-25T09:59:59.999000+00:00 |
 | SMC BTCUSDT 4h | FLAT | ₹100,000.00 | ₹0.00 | SELL | 2026-09-25T19:59:59.999000+00:00 |
-| BTCUSDT 15m Existing Strategy | SHORT | $100.3537 | $0.3537 | SELL_SHORT ENTRY | 2026-09-25T21:14:59.999000+00:00 |
+| BTCUSDT 15m Existing Strategy | SHORT | $99.8711 | $-0.1289 | SELL_SHORT ENTRY | 2026-09-25T23:59:59.999000+00:00 |
 
 ## Recent strategy charts
 
