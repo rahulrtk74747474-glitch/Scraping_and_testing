@@ -1,15 +1,15 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-26T07:45:32.049482+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-26T09:55:24.319909+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
 ## Master summary
 
-- INR accounts: **11**
-- INR starting capital: **₹1,328,977.00**
-- INR current equity: **₹1,327,562.54**
-- INR total P&L: **₹-1,414.46 (-0.11%)**
+- INR accounts: **10**
+- INR starting capital: **₹1,000,000.00**
+- INR current equity: **₹999,538.36**
+- INR total P&L: **₹-461.64 (-0.05%)**
 - Existing BTC account: **$100.0194 equity; $0.0194 P&L (0.02%)**
 
 USD and INR are intentionally kept separate.
@@ -20,12 +20,11 @@ USD and INR are intentionally kept separate.
 |---|---|---|---:|---:|---:|---|
 | OB NIFTY 15m | INR | LONG | ₹99,091.98 | ₹-908.02 | -0.91% | BUY |
 | OB BANKNIFTY 15m | INR | LONG | ₹98,332.10 | ₹-1,667.90 | -1.67% | BUY |
-| OB BTCUSDT 15m | INR | LONG | ₹103,732.95 | ₹3,732.95 | 3.73% | BUY |
+| OB BTCUSDT 15m | INR | LONG | ₹103,786.05 | ₹3,786.05 | 3.79% | BUY |
 | OB XAUUSDT 15m | INR | LONG | ₹98,072.64 | ₹-1,927.36 | -1.93% | BUY |
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
-| Rahul-606569 Friday 3:15 | INR | 11 open | ₹328,077.28 | ₹-899.72 | -0.27% | ENTRY NAGAFERT |
 | SMC NIFTY 15m | INR | LONG | ₹100,188.79 | ₹188.79 | 0.19% | BUY LADDER 50.0% |
 | SMC BANKNIFTY 15m | INR | LONG | ₹100,000.06 | ₹0.06 | 0.00% | BUY RESTORE_LAST_SELL_QTY exact qty |
 | SMC BTCUSDT 4h | INR | LONG | ₹100,000.00 | ₹0.00 | 0.00% | BUY LADDER 50.0% |
@@ -96,12 +95,12 @@ USD and INR are intentionally kept separate.
 - Branch: ob-btcusdt-15m-paper
 - Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹103,732.95**
-- P&L: **₹3,732.95 (3.73%)**
+- Equity: **₹103,786.05**
+- P&L: **₹3,786.05 (3.79%)**
 - Cash: **₹0.00**
-- Realized / unrealized: **₹3,857.29 / ₹-124.34**
+- Realized / unrealized: **₹3,857.29 / ₹-71.24**
 - Closed trades: **4**
-- Last candle: **2026-09-26T04:59:59.999000+00:00**
+- Last candle: **2026-09-26T09:44:59.999000+00:00**
 
 ### Latest activity
 
@@ -288,42 +287,6 @@ USD and INR are intentionally kept separate.
 - Executed order: **EXIT SELL PFIZER**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-500-paper/reports/latest.md)
-
----
-
-## Rahul-606569 Friday 3:15
-
-- Branch: vertex-rahul-606569-friday-paper
-- Starting: **₹328,977.00**
-- Equity: **₹328,077.28**
-- P&L: **₹-899.72 (-0.27%)**
-- Cash: **₹0.00**
-- Realized / unrealized: **₹0.00 / ₹-899.72**
-- Open positions: **11**
-- Last run: **2026-09-25**
-
-### Latest activity
-
-- Scanner signal: **NAGAFERT — Nagarjuna Fertilizers And Chemicals Limited**
-- Executed order: **ENTRY BUY NAGAFERT**
-
-### Open positions
-
-| Symbol | Qty | Entry | Avg | Capital |
-|---|---:|---:|---:|---:|
-| ACL | 702 | 42.63 | 42.63 | ₹29,961.80 |
-| AGIIL | 113 | 264.55 | 264.55 | ₹29,929.64 |
-| ASALCBR | 46 | 644.95 | 644.95 | ₹29,702.93 |
-| AVANTIFEED | 39 | 753.15 | 753.15 | ₹29,407.73 |
-| DIL | 46099 | 0.65 | 0.65 | ₹29,999.92 |
-| FCONSUMER | 136201 | 0.22 | 0.22 | ₹29,999.79 |
-| HDIL | 20665 | 1.45 | 1.45 | ₹29,999.82 |
-| NAGAFERT | 16929 | 1.77 | 1.77 | ₹29,999.90 |
-| RAJVIR | 5751 | 5.21 | 5.21 | ₹29,998.28 |
-| RTNPOWER | 4280 | 7.00 | 7.00 | ₹29,995.57 |
-| SUPREME | 954 | 31.39 | 31.39 | ₹29,981.62 |
-
-[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-rahul-606569-friday-paper/reports/latest.md)
 
 ---
 
