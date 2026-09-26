@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-26T09:56:28.000436+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-26T09:56:44.248637+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
@@ -10,7 +10,7 @@ _Auto-updated from every current strategy branch. Generated 2026-09-26T09:56:28.
 - INR starting capital: **₹1,328,977.00**
 - INR current equity: **₹1,327,615.64**
 - INR total P&L: **₹-1,361.36 (-0.10%)**
-- Existing BTC account: **$100.0194 equity; $0.0194 P&L (0.02%)**
+- Existing BTC account: **$99.5894 equity; $-0.4106 P&L (-0.41%)**
 
 USD and INR are intentionally kept separate.
 
@@ -29,7 +29,7 @@ USD and INR are intentionally kept separate.
 | SMC NIFTY 15m | INR | LONG | ₹100,188.79 | ₹188.79 | 0.19% | BUY LADDER 50.0% |
 | SMC BANKNIFTY 15m | INR | LONG | ₹100,000.06 | ₹0.06 | 0.00% | BUY RESTORE_LAST_SELL_QTY exact qty |
 | SMC BTCUSDT 4h | INR | LONG | ₹100,000.00 | ₹0.00 | 0.00% | BUY LADDER 50.0% |
-| BTCUSDT 15m Existing Strategy | USD | SHORT | $100.0194 | $0.0194 | 0.02% | ENTRY |
+| BTCUSDT 15m Existing Strategy | USD | FLAT | $99.5894 | $-0.4106 | -0.41% | EXIT |
 
 ---
 
@@ -332,26 +332,20 @@ USD and INR are intentionally kept separate.
 ## BTCUSDT 15m Existing Strategy
 
 - Branch: btcusdt-paper
-- Status: **SHORT**
+- Status: **FLAT**
 - Starting: **$100.0000**
-- Equity: **$100.0194**
-- P&L: **$0.0194 (0.02%)**
-- Balance: **$100.3275**
-- Realized / unrealized: **$0.3275 / $-0.3081**
-- Closed trades: **8**
-- Last candle: **2026-09-26T04:59:59.999000+00:00**
+- Equity: **$99.5894**
+- P&L: **$-0.4106 (-0.41%)**
+- Balance: **$99.5894**
+- Realized / unrealized: **$-0.4106 / $0.0000**
+- Closed trades: **9**
+- Last candle: **2026-09-26T09:44:59.999000+00:00**
 
 ### Latest activity
 
-- Strategy event: **dist_confirmed**
-- Executed order: **ENTRY / SELL_SHORT**
-- Latest closed trade: **$-0.4789 (-0.48%)**
-
-### Open position
-
-- Direction: **SHORT**
-- Entry: **$83,886.00**
-- Stop / target: **$84,335.54 / $82,948.75**
+- Strategy event: **outcome**
+- Executed order: **EXIT / BUY_TO_COVER**
+- Latest closed trade: **$-0.7381 (-0.74%)**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/btcusdt-paper/reports/btc_latest.md)
 
