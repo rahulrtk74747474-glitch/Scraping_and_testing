@@ -112,3 +112,5 @@ jobs:
             sleep 2
           done
           exit 1
+
+# strict-cap seed
