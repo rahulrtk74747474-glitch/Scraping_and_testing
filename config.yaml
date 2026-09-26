@@ -1,0 +1,10 @@
+starting_capital: 0
+per_stock_target: 30000
+average_add_pct_of_initial: 0.10
+exchange: NSE
+execution_price: chartink_close
+timezone: Asia/Kolkata
+decision_day: Friday
+decision_time_ist: "15:15"
+capital_mode: on_demand
+scanner_url: https://chartink.com/screener/rahul-606569
