@@ -31,10 +31,18 @@ def normalise_state(state: dict) -> dict:
     return state
 
 
-def _whole_share_qty(price: float, requested_notional: float) -> int:
-    if price <= 0 or requested_notional <= 0:
+def _max_budget_qty(price: float, total_budget: float) -> int:
+    """Largest whole-share quantity whose buy turnover + estimated charges <= budget."""
+    if price <= 0 or total_budget <= 0:
         return 0
-    return int(math.floor(requested_notional / price))
+    qty = int(math.floor(total_budget / price))
+    while qty > 0:
+        turnover = qty * price
+        charges = equity_delivery_charges(turnover, "buy")
+        if turnover + charges.total <= total_budget + 1e-9:
+            return qty
+        qty -= 1
+    return 0
 
 
 def _fund_and_buy(
@@ -45,7 +53,7 @@ def _fund_and_buy(
     trade_date: str,
     event_type: str,
 ):
-    qty = _whole_share_qty(price, requested_notional)
+    qty = _max_budget_qty(price, requested_notional)
     if qty <= 0:
         return None
 
@@ -133,7 +141,9 @@ def process_friday(
 
     orders, closed_trades, skipped = [], [], []
 
-    for symbol in list(state.get("positions", {}).keys()):
+    carried_symbols = set(state.get("positions", {}).keys())
+
+    for symbol in list(carried_symbols):
         position = state["positions"][symbol]
         bar = closes.get(symbol)
         if not bar or bar.get("date").isoformat() != trade_date:
@@ -151,7 +161,7 @@ def process_friday(
             continue
 
         if trade_date > position["entry_date"]:
-            requested = float(position["initial_invested_notional"]) * cfg.average_add_pct_of_initial
+            requested = cfg.per_stock_target * cfg.average_add_pct_of_initial
             order = _fund_and_buy(state, symbol, price, requested, trade_date, "AVERAGE_ADD")
             if order:
                 new_qty = int(position["qty"]) + int(order["qty"])
@@ -177,6 +187,7 @@ def process_friday(
             symbol
             and symbol not in seen
             and symbol not in state.get("positions", {})
+            and symbol not in carried_symbols
             and float(sig.get("close") or 0) > 0
         ):
             seen.add(symbol)
