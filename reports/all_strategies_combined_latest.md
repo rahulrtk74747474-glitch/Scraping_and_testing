@@ -1,15 +1,15 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-26T00:38:48.302163+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-26T00:46:00.975019+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
 ## Master summary
 
-- INR accounts: **10**
-- INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹999,609.60**
-- INR total P&L: **₹-390.40 (-0.04%)**
+- INR accounts: **11**
+- INR starting capital: **₹1,329,263.82**
+- INR current equity: **₹1,327,973.00**
+- INR total P&L: **₹-1,290.82 (-0.10%)**
 - Existing BTC account: **$99.8711 equity; $-0.1289 P&L (-0.13%)**
 
 USD and INR are intentionally kept separate.
@@ -25,6 +25,7 @@ USD and INR are intentionally kept separate.
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
+| Rahul-606569 Friday 3:15 | INR | 11 open | ₹328,363.40 | ₹-900.42 | -0.27% | ENTRY NAGAFERT |
 | SMC NIFTY 15m | INR | LONG | ₹100,188.79 | ₹188.79 | 0.19% | BUY LADDER 50.0% |
 | SMC BANKNIFTY 15m | INR | LONG | ₹100,000.06 | ₹0.06 | 0.00% | BUY RESTORE_LAST_SELL_QTY exact qty |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,000.00 | ₹0.00 | 0.00% | SELL |
@@ -276,6 +277,42 @@ USD and INR are intentionally kept separate.
 - Executed order: **EXIT SELL PFIZER**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-500-paper/reports/latest.md)
+
+---
+
+## Rahul-606569 Friday 3:15
+
+- Branch: vertex-rahul-606569-friday-paper
+- Starting: **₹329,263.82**
+- Equity: **₹328,363.40**
+- P&L: **₹-900.42 (-0.27%)**
+- Cash: **₹0.00**
+- Realized / unrealized: **₹0.00 / ₹-900.42**
+- Open positions: **11**
+- Last run: **2026-09-25**
+
+### Latest activity
+
+- Scanner signal: **NAGAFERT — Nagarjuna Fertilizers And Chemicals Limited**
+- Executed order: **ENTRY BUY NAGAFERT**
+
+### Open positions
+
+| Symbol | Qty | Entry | Avg | Capital |
+|---|---:|---:|---:|---:|
+| ACL | 703 | 42.63 | 42.63 | ₹30,004.48 |
+| AGIIL | 113 | 264.55 | 264.55 | ₹29,929.64 |
+| ASALCBR | 46 | 644.95 | 644.95 | ₹29,702.93 |
+| AVANTIFEED | 39 | 753.15 | 753.15 | ₹29,407.73 |
+| DIL | 46153 | 0.65 | 0.65 | ₹30,035.07 |
+| FCONSUMER | 136363 | 0.22 | 0.22 | ₹30,035.48 |
+| HDIL | 20689 | 1.45 | 1.45 | ₹30,034.67 |
+| NAGAFERT | 16949 | 1.77 | 1.77 | ₹30,035.35 |
+| RAJVIR | 5758 | 5.21 | 5.21 | ₹30,034.80 |
+| RTNPOWER | 4285 | 7.00 | 7.00 | ₹30,030.62 |
+| SUPREME | 955 | 31.39 | 31.39 | ₹30,013.05 |
+
+[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-rahul-606569-friday-paper/reports/latest.md)
 
 ---
 
