@@ -1,16 +1,16 @@
 # BTCUSDT 15m Order-Block Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹104,753.29**
+- Current equity: **₹104,351.56**
 - Cash: **₹0.00**
-- Total P&L: **₹4,753.29 (4.75%)**
+- Total P&L: **₹4,351.56 (4.35%)**
 - Realized P&L: **₹3,857.29**
-- Unrealized P&L: **₹896.00**
+- Unrealized P&L: **₹494.27**
 - Closed trades: **4** | Wins: **1** | Losses: **3** | Win rate: **25.00%**
 - Max drawdown: **1.95%**
-- Latest source close: **84,802.010000 USDT**
+- Latest source close: **84,476.790000 USDT**
 - USD/INR used this run: **95.8020**
-- Last processed candle: `2026-09-27T12:59:59.999000+00:00`
+- Last processed candle: `2026-09-27T17:44:59.999000+00:00`
 
 ## Position
 
