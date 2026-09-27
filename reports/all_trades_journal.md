@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **22**
-- Profits / losses: **8 / 14**
+- Closed trade records: **23**
+- Profits / losses: **8 / 15**
 - Net INR P&L: **₹1,244.46**
-- Net USD P&L: **$-0.4106**
+- Net USD P&L: **$-0.8255**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-27 05:29:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.4149 | -0.4166% | Configured stop level was hit. |
 | 2026-09-26 14:14:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.7381 | -0.7357% | Configured stop level was hit. |
 | 2026-09-25 16:44:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.4789 | -0.4751% | Configured stop level was hit. |
 | 2026-09-25 12:44:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-25.58 | -0.1006% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
@@ -37,6 +38,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### BTCUSDT 15m — BTCUSDT — LOSS
+
+- Trade ID: `BTCUSDT-1790403300000`
+- Branch: `btcusdt-paper`
+- Entry: **2026-09-27 04:14:59 IST** at **84275.1100**
+- Entry signal: **DISTRIBUTION_DOWN_CONFIRMED**
+- Why taken: A confirmed distribution signal opened a SHORT after the strategy's sweep/distribution conditions.
+- Stop: **84457.7900**
+- Target: **83546.7000**
+- Exit: **2026-09-27 05:29:59 IST** at **84457.7900**
+- Exit signal: **STOP**
+- Why closed/reduced: Configured stop level was hit.
+- Quantity: **0.001180537068382408**
+- Gross P&L: **$-0.2157**
+- Fees/charges: **$0.1992**
+- Net P&L: **$-0.4149**
+- Profit/Loss percentage: **-0.4166%**
+- Holding period: **0d 1h 15m**
+- Notes: Outcome=STOP; R multiple=-1.0; balance after=$99.1745.
 
 ### BTCUSDT 15m — BTCUSDT — LOSS
 
