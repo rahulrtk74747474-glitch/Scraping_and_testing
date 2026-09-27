@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **23**
-- Profits / losses: **8 / 15**
-- Net INR P&L: **₹1,244.46**
+- Closed trade records: **24**
+- Profits / losses: **9 / 15**
+- Net INR P&L: **₹1,520.34**
 - Net USD P&L: **$-0.8255**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-27 09:29:59 IST | SMC BTCUSDT 4h | BTCUSDT | LONG | PROFIT | ₹275.88 | 0.5518% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-09-27 05:29:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.4149 | -0.4166% | Configured stop level was hit. |
 | 2026-09-26 14:14:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.7381 | -0.7357% | Configured stop level was hit. |
 | 2026-09-25 16:44:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.4789 | -0.4751% | Configured stop level was hit. |
@@ -38,6 +39,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### SMC BTCUSDT 4h — BTCUSDT — PROFIT
+
+- Trade ID: `SMC_BTCUSDT-1-1790481599999`
+- Branch: `smc-btcusdt-4h-paper`
+- Entry: **2026-09-26 09:29:59 IST** at **8041524.2419**
+- Entry signal: **CONFIRMED_PIVOT_LOW_BUY**
+- Why taken: A confirmed major pivot low generated the BUY side of the SMC major-swing strategy. Position size follows the configured restore/50%/12.5% ladder rules.
+- Stop: **Not used — this strategy reduces/exits on confirmed opposite major swings.**
+- Target: **Not fixed — SELL decisions come from confirmed pivot-high signals.**
+- Exit: **2026-09-27 09:29:59 IST** at **8085894.9391**
+- Exit signal: **CONFIRMED_PIVOT_HIGH_SELL**
+- Why closed/reduced: A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY.
+- Quantity: **0.006217726701513583**
+- Gross P&L: **-**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹275.88**
+- Profit/Loss percentage: **0.5518%**
+- Holding period: **1d 0h 0m**
+- Notes: SMC uses scale-in/scale-out sizing. This row is a realized SELL slice; exit ladder step=0, fraction=%. A position can remain partly open after this journal row.
 
 ### BTCUSDT 15m — BTCUSDT — LOSS
 
