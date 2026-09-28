@@ -1,16 +1,16 @@
 # NIFTY 15m Order-Block Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹99,091.98**
+- Current equity: **₹97,780.77**
 - Cash: **₹0.00**
-- Total P&L: **₹-908.02 (-0.91%)**
+- Total P&L: **₹-2,219.23 (-2.22%)**
 - Realized P&L: **₹-987.03**
-- Unrealized P&L: **₹79.00**
+- Unrealized P&L: **₹-1,232.20**
 - Closed trades: **1** | Wins: **0** | Losses: **1** | Win rate: **0.00%**
-- Max drawdown: **1.17%**
-- Latest source close: **23,140.500000 INR**
+- Max drawdown: **2.40%**
+- Latest source close: **22,834.300781 INR**
 - Quote currency: **INR**
-- Last processed candle: `2026-09-25T09:59:59.999000+00:00`
+- Last processed candle: `2026-09-28T06:44:59.999000+00:00`
 
 ## Position
 
