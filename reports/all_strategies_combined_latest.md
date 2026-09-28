@@ -1,15 +1,15 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-28T11:45:47.337565+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-28T11:46:29.482980+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
 ## Master summary
 
-- INR accounts: **11**
-- INR starting capital: **₹1,328,977.00**
-- INR current equity: **₹1,320,277.14**
-- INR total P&L: **₹-8,699.86 (-0.65%)**
+- INR accounts: **10**
+- INR starting capital: **₹1,000,000.00**
+- INR current equity: **₹991,917.50**
+- INR total P&L: **₹-8,082.50 (-0.81%)**
 - Existing BTC account: **$98.8085 equity; $-1.1915 P&L (-1.19%)**
 
 USD and INR are intentionally kept separate.
@@ -19,13 +19,12 @@ USD and INR are intentionally kept separate.
 | Strategy | Currency | Status | Equity | P&L | Return | Latest |
 |---|---|---|---:|---:|---:|---|
 | OB NIFTY 15m | INR | LONG | ₹97,780.77 | ₹-2,219.23 | -2.22% | BUY |
-| OB BANKNIFTY 15m | INR | LONG | ₹96,652.88 | ₹-3,347.12 | -3.35% | BUY |
+| OB BANKNIFTY 15m | INR | LONG | ₹96,370.51 | ₹-3,629.49 | -3.63% | BUY |
 | OB BTCUSDT 15m | INR | LONG | ₹102,743.87 | ₹2,743.87 | 2.74% | BUY |
 | OB XAUUSDT 15m | INR | FLAT | ₹96,778.23 | ₹-3,221.77 | -3.22% | SELL |
 | Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
-| Rahul-606569 Friday 3:15 | INR | 11 open | ₹328,077.28 | ₹-899.72 | -0.27% | ENTRY NAGAFERT |
 | SMC NIFTY 15m | INR | LONG | ₹99,226.90 | ₹-773.10 | -0.77% | BUY RESTORE_LAST_SELL_QTY exact qty |
 | SMC BANKNIFTY 15m | INR | LONG | ₹98,674.58 | ₹-1,325.42 | -1.33% | SELL RESTORE_LAST_BUY_QTY exact qty |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,275.88 | ₹275.88 | 0.28% | SELL RESTORE_LAST_BUY_QTY exact qty |
@@ -68,12 +67,12 @@ USD and INR are intentionally kept separate.
 - Branch: ob-banknifty-15m-paper
 - Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹96,652.88**
-- P&L: **₹-3,347.12 (-3.35%)**
+- Equity: **₹96,370.51**
+- P&L: **₹-3,629.49 (-3.63%)**
 - Cash: **₹0.00**
-- Realized / unrealized: **₹0.00 / ₹-3,347.12**
+- Realized / unrealized: **₹0.00 / ₹-3,629.49**
 - Closed trades: **0**
-- Last candle: **2026-09-28T04:59:59.999000+00:00**
+- Last candle: **2026-09-28T09:59:59.999000+00:00**
 
 ### Latest activity
 
@@ -282,42 +281,6 @@ USD and INR are intentionally kept separate.
 
 ---
 
-## Rahul-606569 Friday 3:15
-
-- Branch: vertex-rahul-606569-friday-paper
-- Starting: **₹328,977.00**
-- Equity: **₹328,077.28**
-- P&L: **₹-899.72 (-0.27%)**
-- Cash: **₹0.00**
-- Realized / unrealized: **₹0.00 / ₹-899.72**
-- Open positions: **11**
-- Last run: **2026-09-25**
-
-### Latest activity
-
-- Scanner signal: **NAGAFERT — Nagarjuna Fertilizers And Chemicals Limited**
-- Executed order: **ENTRY BUY NAGAFERT**
-
-### Open positions
-
-| Symbol | Qty | Entry | Avg | Capital |
-|---|---:|---:|---:|---:|
-| ACL | 702 | 42.63 | 42.63 | ₹29,961.80 |
-| AGIIL | 113 | 264.55 | 264.55 | ₹29,929.64 |
-| ASALCBR | 46 | 644.95 | 644.95 | ₹29,702.93 |
-| AVANTIFEED | 39 | 753.15 | 753.15 | ₹29,407.73 |
-| DIL | 46099 | 0.65 | 0.65 | ₹29,999.92 |
-| FCONSUMER | 136201 | 0.22 | 0.22 | ₹29,999.79 |
-| HDIL | 20665 | 1.45 | 1.45 | ₹29,999.82 |
-| NAGAFERT | 16929 | 1.77 | 1.77 | ₹29,999.90 |
-| RAJVIR | 5751 | 5.21 | 5.21 | ₹29,998.28 |
-| RTNPOWER | 4280 | 7.00 | 7.00 | ₹29,995.57 |
-| SUPREME | 954 | 31.39 | 31.39 | ₹29,981.62 |
-
-[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-rahul-606569-friday-paper/reports/latest.md)
-
----
-
 # Other Strategy
 
 ## BTCUSDT 15m Existing Strategy
@@ -330,7 +293,7 @@ USD and INR are intentionally kept separate.
 - Balance: **$98.8085**
 - Realized / unrealized: **$-1.1915 / $0.0000**
 - Closed trades: **11**
-- Last candle: **2026-09-28T04:59:59.999000+00:00**
+- Last candle: **2026-09-28T11:44:59.999000+00:00**
 
 ### Latest activity
 
