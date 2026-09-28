@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **25**
-- Profits / losses: **9 / 16**
-- Net INR P&L: **₹1,520.34**
+- Closed trade records: **26**
+- Profits / losses: **9 / 17**
+- Net INR P&L: **₹56.27**
 - Net USD P&L: **$-1.1915**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-28 06:44:59 IST | OB XAUUSDT 15m | XAUUSDT | LONG | LOSS | ₹-1,464.07 | -1.4903% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8778511259540704%. |
 | 2026-09-27 13:29:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.3660 | -0.3690% | Configured stop level was hit. |
 | 2026-09-27 09:29:59 IST | SMC BTCUSDT 4h | BTCUSDT | LONG | PROFIT | ₹275.88 | 0.5518% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-09-27 05:29:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.4149 | -0.4166% | Configured stop level was hit. |
@@ -40,6 +41,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### OB XAUUSDT 15m — XAUUSDT — LOSS
+
+- Trade ID: `OB_XAUUSDT-4-1790325899999`
+- Branch: `ob-xauusdt-15m-paper`
+- Entry: **2026-09-25 14:14:59 IST** at **414628.5938**
+- Entry signal: **BULLISH_OB**
+- Why taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=0.42234692728276846%.
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit: **2026-09-28 06:44:59 IST** at **408449.5326**
+- Exit signal: **BEARISH_OB**
+- Why closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8778511259540704%.
+- Quantity: **0.2369404839955224**
+- Gross P&L: **₹-1,464.07**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹-1,464.07**
+- Profit/Loss percentage: **-1.4903%**
+- Holding period: **2d 16h 30m**
+- Notes: Entry OB candle=2026-09-25 12:45:00 IST; exit OB candle=2026-09-28 05:15:00 IST; use_wicks=False; threshold=0%.
 
 ### BTCUSDT 15m — BTCUSDT — LOSS
 
