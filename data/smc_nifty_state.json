@@ -6,7 +6,7 @@
   "last_executed_notional_inr": 25043.90024769684,
   "last_executed_qty": 1.0963417838362193,
   "last_executed_side": "BUY",
-  "last_processed_close_time": 1790584199999,
+  "last_processed_close_time": 1790589599999,
   "last_sequence_direction": "BUY",
   "last_signal": {
     "confirmed_close_time": 1790584199999,
@@ -17,7 +17,7 @@
     "signal": "BUY"
   },
   "losses": 1,
-  "max_drawdown_pct": 0.9600860778813712,
+  "max_drawdown_pct": 1.163075196072307,
   "position": {
     "avg_entry_price_inr": 23011.60844810894,
     "cost_basis_inr": 74402.15956464953,
