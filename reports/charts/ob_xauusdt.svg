@@ -3,9 +3,9 @@
 <text x="64" y="22" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#111827">OB XAUUSDT 15m — recent snapshots</text>
 <line x1="64" y1="208" x2="796" y2="208" stroke="#d1d5db"/>
 <line x1="64" y1="34" x2="64" y2="208" stroke="#d1d5db"/>
-<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,34.0 86.9,43.9 109.8,39.8 132.6,60.0 155.5,81.1 178.4,65.8 201.2,62.5 224.1,61.1 247.0,88.9 269.9,80.6 292.8,79.3 315.6,61.6 338.5,61.8 361.4,71.6 384.2,81.7 407.1,93.1 430.0,119.1 452.9,115.2 475.8,111.3 498.6,102.7 521.5,113.2 544.4,124.6 567.2,124.1 590.1,122.9 613.0,117.4 635.9,102.9 658.8,119.4 681.6,101.6 704.5,113.0 727.4,113.1 750.2,132.1 773.1,177.0 796.0,208.0"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,34.0 86.2,43.2 108.4,39.3 130.5,58.0 152.7,77.6 174.9,63.4 197.1,60.3 219.3,59.0 241.5,84.7 263.6,77.1 285.8,75.9 308.0,59.5 330.2,59.7 352.4,68.7 374.5,78.1 396.7,88.6 418.9,112.7 441.1,109.1 463.3,105.5 485.5,97.5 507.6,107.2 529.8,117.8 552.0,117.4 574.2,116.3 596.4,111.1 618.5,97.7 640.7,113.0 662.9,96.5 685.1,107.1 707.3,107.2 729.5,124.7 751.6,166.3 773.8,194.9 796.0,208.0"/>
 <text x="8" y="42" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">424,184.17</text>
-<text x="8" y="208" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">401,599.55</text>
+<text x="8" y="208" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">399,765.92</text>
 <text x="64" y="236" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-18T20:59</text>
-<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-28T11:44</text>
+<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-28T18:44</text>
 </svg>
