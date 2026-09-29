@@ -4,18 +4,45 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **1**
-- Profits / losses: **0 / 1**
-- Net realized P&L in journal: **₹-987.03**
-- Average return per closed trade: **-0.9870%**
+- Closed trade records: **2**
+- Profits / losses: **0 / 2**
+- Net realized P&L in journal: **₹-3,204.35**
+- Average return per closed trade: **-1.6132%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-09-24 12:44:59 IST | NIFTY | LONG | LOSS | ₹-987.03 | -0.9870% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.21702743149359446%. |
+| 1 | 2026-09-29 09:59:59 IST | NIFTY | LONG | LOSS | ₹-2,217.32 | -2.2394% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8489888261905745%. |
+| 2 | 2026-09-24 12:44:59 IST | NIFTY | LONG | LOSS | ₹-987.03 | -0.9870% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.21702743149359446%. |
 
 ## Full trade details
+
+### Trade 2 — LOSS — NIFTY
+
+- Trade ID: `OB_NIFTY-2-1790327699999`
+- Strategy: **NIFTY Order Block**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-09-25 14:44:59 IST**
+- Entry signal: **BULLISH_OB**
+- Why entry was taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=0.3541665430446286%.
+- Entry price: **₹23,122.0508**
+- Quantity: **4.282188263711276**
+- Entry value/cost: **₹99,012.97**
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit time: **2026-09-29 09:59:59 IST**
+- Exit signal: **BEARISH_OB**
+- Why position was closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8489888261905745%.
+- Exit price: **₹22,604.2500**
+- Exit value/proceeds: **₹96,795.65**
+- Gross P&L: **₹-2,217.32**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹-2,217.32**
+- Profit/Loss percentage: **-2.2394%**
+- Holding period: **3d 19h 15m**
+- Notes: Entry OB candle=2026-09-25 13:15:00 IST; exit OB candle=2026-09-28 14:45:00 IST; use_wicks=False; threshold=0.0%.
 
 ### Trade 1 — LOSS — NIFTY
 
