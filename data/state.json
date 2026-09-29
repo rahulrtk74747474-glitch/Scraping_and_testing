@@ -1,10 +1,25 @@
 {
-  "cash": 100000.0,
+  "cash": 90943.85,
   "equity_peak": 100000.0,
-  "last_run_date": "2026-09-25",
-  "max_capital_deployed": 0.0,
-  "max_drawdown_pct": 0.0,
-  "positions": {},
+  "last_run_date": "2026-09-29",
+  "max_capital_deployed": 9056.15,
+  "max_drawdown_pct": 0.0355,
+  "positions": {
+    "ICICIBANK": {
+      "average_add_count": 0,
+      "average_added_notional": 0.0,
+      "entry_date": "2026-09-29",
+      "entry_price": 1292.2,
+      "initial_invested_notional": 9045.4,
+      "name": "Icici Bank Limited",
+      "qty": 7,
+      "symbol": "ICICIBANK",
+      "total_buy_charges": 10.75,
+      "total_buy_cost": 9056.15,
+      "total_buy_turnover": 9045.4,
+      "weighted_avg_price": 1292.2
+    }
+  },
   "realized_pnl": 0.0,
   "starting_capital": 100000.0,
   "version": 1
