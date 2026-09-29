@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **28**
-- Profits / losses: **9 / 19**
-- Net INR P&L: **₹-662.47**
+- Closed trade records: **29**
+- Profits / losses: **9 / 20**
+- Net INR P&L: **₹-2,879.79**
 - Net USD P&L: **$-1.1915**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-09-29 09:59:59 IST | OB NIFTY 15m | NIFTY | LONG | LOSS | ₹-2,217.32 | -2.2394% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8489888261905745%. |
 | 2026-09-28 10:29:59 IST | SMC NIFTY 15m | NIFTY | LONG | LOSS | ₹-279.94 | -1.1054% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-09-28 10:29:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-438.80 | -1.7256% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-09-28 06:44:59 IST | OB XAUUSDT 15m | XAUUSDT | LONG | LOSS | ₹-1,464.07 | -1.4903% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8778511259540704%. |
@@ -43,6 +44,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### OB NIFTY 15m — NIFTY — LOSS
+
+- Trade ID: `OB_NIFTY-2-1790327699999`
+- Branch: `ob-nifty-15m-paper`
+- Entry: **2026-09-25 14:44:59 IST** at **23122.0508**
+- Entry signal: **BULLISH_OB**
+- Why taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=0.3541665430446286%.
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit: **2026-09-29 09:59:59 IST** at **22604.2500**
+- Exit signal: **BEARISH_OB**
+- Why closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8489888261905745%.
+- Quantity: **4.282188263711276**
+- Gross P&L: **₹-2,217.32**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹-2,217.32**
+- Profit/Loss percentage: **-2.2394%**
+- Holding period: **3d 19h 15m**
+- Notes: Entry OB candle=2026-09-25 13:15:00 IST; exit OB candle=2026-09-28 14:45:00 IST; use_wicks=False; threshold=0.0%.
 
 ### SMC NIFTY 15m — NIFTY — LOSS
 
