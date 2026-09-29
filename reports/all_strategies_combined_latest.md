@@ -1,15 +1,15 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-29T15:57:16.193480+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-29T16:08:06.405775+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
 ## Master summary
 
-- INR accounts: **11**
-- INR starting capital: **₹1,328,977.00**
-- INR current equity: **₹1,318,374.38**
-- INR total P&L: **₹-10,602.62 (-0.80%)**
+- INR accounts: **10**
+- INR starting capital: **₹1,000,000.00**
+- INR current equity: **₹990,261.62**
+- INR total P&L: **₹-9,738.38 (-0.97%)**
 - Existing BTC account: **$98.8085 equity; $-1.1915 P&L (-1.19%)**
 
 USD and INR are intentionally kept separate.
@@ -22,10 +22,9 @@ USD and INR are intentionally kept separate.
 | OB BANKNIFTY 15m | INR | LONG | ₹96,098.50 | ₹-3,901.50 | -3.90% | BUY |
 | OB BTCUSDT 15m | INR | LONG | ₹102,929.34 | ₹2,929.34 | 2.93% | BUY |
 | OB XAUUSDT 15m | INR | LONG | ₹97,012.39 | ₹-2,987.61 | -2.99% | BUY |
-| Vertex 3:15 | INR | 0 open | ₹100,000.00 | ₹0.00 | 0.00% | - |
+| Vertex 3:15 | INR | 1 open | ₹99,964.52 | ₹-35.48 | -0.04% | ENTRY ICICIBANK |
 | Vertex 500 3:15 | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
 | Vertex 500 Daily | INR | 0 open | ₹100,033.37 | ₹33.37 | 0.03% | EXIT PFIZER |
-| Rahul-606569 Friday 3:15 | INR | 11 open | ₹328,077.28 | ₹-899.72 | -0.27% | ENTRY NAGAFERT |
 | SMC NIFTY 15m | INR | LONG | ₹98,778.06 | ₹-1,221.94 | -1.22% | SELL RESTORE_LAST_BUY_QTY exact qty |
 | SMC BANKNIFTY 15m | INR | LONG | ₹98,258.66 | ₹-1,741.34 | -1.74% | SELL RESTORE_LAST_BUY_QTY exact qty |
 | SMC BTCUSDT 4h | INR | FLAT | ₹100,275.88 | ₹275.88 | 0.28% | SELL RESTORE_LAST_BUY_QTY exact qty |
@@ -231,17 +230,23 @@ USD and INR are intentionally kept separate.
 
 - Branch: vertex-315-paper
 - Starting: **₹100,000.00**
-- Equity: **₹100,000.00**
-- P&L: **₹0.00 (0.00%)**
-- Cash: **₹100,000.00**
-- Realized / unrealized: **₹0.00 / ₹0.00**
-- Open positions: **0**
-- Last run: **2026-09-28**
+- Equity: **₹99,964.52**
+- P&L: **₹-35.48 (-0.04%)**
+- Cash: **₹90,943.85**
+- Realized / unrealized: **₹0.00 / ₹-35.48**
+- Open positions: **1**
+- Last run: **2026-09-29**
 
 ### Latest activity
 
-- Scanner signal: **None**
-- Executed order: **None**
+- Scanner signal: **ICICIBANK — Icici Bank Limited**
+- Executed order: **ENTRY BUY ICICIBANK**
+
+### Open positions
+
+| Symbol | Qty | Entry | Avg | Capital |
+|---|---:|---:|---:|---:|
+| ICICIBANK | 7 | 1292.20 | 1292.20 | ₹9,056.15 |
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-315-paper/reports/latest.md)
 
@@ -284,42 +289,6 @@ USD and INR are intentionally kept separate.
 - Executed order: **EXIT SELL PFIZER**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-500-paper/reports/latest.md)
-
----
-
-## Rahul-606569 Friday 3:15
-
-- Branch: vertex-rahul-606569-friday-paper
-- Starting: **₹328,977.00**
-- Equity: **₹328,077.28**
-- P&L: **₹-899.72 (-0.27%)**
-- Cash: **₹0.00**
-- Realized / unrealized: **₹0.00 / ₹-899.72**
-- Open positions: **11**
-- Last run: **2026-09-25**
-
-### Latest activity
-
-- Scanner signal: **NAGAFERT — Nagarjuna Fertilizers And Chemicals Limited**
-- Executed order: **ENTRY BUY NAGAFERT**
-
-### Open positions
-
-| Symbol | Qty | Entry | Avg | Capital |
-|---|---:|---:|---:|---:|
-| ACL | 702 | 42.63 | 42.63 | ₹29,961.80 |
-| AGIIL | 113 | 264.55 | 264.55 | ₹29,929.64 |
-| ASALCBR | 46 | 644.95 | 644.95 | ₹29,702.93 |
-| AVANTIFEED | 39 | 753.15 | 753.15 | ₹29,407.73 |
-| DIL | 46099 | 0.65 | 0.65 | ₹29,999.92 |
-| FCONSUMER | 136201 | 0.22 | 0.22 | ₹29,999.79 |
-| HDIL | 20665 | 1.45 | 1.45 | ₹29,999.82 |
-| NAGAFERT | 16929 | 1.77 | 1.77 | ₹29,999.90 |
-| RAJVIR | 5751 | 5.21 | 5.21 | ₹29,998.28 |
-| RTNPOWER | 4280 | 7.00 | 7.00 | ₹29,995.57 |
-| SUPREME | 954 | 31.39 | 31.39 | ₹29,981.62 |
-
-[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-rahul-606569-friday-paper/reports/latest.md)
 
 ---
 
