@@ -1,6 +1,6 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-09-29T02:47:52.474561+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-09-29T02:48:05.356128+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
