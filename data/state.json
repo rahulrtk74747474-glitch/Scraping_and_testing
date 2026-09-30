@@ -1,40 +1,26 @@
 {
-  "cash": 80999.1,
-  "equity_peak": 100033.37,
-  "last_run_date": "2026-09-29",
+  "cash": 91592.19,
+  "equity_peak": 100252.24,
+  "last_run_date": "2026-09-30",
   "max_capital_deployed": 19034.27,
   "max_drawdown_pct": 0.073,
   "positions": {
-    "ICICIBANK": {
+    "GRAVITA": {
       "average_add_count": 0,
       "average_added_notional": 0.0,
-      "entry_date": "2026-09-29",
-      "entry_price": 1292.2,
-      "initial_invested_notional": 9045.4,
-      "name": "Icici Bank Limited",
-      "qty": 7,
-      "symbol": "ICICIBANK",
-      "total_buy_charges": 10.75,
-      "total_buy_cost": 9056.15,
-      "total_buy_turnover": 9045.4,
-      "weighted_avg_price": 1292.2
-    },
-    "SBFC": {
-      "average_add_count": 0,
-      "average_added_notional": 0.0,
-      "entry_date": "2026-09-29",
-      "entry_price": 84.46,
-      "initial_invested_notional": 9966.28,
-      "name": "SBFC Finance Ltd",
-      "qty": 118,
-      "symbol": "SBFC",
-      "total_buy_charges": 11.84,
-      "total_buy_cost": 9978.12,
-      "total_buy_turnover": 9966.28,
-      "weighted_avg_price": 84.46
+      "entry_date": "2026-09-30",
+      "entry_price": 1447.4,
+      "initial_invested_notional": 8684.4,
+      "name": "Gravita India Limited",
+      "qty": 6,
+      "symbol": "GRAVITA",
+      "total_buy_charges": 10.31,
+      "total_buy_cost": 8694.71,
+      "total_buy_turnover": 8684.4,
+      "weighted_avg_price": 1447.4
     }
   },
-  "realized_pnl": 33.37,
+  "realized_pnl": 286.9,
   "starting_capital": 100000.0,
   "version": 1
 }
