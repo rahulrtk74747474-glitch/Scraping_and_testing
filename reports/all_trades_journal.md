@@ -4,9 +4,9 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **36**
-- Profits / losses: **11 / 25**
-- Net INR P&L: **₹-3,945.40**
+- Closed trade records: **37**
+- Profits / losses: **12 / 25**
+- Net INR P&L: **₹-3,774.58**
 - Net USD P&L: **$-0.7990**
 
 ## All closed trades
@@ -17,6 +17,7 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-30 15:29:59 IST | SMC NIFTY 15m | NIFTY | LONG | LOSS | ₹-568.24 | -1.5301% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
 | 2026-09-30 08:59:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | LOSS | ₹-749.78 | -0.7219% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.19718273756285076%. |
 | 2026-09-30 06:44:59 IST | OB XAUUSDT 15m | XAUUSDT | LONG | PROFIT | ₹604.99 | 0.6251% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.301169313685053%. |
+| 2026-09-30 | Vertex 3:15 | ICICIBANK | LONG | PROFIT | ₹170.82 | 1.8862% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
 | 2026-09-29 20:44:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | PROFIT | $0.9357 | 0.9470% | Configured profit target was hit. |
 | 2026-09-29 14:44:59 IST | SMC NIFTY 15m | NIFTY | LONG | LOSS | ₹-166.60 | -1.3003% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-09-29 14:44:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-185.98 | -1.4406% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
@@ -131,6 +132,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 - Profit/Loss percentage: **0.6251%**
 - Holding period: **0d 19h 0m**
 - Notes: Entry OB candle=2026-09-29 10:15:00 IST; exit OB candle=2026-09-30 05:15:00 IST; use_wicks=False; threshold=0%.
+
+### Vertex 3:15 — ICICIBANK — PROFIT
+
+- Trade ID: `VERTEX-ICICIBANK-2026-09-29-2026-09-30`
+- Branch: `vertex-315-paper`
+- Entry: **2026-09-29** at **1292.2000**
+- Entry signal: **VERTEX_CHARTINK_SIGNAL**
+- Why taken: Stock appeared in the configured Chartink/Vertex screener on the entry date. Scanner name: Icici Bank Limited. Scanner change: -0.75%.
+- Stop: **Not used — no fixed stop is configured.**
+- Target: **Rule-based target: first later daily close above original entry price.**
+- Exit: **2026-09-30** at **1321.7000**
+- Exit signal: **DAILY_CLOSE_ABOVE_ORIGINAL_ENTRY**
+- Why closed/reduced: A later completed daily close was above the original entry price, which is the configured Vertex exit rule.
+- Quantity: **7**
+- Gross P&L: **₹206.50**
+- Fees/charges: **₹35.68**
+- Net P&L: **₹170.82**
+- Profit/Loss percentage: **1.8862%**
+- Holding period: **1 day(s)**
+- Notes: Average-add count: 0; average-added notional: ₹0.00; maximum capital in trade: ₹9,056.15.
 
 ### BTCUSDT 15m — BTCUSDT — PROFIT
 
