@@ -1,0 +1,2 @@
+symbol,entry_date,exit_date,entry_price,exit_price,qty,buy_turnover,sell_turnover,buy_charges,sell_charges,total_charges,gross_pnl,net_pnl,return_pct,days_held,average_add_count,average_added_notional,max_capital_in_trade
+ICICIBANK,2026-09-29,2026-09-30,1292.2,1321.7,7,9045.4,9251.9,10.75,24.93,35.68,206.5,170.82,1.8862,1,0,0.0,9056.15
