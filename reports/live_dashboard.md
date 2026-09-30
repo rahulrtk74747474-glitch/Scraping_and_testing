@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-09-30T16:58:43.165978+00:00._
+_Auto-generated from the latest committed strategy state at 2026-09-30T16:58:57.826881+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -123,7 +123,7 @@ _Position price chart appears automatically after at least two stored position s
 | OB NIFTY 15m | LONG | ₹96,469.19 | ₹-3,530.81 | BUY BULLISH_OB | 2026-09-30T09:59:59.999000+00:00 |
 | OB BANKNIFTY 15m | LONG | ₹96,656.06 | ₹-3,343.94 | BUY BULLISH_OB | 2026-09-30T09:59:59.999000+00:00 |
 | OB BTCUSDT 15m | LONG | ₹103,896.67 | ₹3,896.67 | BUY BULLISH_OB | 2026-09-30T16:44:59.999000+00:00 |
-| OB XAUUSDT 15m | FLAT | ₹97,383.22 | ₹-2,616.78 | SELL BEARISH_OB | 2026-09-30T11:14:59.999000+00:00 |
+| OB XAUUSDT 15m | FLAT | ₹97,383.22 | ₹-2,616.78 | SELL BEARISH_OB | 2026-09-30T16:44:59.999000+00:00 |
 | SMC NIFTY 15m | LONG | ₹98,468.47 | ₹-1,531.53 | SELL SELL | 2026-09-30T09:59:59.999000+00:00 |
 | SMC BANKNIFTY 15m | LONG | ₹98,759.37 | ₹-1,240.63 | SELL SELL | 2026-09-30T09:59:59.999000+00:00 |
 | SMC BTCUSDT 4h | LONG | ₹100,639.46 | ₹639.46 | BUY BUY | 2026-09-30T11:59:59.999000+00:00 |
