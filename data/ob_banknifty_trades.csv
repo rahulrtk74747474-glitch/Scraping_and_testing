@@ -1,0 +1,2 @@
+entry_time,exit_time,entry_price_quote,exit_price_quote,entry_price_inr,exit_price_inr,qty,entry_total_inr,exit_proceeds_inr,net_pnl_inr,return_pct,entry_ob_open_time,exit_ob_open_time
+1790139599999,1790839799999,56523.1484375,54303.30078125,56523.1484375,54303.30078125,1.7691866565178012,100000.0,96072.67514706019,-3927.3248529398115,-3.9273248529398113,1790070300000,1790834400000
