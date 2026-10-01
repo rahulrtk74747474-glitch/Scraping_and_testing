@@ -1,17 +1,17 @@
 # Vertex 500 Paper Trader — Latest Report
 
-**As of:** 2026-09-30
+**As of:** 2026-10-01
 
 ## Portfolio
 
-- Equity (estimated liquidation value): **₹100,252.24**
-- Cash: **₹91,592.19**
-- Total profit/loss: **₹252.24 (0.25%)**
+- Equity (estimated liquidation value): **₹99,937.97**
+- Cash: **₹64,747.53**
+- Total profit/loss: **₹-62.03 (-0.06%)**
 - Realized P&L: **₹286.90**
-- Unrealized P&L estimate: **₹-34.66**
-- Open positions: **1**
-- Max drawdown observed: **0.07%**
-- Max capital deployed: **₹19,034.27**
+- Unrealized P&L estimate: **₹-348.93**
+- Open positions: **4**
+- Max drawdown observed: **0.31%**
+- Max capital deployed: **₹35,539.37**
 
 ## Closed-trade statistics
 
@@ -27,9 +27,12 @@
 
 ## Open positions
 
-| symbol   | entry_date   |   entry_price |   weighted_avg_price |   qty |   latest_close |   capital_in_trade |   average_add_count |   average_added_notional |   unrealized_net_pnl_est |   return_pct_est |
-|:---------|:-------------|--------------:|---------------------:|------:|---------------:|-------------------:|--------------------:|-------------------------:|-------------------------:|-----------------:|
-| GRAVITA  | 2026-09-30   |        1447.4 |               1447.4 |     6 |         1447.4 |            8694.71 |                   0 |                        0 |                   -34.66 |          -0.3986 |
+| symbol    | entry_date   |   entry_price |   weighted_avg_price |   qty |   latest_close |   capital_in_trade |   average_add_count |   average_added_notional |   unrealized_net_pnl_est |   return_pct_est |
+|:----------|:-------------|--------------:|---------------------:|------:|---------------:|-------------------:|--------------------:|-------------------------:|-------------------------:|-----------------:|
+| GRAVITA   | 2026-09-30   |       1447.4  |              1447.4  |     6 |        1412.6  |            8694.71 |                   0 |                        0 |                  -243.25 |          -2.7977 |
+| SJVN      | 2026-10-01   |         57.91 |                57.91 |   172 |          57.91 |            9972.35 |                   0 |                        0 |                   -37.51 |          -0.3761 |
+| CROMPTON  | 2026-10-01   |        202.7  |               202.7  |    49 |         202.7  |            9944.09 |                   0 |                        0 |                   -37.43 |          -0.3764 |
+| EICHERMOT | 2026-10-01   |       6920    |              6920    |     1 |        6920    |            6928.22 |                   0 |                        0 |                   -30.74 |          -0.4437 |
 
 ## Notes
 
