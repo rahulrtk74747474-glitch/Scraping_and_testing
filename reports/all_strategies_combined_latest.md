@@ -1,15 +1,15 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-10-01T16:37:08.940950+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-10-01T16:39:47.767995+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
 ## Master summary
 
-- INR accounts: **11**
-- INR starting capital: **₹1,328,977.00**
-- INR current equity: **₹1,317,338.01**
-- INR total P&L: **₹-11,638.99 (-0.88%)**
+- INR accounts: **10**
+- INR starting capital: **₹1,000,000.00**
+- INR current equity: **₹989,160.41**
+- INR total P&L: **₹-10,839.59 (-1.08%)**
 - Existing BTC account: **$99.6304 equity; $-0.3696 P&L (-0.37%)**
 
 USD and INR are intentionally kept separate.
@@ -18,14 +18,13 @@ USD and INR are intentionally kept separate.
 
 | Strategy | Currency | Status | Equity | P&L | Return | Latest |
 |---|---|---|---:|---:|---:|---|
-| OB NIFTY 15m | INR | FLAT | ₹95,212.81 | ₹-4,787.19 | -4.79% | SELL |
+| OB NIFTY 15m | INR | LONG | ₹95,112.49 | ₹-4,887.51 | -4.89% | BUY |
 | OB BANKNIFTY 15m | INR | LONG | ₹95,871.34 | ₹-4,128.66 | -4.13% | BUY |
 | OB BTCUSDT 15m | INR | FLAT | ₹102,842.77 | ₹2,842.77 | 2.84% | SELL |
 | OB XAUUSDT 15m | INR | FLAT | ₹97,383.22 | ₹-2,616.78 | -2.62% | SELL |
 | Vertex 3:15 | INR | 0 open | ₹100,170.82 | ₹170.82 | 0.17% | EXIT ICICIBANK |
 | Vertex 500 3:15 | INR | 1 open | ₹100,252.24 | ₹252.24 | 0.25% | ENTRY GRAVITA |
 | Vertex 500 Daily | INR | 1 open | ₹100,252.24 | ₹252.24 | 0.25% | ENTRY GRAVITA |
-| Rahul-606569 Friday 3:15 | INR | 11 open | ₹328,077.28 | ₹-899.72 | -0.27% | ENTRY NAGAFERT |
 | SMC NIFTY 15m | INR | LONG | ₹97,911.71 | ₹-2,088.29 | -2.09% | BUY RESTORE_LAST_SELL_QTY exact qty |
 | SMC BANKNIFTY 15m | INR | LONG | ₹98,476.71 | ₹-1,523.29 | -1.52% | SELL RESTORE_LAST_BUY_QTY exact qty |
 | SMC BTCUSDT 4h | INR | LONG | ₹100,886.88 | ₹886.88 | 0.89% | BUY RESTORE_LAST_SELL_QTY exact qty |
@@ -38,21 +37,26 @@ USD and INR are intentionally kept separate.
 ## OB NIFTY 15m
 
 - Branch: ob-nifty-15m-paper
-- Status: **FLAT**
+- Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹95,212.81**
-- P&L: **₹-4,787.19 (-4.79%)**
-- Cash: **₹95,212.81**
-- Realized / unrealized: **₹-4,787.19 / ₹0.00**
+- Equity: **₹95,112.49**
+- P&L: **₹-4,887.51 (-4.89%)**
+- Cash: **₹0.00**
+- Realized / unrealized: **₹-4,787.19 / ₹-100.32**
 - Closed trades: **3**
-- Last candle: **2026-10-01T09:14:59.999000+00:00**
+- Last candle: **2026-10-01T09:59:59.999000+00:00**
 
 ### Latest activity
 
-- Signal: **BEARISH_OB**
-- Executed order: **SELL BEARISH_OB**
+- Signal: **BULLISH_OB**
+- Executed order: **BUY BULLISH_OB**
 - Executed value: **₹95,212.81**
 - Latest closed trade: **₹-1,582.84 (-1.64%)**
+
+### Open position
+
+- Entry INR: **₹22,445.60**
+- Quantity: **4.2419367092**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/ob-nifty-15m-paper/reports/ob_nifty_latest.md)
 
@@ -286,42 +290,6 @@ USD and INR are intentionally kept separate.
 | GRAVITA | 6 | 1447.40 | 1447.40 | ₹8,694.71 |
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-500-paper/reports/latest.md)
-
----
-
-## Rahul-606569 Friday 3:15
-
-- Branch: vertex-rahul-606569-friday-paper
-- Starting: **₹328,977.00**
-- Equity: **₹328,077.28**
-- P&L: **₹-899.72 (-0.27%)**
-- Cash: **₹0.00**
-- Realized / unrealized: **₹0.00 / ₹-899.72**
-- Open positions: **11**
-- Last run: **2026-09-25**
-
-### Latest activity
-
-- Scanner signal: **NAGAFERT — Nagarjuna Fertilizers And Chemicals Limited**
-- Executed order: **ENTRY BUY NAGAFERT**
-
-### Open positions
-
-| Symbol | Qty | Entry | Avg | Capital |
-|---|---:|---:|---:|---:|
-| ACL | 702 | 42.63 | 42.63 | ₹29,961.80 |
-| AGIIL | 113 | 264.55 | 264.55 | ₹29,929.64 |
-| ASALCBR | 46 | 644.95 | 644.95 | ₹29,702.93 |
-| AVANTIFEED | 39 | 753.15 | 753.15 | ₹29,407.73 |
-| DIL | 46099 | 0.65 | 0.65 | ₹29,999.92 |
-| FCONSUMER | 136201 | 0.22 | 0.22 | ₹29,999.79 |
-| HDIL | 20665 | 1.45 | 1.45 | ₹29,999.82 |
-| NAGAFERT | 16929 | 1.77 | 1.77 | ₹29,999.90 |
-| RAJVIR | 5751 | 5.21 | 5.21 | ₹29,998.28 |
-| RTNPOWER | 4280 | 7.00 | 7.00 | ₹29,995.57 |
-| SUPREME | 954 | 31.39 | 31.39 | ₹29,981.62 |
-
-[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-rahul-606569-friday-paper/reports/latest.md)
 
 ---
 
