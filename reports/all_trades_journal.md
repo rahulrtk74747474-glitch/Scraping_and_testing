@@ -4,17 +4,19 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **47**
-- Profits / losses: **18 / 29**
-- Net INR P&L: **₹-9,119.54**
+- Closed trade records: **49**
+- Profits / losses: **19 / 30**
+- Net INR P&L: **₹-9,384.28**
 - Net USD P&L: **$-0.3696**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-10-01 18:59:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | LOSS | ₹-352.16 | -0.3413% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6151130532907193%. |
 | 2026-10-01 13:14:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-393.96 | -1.0666% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-10-01 12:59:59 IST | OB NIFTY 15m | NIFTY | LONG | LOSS | ₹-1,582.84 | -1.6352% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.088980101127616%. |
+| 2026-10-01 12:59:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | PROFIT | ₹87.42 | 0.0848% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.199061202348868%. |
 | 2026-10-01 12:59:59 IST | OB BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-3,927.32 | -3.9273% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.302167346725494%. |
 | 2026-10-01 10:29:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.4294 | 0.4328% | Configured profit target was hit. |
 | 2026-10-01 09:59:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-118.72 | -0.3211% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
@@ -63,6 +65,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Detailed journal
 
+### OB BTCUSDT 15m — BTCUSDT — LOSS
+
+- Trade ID: `OB_BTCUSDT-7-1790846999999`
+- Branch: `ob-btcusdt-15m-paper`
+- Entry: **2026-10-01 14:59:59 IST** at **8066687.8790**
+- Entry signal: **BULLISH_OB**
+- Why taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=0.4423995073924205%.
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit: **2026-10-01 18:59:59 IST** at **8039160.0577**
+- Exit signal: **BEARISH_OB**
+- Why closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6151130532907193%.
+- Quantity: **0.012792725624318243**
+- Gross P&L: **₹-352.16**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹-352.16**
+- Profit/Loss percentage: **-0.3413%**
+- Holding period: **0d 4h 0m**
+- Notes: Entry OB candle=2026-10-01 13:30:00 IST; exit OB candle=2026-10-01 17:30:00 IST; use_wicks=False; threshold=0%.
+
 ### SMC BANKNIFTY 15m — BANKNIFTY — LOSS
 
 - Trade ID: `SMC_BANKNIFTY-6-1790840699999`
@@ -102,6 +124,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 - Profit/Loss percentage: **-1.6352%**
 - Holding period: **2d 1h 30m**
 - Notes: Entry OB candle=2026-09-29 10:00:00 IST; exit OB candle=2026-10-01 11:30:00 IST; use_wicks=False; threshold=0.0%.
+
+### OB BTCUSDT 15m — BTCUSDT — PROFIT
+
+- Trade ID: `OB_BTCUSDT-6-1790763299999`
+- Branch: `ob-btcusdt-15m-paper`
+- Entry: **2026-09-30 15:44:59 IST** at **8021596.9232**
+- Entry signal: **BULLISH_OB**
+- Why taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=0.7754650990742928%.
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit: **2026-10-01 12:59:59 IST** at **8028397.9739**
+- Exit signal: **BEARISH_OB**
+- Why closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.199061202348868%.
+- Quantity: **0.012853738076784076**
+- Gross P&L: **₹87.42**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹87.42**
+- Profit/Loss percentage: **0.0848%**
+- Holding period: **0d 21h 15m**
+- Notes: Entry OB candle=2026-09-30 14:15:00 IST; exit OB candle=2026-10-01 11:30:00 IST; use_wicks=False; threshold=0%.
 
 ### OB BANKNIFTY 15m — BANKNIFTY — LOSS
 
