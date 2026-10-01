@@ -4,30 +4,57 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **13**
-- Profits / losses: **4 / 9**
-- Net realized P&L in journal: **$-0.7990**
-- Average return per closed trade: **-0.0594%**
+- Closed trade records: **14**
+- Profits / losses: **5 / 9**
+- Net realized P&L in journal: **$-0.3696**
+- Average return per closed trade: **-0.0242%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-09-30 16:29:59 IST | BTCUSDT | SHORT | LOSS | $-0.5433 | -0.5447% | Configured stop level was hit. |
-| 2 | 2026-09-29 20:44:59 IST | BTCUSDT | SHORT | PROFIT | $0.9357 | 0.9470% | Configured profit target was hit. |
-| 3 | 2026-09-27 13:29:59 IST | BTCUSDT | SHORT | LOSS | $-0.3660 | -0.3690% | Configured stop level was hit. |
-| 4 | 2026-09-27 05:29:59 IST | BTCUSDT | SHORT | LOSS | $-0.4149 | -0.4166% | Configured stop level was hit. |
-| 5 | 2026-09-26 14:14:59 IST | BTCUSDT | SHORT | LOSS | $-0.7381 | -0.7357% | Configured stop level was hit. |
-| 6 | 2026-09-25 16:44:59 IST | BTCUSDT | SHORT | LOSS | $-0.4789 | -0.4751% | Configured stop level was hit. |
-| 7 | 2026-09-24 15:14:59 IST | BTCUSDT | SHORT | PROFIT | $1.2972 | 1.3036% | Configured profit target was hit. |
-| 8 | 2026-09-23 09:14:59 IST | BTCUSDT | SHORT | LOSS | $-0.5954 | -0.5948% | Configured stop level was hit. |
-| 9 | 2026-09-22 21:14:59 IST | BTCUSDT | SHORT | LOSS | $-0.4613 | -0.4587% | Configured stop level was hit. |
-| 10 | 2026-09-22 14:29:59 IST | BTCUSDT | LONG | PROFIT | $0.8380 | 0.8402% | Configured profit target was hit. |
-| 11 | 2026-09-20 20:44:59 IST | BTCUSDT | SHORT | LOSS | $-0.5128 | -0.5116% | Configured stop level was hit. |
-| 12 | 2026-09-19 20:14:59 IST | BTCUSDT | SHORT | LOSS | $-0.4243 | -0.4215% | Configured stop level was hit. |
-| 13 | 2026-09-19 06:44:59 IST | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
+| 1 | 2026-10-01 10:29:59 IST | BTCUSDT | LONG | PROFIT | $0.4294 | 0.4328% | Configured profit target was hit. |
+| 2 | 2026-09-30 16:29:59 IST | BTCUSDT | SHORT | LOSS | $-0.5433 | -0.5447% | Configured stop level was hit. |
+| 3 | 2026-09-29 20:44:59 IST | BTCUSDT | SHORT | PROFIT | $0.9357 | 0.9470% | Configured profit target was hit. |
+| 4 | 2026-09-27 13:29:59 IST | BTCUSDT | SHORT | LOSS | $-0.3660 | -0.3690% | Configured stop level was hit. |
+| 5 | 2026-09-27 05:29:59 IST | BTCUSDT | SHORT | LOSS | $-0.4149 | -0.4166% | Configured stop level was hit. |
+| 6 | 2026-09-26 14:14:59 IST | BTCUSDT | SHORT | LOSS | $-0.7381 | -0.7357% | Configured stop level was hit. |
+| 7 | 2026-09-25 16:44:59 IST | BTCUSDT | SHORT | LOSS | $-0.4789 | -0.4751% | Configured stop level was hit. |
+| 8 | 2026-09-24 15:14:59 IST | BTCUSDT | SHORT | PROFIT | $1.2972 | 1.3036% | Configured profit target was hit. |
+| 9 | 2026-09-23 09:14:59 IST | BTCUSDT | SHORT | LOSS | $-0.5954 | -0.5948% | Configured stop level was hit. |
+| 10 | 2026-09-22 21:14:59 IST | BTCUSDT | SHORT | LOSS | $-0.4613 | -0.4587% | Configured stop level was hit. |
+| 11 | 2026-09-22 14:29:59 IST | BTCUSDT | LONG | PROFIT | $0.8380 | 0.8402% | Configured profit target was hit. |
+| 12 | 2026-09-20 20:44:59 IST | BTCUSDT | SHORT | LOSS | $-0.5128 | -0.5116% | Configured stop level was hit. |
+| 13 | 2026-09-19 20:14:59 IST | BTCUSDT | SHORT | LOSS | $-0.4243 | -0.4215% | Configured stop level was hit. |
+| 14 | 2026-09-19 06:44:59 IST | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Full trade details
+
+### Trade 14 — PROFIT — BTCUSDT
+
+- Trade ID: `BTCUSDT-1790790300000`
+- Strategy: **BTCUSDT confirmed-distribution paper trader**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-10-01 05:44:59 IST**
+- Entry signal: **DISTRIBUTION_UP_CONFIRMED**
+- Why entry was taken: A confirmed distribution signal opened a LONG after the strategy's sweep/distribution conditions.
+- Entry price: **$83,509.0500**
+- Quantity: **0.0011867202468737368**
+- Entry value/cost: **$99.1019**
+- Stop: **$83,329.4600**
+- Target: **$84,038.4200**
+- Exit time: **2026-10-01 10:29:59 IST**
+- Exit signal: **TARGET**
+- Why position was closed/reduced: Configured profit target was hit.
+- Exit price: **$84,038.4200**
+- Exit value/proceeds: **$99.7301**
+- Gross P&L: **$0.6282**
+- Fees/charges: **$0.1988**
+- Net P&L: **$0.4294**
+- Profit/Loss percentage: **0.4328%**
+- Holding period: **0d 4h 45m**
+- Notes: Outcome=TARGET; R multiple=2.9476585555988954; balance after=$99.6304.
 
 ### Trade 13 — LOSS — BTCUSDT
 
