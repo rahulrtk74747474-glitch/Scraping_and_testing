@@ -1,15 +1,15 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-10-01T09:19:09.884638+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-10-01T09:19:24.832303+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
 ## Master summary
 
-- INR accounts: **10**
-- INR starting capital: **₹1,000,000.00**
-- INR current equity: **₹991,116.65**
-- INR total P&L: **₹-8,883.35 (-0.89%)**
+- INR accounts: **11**
+- INR starting capital: **₹1,328,977.00**
+- INR current equity: **₹1,318,847.69**
+- INR total P&L: **₹-10,129.31 (-0.76%)**
 - Existing BTC account: **$99.6304 equity; $-0.3696 P&L (-0.37%)**
 
 USD and INR are intentionally kept separate.
@@ -25,8 +25,9 @@ USD and INR are intentionally kept separate.
 | Vertex 3:15 | INR | 0 open | ₹100,170.82 | ₹170.82 | 0.17% | EXIT ICICIBANK |
 | Vertex 500 3:15 | INR | 1 open | ₹100,252.24 | ₹252.24 | 0.25% | ENTRY GRAVITA |
 | Vertex 500 Daily | INR | 1 open | ₹100,252.24 | ₹252.24 | 0.25% | ENTRY GRAVITA |
+| Rahul-606569 Friday 3:15 | INR | 11 open | ₹328,077.28 | ₹-899.72 | -0.27% | ENTRY NAGAFERT |
 | SMC NIFTY 15m | INR | LONG | ₹98,344.64 | ₹-1,655.36 | -1.66% | SELL LADDER 50.0% |
-| SMC BANKNIFTY 15m | INR | LONG | ₹98,759.37 | ₹-1,240.63 | -1.24% | SELL RESTORE_LAST_BUY_QTY exact qty |
+| SMC BANKNIFTY 15m | INR | LONG | ₹98,413.13 | ₹-1,586.87 | -1.59% | SELL RESTORE_LAST_BUY_QTY exact qty |
 | SMC BTCUSDT 4h | INR | LONG | ₹100,620.00 | ₹620.00 | 0.62% | BUY RESTORE_LAST_SELL_QTY exact qty |
 | BTCUSDT 15m Existing Strategy | USD | FLAT | $99.6304 | $-0.3696 | -0.37% | EXIT |
 
@@ -165,23 +166,23 @@ USD and INR are intentionally kept separate.
 - Branch: smc-banknifty-15m-paper
 - Status: **LONG**
 - Starting: **₹100,000.00**
-- Equity: **₹98,759.37**
-- P&L: **₹-1,240.63 (-1.24%)**
-- Cash: **₹25,440.92**
-- Realized / unrealized: **₹-611.12 / ₹-629.51**
-- Last candle: **2026-09-30T09:59:59.999000+00:00**
+- Equity: **₹98,413.13**
+- P&L: **₹-1,586.87 (-1.59%)**
+- Cash: **₹61,939.81**
+- Realized / unrealized: **₹-1,123.80 / ₹-463.07**
+- Last candle: **2026-10-01T09:14:59.999000+00:00**
 
 ### Latest activity
 
 - Confirmed swing: **SELL**
 - Executed order: **SELL RESTORE_LAST_BUY_QTY / restore exact qty**
-- Executed value: **₹12,724.43**
-- Latest realized slice: **₹-185.98 (-1.44%)**
+- Executed value: **₹36,542.43**
+- Latest realized slice: **₹-393.96 (-1.07%)**
 
 ### Open position
 
-- Quantity: **1.3420163128**
-- Remaining cost basis: **₹73,947.95**
+- Quantity: **0.6710081564**
+- Remaining cost basis: **₹36,936.39**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/smc-banknifty-15m-paper/reports/smc_banknifty_latest.md)
 
@@ -285,6 +286,42 @@ USD and INR are intentionally kept separate.
 | GRAVITA | 6 | 1447.40 | 1447.40 | ₹8,694.71 |
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-500-paper/reports/latest.md)
+
+---
+
+## Rahul-606569 Friday 3:15
+
+- Branch: vertex-rahul-606569-friday-paper
+- Starting: **₹328,977.00**
+- Equity: **₹328,077.28**
+- P&L: **₹-899.72 (-0.27%)**
+- Cash: **₹0.00**
+- Realized / unrealized: **₹0.00 / ₹-899.72**
+- Open positions: **11**
+- Last run: **2026-09-25**
+
+### Latest activity
+
+- Scanner signal: **NAGAFERT — Nagarjuna Fertilizers And Chemicals Limited**
+- Executed order: **ENTRY BUY NAGAFERT**
+
+### Open positions
+
+| Symbol | Qty | Entry | Avg | Capital |
+|---|---:|---:|---:|---:|
+| ACL | 702 | 42.63 | 42.63 | ₹29,961.80 |
+| AGIIL | 113 | 264.55 | 264.55 | ₹29,929.64 |
+| ASALCBR | 46 | 644.95 | 644.95 | ₹29,702.93 |
+| AVANTIFEED | 39 | 753.15 | 753.15 | ₹29,407.73 |
+| DIL | 46099 | 0.65 | 0.65 | ₹29,999.92 |
+| FCONSUMER | 136201 | 0.22 | 0.22 | ₹29,999.79 |
+| HDIL | 20665 | 1.45 | 1.45 | ₹29,999.82 |
+| NAGAFERT | 16929 | 1.77 | 1.77 | ₹29,999.90 |
+| RAJVIR | 5751 | 5.21 | 5.21 | ₹29,998.28 |
+| RTNPOWER | 4280 | 7.00 | 7.00 | ₹29,995.57 |
+| SUPREME | 954 | 31.39 | 31.39 | ₹29,981.62 |
+
+[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-rahul-606569-friday-paper/reports/latest.md)
 
 ---
 
