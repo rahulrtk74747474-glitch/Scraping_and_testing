@@ -3,9 +3,9 @@
 <text x="64" y="22" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#111827">OB BANKNIFTY 15m — recent snapshots</text>
 <line x1="64" y1="208" x2="796" y2="208" stroke="#d1d5db"/>
 <line x1="64" y1="34" x2="64" y2="208" stroke="#d1d5db"/>
-<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,50.1 109.8,41.9 155.5,39.8 201.2,57.1 247.0,60.9 292.8,34.0 338.5,35.8 384.2,107.0 430.0,119.3 475.8,115.0 521.5,108.6 567.2,180.1 613.0,192.1 658.8,203.6 704.5,208.0 750.2,173.6 796.0,179.9"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,50.1 107.1,41.9 150.1,39.8 193.2,57.1 236.2,60.9 279.3,34.0 322.4,35.8 365.4,107.0 408.5,119.3 451.5,115.0 494.6,108.6 537.6,180.1 580.7,192.1 623.8,203.6 666.8,208.0 709.9,173.6 752.9,179.9 796.0,204.7"/>
 <text x="8" y="42" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">56,572.50</text>
 <text x="8" y="208" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">54,259.95</text>
 <text x="64" y="236" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-18T09:59</text>
-<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-30T09:59</text>
+<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-10-01T07:29</text>
 </svg>
