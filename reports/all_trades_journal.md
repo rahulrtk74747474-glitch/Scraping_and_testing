@@ -4,16 +4,17 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **43**
-- Profits / losses: **17 / 26**
+- Closed trade records: **44**
+- Profits / losses: **18 / 26**
 - Net INR P&L: **₹-7,024.02**
-- Net USD P&L: **$-0.7990**
+- Net USD P&L: **$-0.3696**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
 | 2026-10-01 12:59:59 IST | OB BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-3,927.32 | -3.9273% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.302167346725494%. |
+| 2026-10-01 10:29:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.4294 | 0.4328% | Configured profit target was hit. |
 | 2026-09-30 16:29:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.5433 | -0.5447% | Configured stop level was hit. |
 | 2026-09-30 15:29:59 IST | SMC NIFTY 15m | NIFTY | LONG | LOSS | ₹-568.24 | -1.5301% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
 | 2026-09-30 08:59:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | LOSS | ₹-749.78 | -0.7219% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.19718273756285076%. |
@@ -78,6 +79,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 - Profit/Loss percentage: **-3.9273%**
 - Holding period: **8d 2h 30m**
 - Notes: Entry OB candle=2026-09-22 15:15:00 IST; exit OB candle=2026-10-01 11:30:00 IST; use_wicks=False; threshold=0%.
+
+### BTCUSDT 15m — BTCUSDT — PROFIT
+
+- Trade ID: `BTCUSDT-1790790300000`
+- Branch: `btcusdt-paper`
+- Entry: **2026-10-01 05:44:59 IST** at **83509.0500**
+- Entry signal: **DISTRIBUTION_UP_CONFIRMED**
+- Why taken: A confirmed distribution signal opened a LONG after the strategy's sweep/distribution conditions.
+- Stop: **83329.4600**
+- Target: **84038.4200**
+- Exit: **2026-10-01 10:29:59 IST** at **84038.4200**
+- Exit signal: **TARGET**
+- Why closed/reduced: Configured profit target was hit.
+- Quantity: **0.0011867202468737368**
+- Gross P&L: **$0.6282**
+- Fees/charges: **$0.1988**
+- Net P&L: **$0.4294**
+- Profit/Loss percentage: **0.4328%**
+- Holding period: **0d 4h 45m**
+- Notes: Outcome=TARGET; R multiple=2.9476585555988954; balance after=$99.6304.
 
 ### BTCUSDT 15m — BTCUSDT — LOSS
 

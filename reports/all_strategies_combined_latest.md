@@ -1,16 +1,16 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-10-01T07:43:11.937061+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-10-01T07:43:31.741702+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
 ## Master summary
 
-- INR accounts: **11**
-- INR starting capital: **₹1,328,977.00**
-- INR current equity: **₹1,320,450.31**
-- INR total P&L: **₹-8,526.69 (-0.64%)**
-- Existing BTC account: **$99.0987 equity; $-0.9013 P&L (-0.90%)**
+- INR accounts: **10**
+- INR starting capital: **₹1,000,000.00**
+- INR current equity: **₹992,373.03**
+- INR total P&L: **₹-7,626.97 (-0.76%)**
+- Existing BTC account: **$99.6304 equity; $-0.3696 P&L (-0.37%)**
 
 USD and INR are intentionally kept separate.
 
@@ -25,11 +25,10 @@ USD and INR are intentionally kept separate.
 | Vertex 3:15 | INR | 0 open | ₹100,170.82 | ₹170.82 | 0.17% | EXIT ICICIBANK |
 | Vertex 500 3:15 | INR | 1 open | ₹100,252.24 | ₹252.24 | 0.25% | ENTRY GRAVITA |
 | Vertex 500 Daily | INR | 1 open | ₹100,252.24 | ₹252.24 | 0.25% | ENTRY GRAVITA |
-| Rahul-606569 Friday 3:15 | INR | 11 open | ₹328,077.28 | ₹-899.72 | -0.27% | ENTRY NAGAFERT |
 | SMC NIFTY 15m | INR | LONG | ₹98,344.64 | ₹-1,655.36 | -1.66% | SELL LADDER 50.0% |
 | SMC BANKNIFTY 15m | INR | LONG | ₹98,759.37 | ₹-1,240.63 | -1.24% | SELL RESTORE_LAST_BUY_QTY exact qty |
 | SMC BTCUSDT 4h | INR | LONG | ₹100,620.00 | ₹620.00 | 0.62% | BUY RESTORE_LAST_SELL_QTY exact qty |
-| BTCUSDT 15m Existing Strategy | USD | LONG | $99.0987 | $-0.9013 | -0.90% | ENTRY |
+| BTCUSDT 15m Existing Strategy | USD | FLAT | $99.6304 | $-0.3696 | -0.37% | EXIT |
 
 ---
 
@@ -294,67 +293,25 @@ USD and INR are intentionally kept separate.
 
 ---
 
-## Rahul-606569 Friday 3:15
-
-- Branch: vertex-rahul-606569-friday-paper
-- Starting: **₹328,977.00**
-- Equity: **₹328,077.28**
-- P&L: **₹-899.72 (-0.27%)**
-- Cash: **₹0.00**
-- Realized / unrealized: **₹0.00 / ₹-899.72**
-- Open positions: **11**
-- Last run: **2026-09-25**
-
-### Latest activity
-
-- Scanner signal: **NAGAFERT — Nagarjuna Fertilizers And Chemicals Limited**
-- Executed order: **ENTRY BUY NAGAFERT**
-
-### Open positions
-
-| Symbol | Qty | Entry | Avg | Capital |
-|---|---:|---:|---:|---:|
-| ACL | 702 | 42.63 | 42.63 | ₹29,961.80 |
-| AGIIL | 113 | 264.55 | 264.55 | ₹29,929.64 |
-| ASALCBR | 46 | 644.95 | 644.95 | ₹29,702.93 |
-| AVANTIFEED | 39 | 753.15 | 753.15 | ₹29,407.73 |
-| DIL | 46099 | 0.65 | 0.65 | ₹29,999.92 |
-| FCONSUMER | 136201 | 0.22 | 0.22 | ₹29,999.79 |
-| HDIL | 20665 | 1.45 | 1.45 | ₹29,999.82 |
-| NAGAFERT | 16929 | 1.77 | 1.77 | ₹29,999.90 |
-| RAJVIR | 5751 | 5.21 | 5.21 | ₹29,998.28 |
-| RTNPOWER | 4280 | 7.00 | 7.00 | ₹29,995.57 |
-| SUPREME | 954 | 31.39 | 31.39 | ₹29,981.62 |
-
-[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-rahul-606569-friday-paper/reports/latest.md)
-
----
-
 # Other Strategy
 
 ## BTCUSDT 15m Existing Strategy
 
 - Branch: btcusdt-paper
-- Status: **LONG**
+- Status: **FLAT**
 - Starting: **$100.0000**
-- Equity: **$99.0987**
-- P&L: **$-0.9013 (-0.90%)**
-- Balance: **$99.2010**
-- Realized / unrealized: **$-0.7990 / $-0.1022**
-- Closed trades: **13**
-- Last candle: **2026-10-01T01:14:59.999000+00:00**
+- Equity: **$99.6304**
+- P&L: **$-0.3696 (-0.37%)**
+- Balance: **$99.6304**
+- Realized / unrealized: **$-0.3696 / $0.0000**
+- Closed trades: **14**
+- Last candle: **2026-10-01T07:29:59.999000+00:00**
 
 ### Latest activity
 
-- Strategy event: **dist_confirmed**
-- Executed order: **ENTRY / BUY**
-- Latest closed trade: **$-0.5433 (-0.54%)**
-
-### Open position
-
-- Direction: **LONG**
-- Entry: **$83,509.05**
-- Stop / target: **$83,329.46 / $84,038.42**
+- Strategy event: **outcome**
+- Executed order: **EXIT / SELL**
+- Latest closed trade: **$0.4294 (0.43%)**
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/btcusdt-paper/reports/btc_latest.md)
 
