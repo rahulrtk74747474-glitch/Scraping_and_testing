@@ -1,10 +1,39 @@
 {
-  "cash": 100170.82,
+  "cash": 83298.51,
   "equity_peak": 100170.82,
-  "last_run_date": "2026-09-30",
-  "max_capital_deployed": 9056.15,
-  "max_drawdown_pct": 0.0355,
-  "positions": {},
+  "last_run_date": "2026-10-01",
+  "max_capital_deployed": 16872.31,
+  "max_drawdown_pct": 0.0681,
+  "positions": {
+    "CROMPTON": {
+      "average_add_count": 0,
+      "average_added_notional": 0.0,
+      "entry_date": "2026-10-01",
+      "entry_price": 202.7,
+      "initial_invested_notional": 9932.3,
+      "name": "Crompton Greaves Consumer Electricals Limited",
+      "qty": 49,
+      "symbol": "CROMPTON",
+      "total_buy_charges": 11.79,
+      "total_buy_cost": 9944.09,
+      "total_buy_turnover": 9932.3,
+      "weighted_avg_price": 202.7
+    },
+    "EICHERMOT": {
+      "average_add_count": 0,
+      "average_added_notional": 0.0,
+      "entry_date": "2026-10-01",
+      "entry_price": 6920.0,
+      "initial_invested_notional": 6920.0,
+      "name": "Eicher Motors Limited",
+      "qty": 1,
+      "symbol": "EICHERMOT",
+      "total_buy_charges": 8.22,
+      "total_buy_cost": 6928.22,
+      "total_buy_turnover": 6920.0,
+      "weighted_avg_price": 6920.0
+    }
+  },
   "realized_pnl": 170.82,
   "starting_capital": 100000.0,
   "version": 1

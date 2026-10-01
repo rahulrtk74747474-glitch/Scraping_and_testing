@@ -1,17 +1,17 @@
 # Vertex Paper Trader — Latest Report
 
-**As of:** 2026-09-30
+**As of:** 2026-10-01
 
 ## Portfolio
 
-- Equity (estimated liquidation value): **₹100,170.82**
-- Cash: **₹100,170.82**
-- Total profit/loss: **₹170.82 (0.17%)**
+- Equity (estimated liquidation value): **₹100,102.65**
+- Cash: **₹83,298.51**
+- Total profit/loss: **₹102.65 (0.10%)**
 - Realized P&L: **₹170.82**
-- Unrealized P&L estimate: **₹0.00**
-- Open positions: **0**
-- Max drawdown observed: **0.04%**
-- Max capital deployed: **₹9,056.15**
+- Unrealized P&L estimate: **₹-68.17**
+- Open positions: **2**
+- Max drawdown observed: **0.07%**
+- Max capital deployed: **₹16,872.31**
 
 ## Closed-trade statistics
 
@@ -27,7 +27,10 @@
 
 ## Open positions
 
-_No open positions._
+| symbol    | entry_date   |   entry_price |   weighted_avg_price |   qty |   latest_close |   capital_in_trade |   average_add_count |   average_added_notional |   unrealized_net_pnl_est |   return_pct_est |
+|:----------|:-------------|--------------:|---------------------:|------:|---------------:|-------------------:|--------------------:|-------------------------:|-------------------------:|-----------------:|
+| CROMPTON  | 2026-10-01   |         202.7 |                202.7 |    49 |          202.7 |            9944.09 |                   0 |                        0 |                   -37.43 |          -0.3764 |
+| EICHERMOT | 2026-10-01   |        6920   |               6920   |     1 |         6920   |            6928.22 |                   0 |                        0 |                   -30.74 |          -0.4437 |
 
 ## Notes
 
