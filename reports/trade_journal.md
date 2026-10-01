@@ -4,21 +4,75 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **4**
-- Profits / losses: **1 / 3**
-- Net realized P&L in journal: **₹-611.13**
-- Average return per closed trade: **-0.7971%**
+- Closed trade records: **6**
+- Profits / losses: **1 / 5**
+- Net realized P&L in journal: **₹-1,123.81**
+- Average return per closed trade: **-0.7627%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-09-29 14:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-185.98 | -1.4406% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 2 | 2026-09-28 10:29:59 IST | BANKNIFTY | LONG | LOSS | ₹-438.80 | -1.7256% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 3 | 2026-09-25 12:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-25.58 | -0.1006% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 4 | 2026-09-23 13:44:59 IST | BANKNIFTY | LONG | PROFIT | ₹39.23 | 0.0785% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 1 | 2026-10-01 13:14:59 IST | BANKNIFTY | LONG | LOSS | ₹-393.96 | -1.0666% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 2 | 2026-10-01 09:59:59 IST | BANKNIFTY | LONG | LOSS | ₹-118.72 | -0.3211% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
+| 3 | 2026-09-29 14:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-185.98 | -1.4406% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 4 | 2026-09-28 10:29:59 IST | BANKNIFTY | LONG | LOSS | ₹-438.80 | -1.7256% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 5 | 2026-09-25 12:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-25.58 | -0.1006% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 6 | 2026-09-23 13:44:59 IST | BANKNIFTY | LONG | PROFIT | ₹39.23 | 0.0785% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 
 ## Full trade details
+
+### Trade 6 — LOSS — BANKNIFTY
+
+- Trade ID: `SMC_BANKNIFTY-6-1790840699999`
+- Strategy: **BANKNIFTY SMC Clean Wave major swings**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-09-24 12:29:59 IST**
+- Entry signal: **CONFIRMED_PIVOT_LOW_BUY**
+- Why entry was taken: A confirmed major pivot low generated the BUY side of the SMC major-swing strategy. Position size follows the configured restore/50%/12.5% ladder rules.
+- Entry price: **₹55,046.1145**
+- Quantity: **0.6710081563934154**
+- Entry value/cost: **₹36,936.39**
+- Stop: **Not used — this strategy reduces/exits on confirmed opposite major swings.**
+- Target: **Not fixed — SELL decisions come from confirmed pivot-high signals.**
+- Exit time: **2026-10-01 13:14:59 IST**
+- Exit signal: **CONFIRMED_PIVOT_HIGH_SELL**
+- Why position was closed/reduced: A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY.
+- Exit price: **₹54,459.0000**
+- Exit value/proceeds: **₹36,542.43**
+- Gross P&L: **-**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹-393.96**
+- Profit/Loss percentage: **-1.0666%**
+- Holding period: **7d 0h 45m**
+- Notes: SMC uses scale-in/scale-out sizing. This row is a realized SELL slice; exit ladder step=0, fraction=%. A position can remain partly open after this journal row.
+
+### Trade 5 — LOSS — BANKNIFTY
+
+- Trade ID: `SMC_BANKNIFTY-5-1790828999999`
+- Strategy: **BANKNIFTY SMC Clean Wave major swings**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-09-24 12:29:59 IST**
+- Entry signal: **CONFIRMED_PIVOT_LOW_BUY**
+- Why entry was taken: A confirmed major pivot low generated the BUY side of the SMC major-swing strategy. Position size follows the configured restore/50%/12.5% ladder rules.
+- Entry price: **₹55,102.1275**
+- Quantity: **0.6710081563934154**
+- Entry value/cost: **₹36,973.98**
+- Stop: **Not used — this strategy reduces/exits on confirmed opposite major swings.**
+- Target: **Not fixed — SELL decisions come from confirmed pivot-high signals.**
+- Exit time: **2026-10-01 09:59:59 IST**
+- Exit signal: **CONFIRMED_PIVOT_HIGH_SELL**
+- Why position was closed/reduced: A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%.
+- Exit price: **₹54,925.1992**
+- Exit value/proceeds: **₹36,855.26**
+- Gross P&L: **-**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹-118.72**
+- Profit/Loss percentage: **-0.3211%**
+- Holding period: **6d 21h 30m**
+- Notes: SMC uses scale-in/scale-out sizing. This row is a realized SELL slice; exit ladder step=1, fraction=50.0%. A position can remain partly open after this journal row.
 
 ### Trade 4 — LOSS — BANKNIFTY
 
