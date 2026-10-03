@@ -1,15 +1,15 @@
 # All Strategies — Combined Paper-Trading Report
 
-_Auto-updated from every current strategy branch. Generated 2026-10-03T19:23:25.976581+00:00._
+_Auto-updated from every current strategy branch. Generated 2026-10-03T19:28:49.118017+00:00._
 
 [Open live dashboard](live_dashboard.md) · [Open the full closed-trade journal](all_trades_journal.md)
 
 ## Master summary
 
-- INR accounts: **11**
-- INR starting capital: **₹1,328,977.00**
-- INR current equity: **₹1,316,388.79**
-- INR total P&L: **₹-12,588.21 (-0.95%)**
+- INR accounts: **10**
+- INR starting capital: **₹1,000,000.00**
+- INR current equity: **₹988,311.51**
+- INR total P&L: **₹-11,688.49 (-1.17%)**
 - Existing BTC account: **$98.9874 equity; $-1.0126 P&L (-1.01%)**
 
 USD and INR are intentionally kept separate.
@@ -25,7 +25,6 @@ USD and INR are intentionally kept separate.
 | Vertex 3:15 | INR | 2 open | ₹100,102.65 | ₹102.65 | 0.10% | ENTRY EICHERMOT |
 | Vertex 500 3:15 | INR | 4 open | ₹99,937.97 | ₹-62.03 | -0.06% | ENTRY EICHERMOT |
 | Vertex 500 Daily | INR | 4 open | ₹99,937.97 | ₹-62.03 | -0.06% | ENTRY EICHERMOT |
-| Rahul-606569 Friday 3:15 | INR | 11 open | ₹328,077.28 | ₹-899.72 | -0.27% | ENTRY NAGAFERT |
 | SMC NIFTY 15m | INR | LONG | ₹97,911.71 | ₹-2,088.29 | -2.09% | BUY RESTORE_LAST_SELL_QTY exact qty |
 | SMC BANKNIFTY 15m | INR | LONG | ₹98,476.71 | ₹-1,523.29 | -1.52% | SELL RESTORE_LAST_BUY_QTY exact qty |
 | SMC BTCUSDT 4h | INR | LONG | ₹101,460.00 | ₹1,460.00 | 1.46% | BUY RESTORE_LAST_SELL_QTY exact qty |
@@ -309,42 +308,6 @@ USD and INR are intentionally kept separate.
 | SJVN | 172 | 57.91 | 57.91 | ₹9,972.35 |
 
 [Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-500-paper/reports/latest.md)
-
----
-
-## Rahul-606569 Friday 3:15
-
-- Branch: vertex-rahul-606569-friday-paper
-- Starting: **₹328,977.00**
-- Equity: **₹328,077.28**
-- P&L: **₹-899.72 (-0.27%)**
-- Cash: **₹0.00**
-- Realized / unrealized: **₹0.00 / ₹-899.72**
-- Open positions: **11**
-- Last run: **2026-09-25**
-
-### Latest activity
-
-- Scanner signal: **NAGAFERT — Nagarjuna Fertilizers And Chemicals Limited**
-- Executed order: **ENTRY BUY NAGAFERT**
-
-### Open positions
-
-| Symbol | Qty | Entry | Avg | Capital |
-|---|---:|---:|---:|---:|
-| ACL | 702 | 42.63 | 42.63 | ₹29,961.80 |
-| AGIIL | 113 | 264.55 | 264.55 | ₹29,929.64 |
-| ASALCBR | 46 | 644.95 | 644.95 | ₹29,702.93 |
-| AVANTIFEED | 39 | 753.15 | 753.15 | ₹29,407.73 |
-| DIL | 46099 | 0.65 | 0.65 | ₹29,999.92 |
-| FCONSUMER | 136201 | 0.22 | 0.22 | ₹29,999.79 |
-| HDIL | 20665 | 1.45 | 1.45 | ₹29,999.82 |
-| NAGAFERT | 16929 | 1.77 | 1.77 | ₹29,999.90 |
-| RAJVIR | 5751 | 5.21 | 5.21 | ₹29,998.28 |
-| RTNPOWER | 4280 | 7.00 | 7.00 | ₹29,995.57 |
-| SUPREME | 954 | 31.39 | 31.39 | ₹29,981.62 |
-
-[Open individual report](https://github.com/rahulrtk74747474-glitch/Scraping_and_testing/blob/vertex-rahul-606569-friday-paper/reports/latest.md)
 
 ---
 
