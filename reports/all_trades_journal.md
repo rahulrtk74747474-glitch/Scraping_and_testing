@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **51**
-- Profits / losses: **19 / 32**
+- Closed trade records: **52**
+- Profits / losses: **20 / 32**
 - Net INR P&L: **₹-10,528.19**
-- Net USD P&L: **$-0.8988**
+- Net USD P&L: **$-0.6970**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-10-04 02:44:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | PROFIT | $0.2018 | 0.2036% | Configured profit target was hit. |
 | 2026-10-02 21:29:59 IST | OB XAUUSDT 15m | XAUUSDT | LONG | LOSS | ₹-1,143.91 | -1.1746% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.1770020651175557%. |
 | 2026-10-02 07:44:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | LOSS | $-0.5292 | -0.5311% | Configured stop level was hit. |
 | 2026-10-01 18:59:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | LOSS | ₹-352.16 | -0.3413% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6151130532907193%. |
@@ -66,6 +67,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### BTCUSDT 15m — BTCUSDT — PROFIT
+
+- Trade ID: `BTCUSDT-1791027900000`
+- Branch: `btcusdt-paper`
+- Entry: **2026-10-04 00:14:59 IST** at **84942.0100**
+- Entry signal: **DISTRIBUTION_DOWN_CONFIRMED**
+- Why taken: A confirmed distribution signal opened a SHORT after the strategy's sweep/distribution conditions.
+- Stop: **85055.5200**
+- Target: **84599.3400**
+- Exit: **2026-10-04 02:44:59 IST** at **84599.3400**
+- Exit signal: **TARGET**
+- Why closed/reduced: Configured profit target was hit.
+- Quantity: **0.0011655267972713176**
+- Gross P&L: **$0.3994**
+- Fees/charges: **$0.1976**
+- Net P&L: **$0.2018**
+- Profit/Loss percentage: **0.2036%**
+- Holding period: **0d 2h 30m**
+- Notes: Outcome=TARGET; R multiple=3.018852964496257; balance after=$99.3030.
 
 ### OB XAUUSDT 15m — XAUUSDT — LOSS
 
