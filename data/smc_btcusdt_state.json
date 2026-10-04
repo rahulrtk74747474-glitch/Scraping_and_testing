@@ -1,32 +1,26 @@
 {
   "buy_sequence_base_inr": 0.0,
   "buy_step": 0,
-  "cash_inr": 50644.26548408658,
+  "cash_inr": 101602.93832483573,
   "equity_peak_inr": 102392.62231510696,
-  "last_executed_notional_inr": 49631.61938468717,
+  "last_executed_notional_inr": 50958.67284074916,
   "last_executed_qty": 0.006217726701513583,
-  "last_executed_side": "BUY",
-  "last_processed_close_time": 1791086399999,
-  "last_sequence_direction": "BUY",
+  "last_executed_side": "SELL",
+  "last_processed_close_time": 1791115199999,
+  "last_sequence_direction": "SELL",
   "last_signal": {
-    "confirmed_close_time": 1790755199999,
-    "confirmed_price": 83304.92,
-    "pivot_open_time": 1790596800000,
-    "pivot_price": 82563.0,
+    "confirmed_close_time": 1791100799999,
+    "confirmed_price": 85106.0,
+    "pivot_open_time": 1790942400000,
+    "pivot_price": 87220.0,
     "sig_sens": 10,
-    "signal": "BUY"
+    "signal": "SELL"
   },
   "losses": 0,
   "max_drawdown_pct": 1.2336251218935668,
-  "position": {
-    "avg_entry_price_inr": 7982277.408977357,
-    "cost_basis_inr": 49631.61938468717,
-    "first_entry_time": 1790755199999,
-    "last_buy_time": 1790755199999,
-    "qty": 0.006217726701513583
-  },
-  "realized_pnl_inr": 275.88486877374817,
-  "sell_executions": 1,
+  "position": null,
+  "realized_pnl_inr": 1602.9383248357408,
+  "sell_executions": 2,
   "sell_sequence_base_qty": 0.0,
   "sell_step": 0,
   "starting_capital_inr": 100000.0,
@@ -34,5 +28,5 @@
   "symbol": "BTCUSDT",
   "timeframe": "4h",
   "version": 1,
-  "wins": 1
+  "wins": 2
 }
