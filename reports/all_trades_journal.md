@@ -4,9 +4,9 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **55**
-- Profits / losses: **22 / 33**
-- Net INR P&L: **₹-9,392.67**
+- Closed trade records: **56**
+- Profits / losses: **23 / 33**
+- Net INR P&L: **₹-9,349.06**
 - Net USD P&L: **$-0.6970**
 
 ## All closed trades
@@ -14,6 +14,7 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
 | 2026-10-05 11:59:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-308.50 | -0.8367% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 2026-10-05 09:29:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | PROFIT | ₹43.61 | 0.0424% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6886782363902886%. |
 | 2026-10-04 13:29:59 IST | SMC BTCUSDT 4h | BTCUSDT | LONG | PROFIT | ₹1,327.05 | 2.6738% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-10-04 06:59:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | PROFIT | ₹116.97 | 0.1137% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.08551046256408874%. |
 | 2026-10-04 02:44:59 IST | BTCUSDT 15m | BTCUSDT | SHORT | PROFIT | $0.2018 | 0.2036% | Configured profit target was hit. |
@@ -90,6 +91,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 - Profit/Loss percentage: **-0.8367%**
 - Holding period: **10d 23h 30m**
 - Notes: SMC uses scale-in/scale-out sizing. This row is a realized SELL slice; exit ladder step=0, fraction=%. A position can remain partly open after this journal row.
+
+### OB BTCUSDT 15m — BTCUSDT — PROFIT
+
+- Trade ID: `OB_BTCUSDT-9-1791148499999`
+- Branch: `ob-btcusdt-15m-paper`
+- Entry: **2026-10-05 02:44:59 IST** at **8284499.5515**
+- Entry signal: **BULLISH_OB**
+- Why taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=0.702380952380951%.
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit: **2026-10-05 09:29:59 IST** at **8288008.4701**
+- Exit signal: **BEARISH_OB**
+- Why closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6886782363902886%.
+- Quantity: **0.012427997466984793**
+- Gross P&L: **₹43.61**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹43.61**
+- Profit/Loss percentage: **0.0424%**
+- Holding period: **0d 6h 45m**
+- Notes: Entry OB candle=2026-10-05 01:15:00 IST; exit OB candle=2026-10-05 08:00:00 IST; use_wicks=False; threshold=0%.
 
 ### SMC BTCUSDT 4h — BTCUSDT — PROFIT
 
