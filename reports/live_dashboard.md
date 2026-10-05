@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-10-05T09:10:55.727471+00:00._
+_Auto-generated from the latest committed strategy state at 2026-10-05T12:18:17.899371+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -164,156 +164,13 @@ _Position price chart appears automatically after at least two stored position s
 
 _Position price chart appears automatically after at least two stored position snapshots._
 
-### Rahul-606569 Friday 3:15 — ACL
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹42.63 / ₹42.63**
-- Quantity: **702**
-- Capital in trade: **₹29,961.80**
-- Latest stored close: **₹42.63**
-- Unrealized P&L: **₹-81.93**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
-### Rahul-606569 Friday 3:15 — AGIIL
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹264.55 / ₹264.55**
-- Quantity: **113**
-- Capital in trade: **₹29,929.64**
-- Latest stored close: **₹264.55**
-- Unrealized P&L: **₹-81.84**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
-### Rahul-606569 Friday 3:15 — ASALCBR
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹644.95 / ₹644.95**
-- Quantity: **46**
-- Capital in trade: **₹29,702.93**
-- Latest stored close: **₹644.95**
-- Unrealized P&L: **₹-81.35**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
-### Rahul-606569 Friday 3:15 — AVANTIFEED
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹753.15 / ₹753.15**
-- Quantity: **39**
-- Capital in trade: **₹29,407.73**
-- Latest stored close: **₹753.15**
-- Unrealized P&L: **₹-80.69**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
-### Rahul-606569 Friday 3:15 — DIL
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹0.65 / ₹0.65**
-- Quantity: **46099**
-- Capital in trade: **₹29,999.92**
-- Latest stored close: **₹0.65**
-- Unrealized P&L: **₹-81.99**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
-### Rahul-606569 Friday 3:15 — FCONSUMER
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹0.22 / ₹0.22**
-- Quantity: **136201**
-- Capital in trade: **₹29,999.79**
-- Latest stored close: **₹0.22**
-- Unrealized P&L: **₹-81.99**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
-### Rahul-606569 Friday 3:15 — HDIL
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹1.45 / ₹1.45**
-- Quantity: **20665**
-- Capital in trade: **₹29,999.82**
-- Latest stored close: **₹1.45**
-- Unrealized P&L: **₹-81.99**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
-### Rahul-606569 Friday 3:15 — NAGAFERT
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹1.77 / ₹1.77**
-- Quantity: **16929**
-- Capital in trade: **₹29,999.90**
-- Latest stored close: **₹1.77**
-- Unrealized P&L: **₹-81.99**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
-### Rahul-606569 Friday 3:15 — RAJVIR
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹5.21 / ₹5.21**
-- Quantity: **5751**
-- Capital in trade: **₹29,998.28**
-- Latest stored close: **₹5.21**
-- Unrealized P&L: **₹-81.99**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
-### Rahul-606569 Friday 3:15 — RTNPOWER
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹7.00 / ₹7.00**
-- Quantity: **4280**
-- Capital in trade: **₹29,995.57**
-- Latest stored close: **₹7.00**
-- Unrealized P&L: **₹-81.99**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
-### Rahul-606569 Friday 3:15 — SUPREME
-
-- Status: **OPEN LONG**
-- Entry date: **2026-09-25**
-- Entry / average: **₹31.39 / ₹31.39**
-- Quantity: **954**
-- Capital in trade: **₹29,981.62**
-- Latest stored close: **₹31.39**
-- Unrealized P&L: **₹-81.97**
-- Latest activity: **BUY ENTRY NAGAFERT**
-
-_Position price chart appears automatically after at least two stored position snapshots._
-
 ### OB NIFTY 15m — NIFTY
 
 - Status: **OPEN LONG**
 - Average/entry: **₹22,445.60**
-- Current stored price: **₹22,513.35**
+- Current stored price: **₹22,555.75**
 - Quantity: **4.2419367092**
-- Unrealized P&L: **₹287.39**
+- Unrealized P&L: **₹467.25**
 - Latest activity: **BUY BULLISH_OB**
 
 - Exit rule: **Confirmed bearish order block; no fixed numeric stop/target.**
@@ -367,8 +224,7 @@ _Position price chart appears automatically after at least two stored position s
 | Vertex 3:15 | 2 open | ₹100,102.65 | ₹102.65 | BUY ENTRY EICHERMOT | 2026-10-01 |
 | Vertex 500 Daily | 4 open | ₹99,937.97 | ₹-62.03 | BUY ENTRY EICHERMOT | 2026-10-01 |
 | Vertex 500 3:15 | 4 open | ₹99,937.97 | ₹-62.03 | BUY ENTRY EICHERMOT | 2026-10-01 |
-| Rahul-606569 Friday 3:15 | 11 open | ₹328,077.28 | ₹-899.72 | BUY ENTRY NAGAFERT | 2026-09-25 |
-| OB NIFTY 15m | LONG | ₹95,500.20 | ₹-4,499.80 | BUY BULLISH_OB | 2026-10-05T04:59:59.999000+00:00 |
+| OB NIFTY 15m | LONG | ₹95,680.06 | ₹-4,319.94 | BUY BULLISH_OB | 2026-10-05T09:59:59.999000+00:00 |
 | OB BANKNIFTY 15m | LONG | ₹95,871.34 | ₹-4,128.66 | BUY BULLISH_OB | 2026-10-01T09:59:59.999000+00:00 |
 | OB BTCUSDT 15m | FLAT | ₹103,003.35 | ₹3,003.35 | SELL BEARISH_OB | 2026-10-05T08:44:59.999000+00:00 |
 | OB XAUUSDT 15m | FLAT | ₹96,239.31 | ₹-3,760.69 | SELL BEARISH_OB | 2026-10-05T08:59:59.999000+00:00 |
