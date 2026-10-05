@@ -3,9 +3,9 @@
 <text x="64" y="22" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#111827">SMC NIFTY 15m — recent snapshots</text>
 <line x1="64" y1="208" x2="796" y2="208" stroke="#d1d5db"/>
 <line x1="64" y1="34" x2="64" y2="208" stroke="#d1d5db"/>
-<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,51.0 102.5,38.6 141.1,37.0 179.6,46.8 218.1,54.0 256.6,36.9 295.2,34.0 333.7,76.4 372.2,99.1 410.7,102.9 449.3,86.0 487.8,136.5 526.3,147.2 564.8,167.1 603.4,158.0 641.9,159.4 680.4,174.3 718.9,187.3 757.5,208.0 796.0,200.0"/>
+<polyline fill="none" stroke="#2563eb" stroke-width="3" points="64.0,51.0 100.6,38.6 137.2,37.0 173.8,46.8 210.4,54.0 247.0,36.9 283.6,34.0 320.2,76.4 356.8,99.1 393.4,102.9 430.0,86.0 466.6,136.5 503.2,147.2 539.8,167.1 576.4,158.0 613.0,159.4 649.6,174.3 686.2,187.3 722.8,208.0 759.4,200.0 796.0,185.3"/>
 <text x="8" y="42" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">23,446.80</text>
 <text x="8" y="208" font-family="Arial,sans-serif" font-size="12" fill="#4b5563">22,421.95</text>
 <text x="64" y="236" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-09-18T09:59</text>
-<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-10-05T06:14</text>
+<text x="796" y="236" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#6b7280">2026-10-05T09:59</text>
 </svg>
