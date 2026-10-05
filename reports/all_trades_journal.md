@@ -4,9 +4,9 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **57**
-- Profits / losses: **23 / 34**
-- Net INR P&L: **₹-9,503.14**
+- Closed trade records: **58**
+- Profits / losses: **24 / 34**
+- Net INR P&L: **₹-9,121.69**
 - Net USD P&L: **$-0.6970**
 
 ## All closed trades
@@ -15,6 +15,7 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 |---|---|---|---|---|---:|---:|---|
 | 2026-10-05 12:29:59 IST | SMC NIFTY 15m | NIFTY | LONG | LOSS | ₹-154.08 | -1.2008% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-10-05 11:59:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-308.50 | -0.8367% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 2026-10-05 10:44:59 IST | OB BANKNIFTY 15m | BANKNIFTY | LONG | PROFIT | ₹381.45 | 0.3970% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5986001995097735%. |
 | 2026-10-05 09:29:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | PROFIT | ₹43.61 | 0.0424% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6886782363902886%. |
 | 2026-10-04 13:29:59 IST | SMC BTCUSDT 4h | BTCUSDT | LONG | PROFIT | ₹1,327.05 | 2.6738% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-10-04 06:59:59 IST | OB BTCUSDT 15m | BTCUSDT | LONG | PROFIT | ₹116.97 | 0.1137% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.08551046256408874%. |
@@ -112,6 +113,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 - Profit/Loss percentage: **-0.8367%**
 - Holding period: **10d 23h 30m**
 - Notes: SMC uses scale-in/scale-out sizing. This row is a realized SELL slice; exit ladder step=0, fraction=%. A position can remain partly open after this journal row.
+
+### OB BANKNIFTY 15m — BANKNIFTY — PROFIT
+
+- Trade ID: `OB_BANKNIFTY-2-1790847899999`
+- Branch: `ob-banknifty-15m-paper`
+- Entry: **2026-10-01 15:14:59 IST** at **54565.1016**
+- Entry signal: **BULLISH_OB**
+- Why taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=0.7027880322519041%.
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit: **2026-10-05 10:44:59 IST** at **54781.7500**
+- Exit signal: **BEARISH_OB**
+- Why closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5986001995097735%.
+- Quantity: **1.7606981824640526**
+- Gross P&L: **₹381.45**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹381.45**
+- Profit/Loss percentage: **0.3970%**
+- Holding period: **3d 19h 30m**
+- Notes: Entry OB candle=2026-10-01 13:45:00 IST; exit OB candle=2026-10-05 09:15:00 IST; use_wicks=False; threshold=0%.
 
 ### OB BTCUSDT 15m — BTCUSDT — PROFIT
 
