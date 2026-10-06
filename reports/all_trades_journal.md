@@ -4,15 +4,16 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **59**
-- Profits / losses: **25 / 34**
-- Net INR P&L: **₹-9,033.88**
+- Closed trade records: **60**
+- Profits / losses: **26 / 34**
+- Net INR P&L: **₹-8,941.93**
 - Net USD P&L: **$-0.6970**
 
 ## All closed trades
 
 | Exit | Strategy | Symbol | Direction | Result | Net P&L | Return | Why closed |
 |---|---|---|---|---|---:|---:|---|
+| 2026-10-06 15:29:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | PROFIT | ₹91.95 | 0.4996% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
 | 2026-10-06 12:14:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | PROFIT | ₹87.81 | 0.2386% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-10-05 12:29:59 IST | SMC NIFTY 15m | NIFTY | LONG | LOSS | ₹-154.08 | -1.2008% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-10-05 11:59:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-308.50 | -0.8367% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
@@ -74,6 +75,26 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 | 2026-09-19 06:44:59 IST | BTCUSDT 15m | BTCUSDT | LONG | PROFIT | $0.6650 | 0.6650% | Configured profit target was hit. |
 
 ## Detailed journal
+
+### SMC BANKNIFTY 15m — BANKNIFTY — PROFIT
+
+- Trade ID: `SMC_BANKNIFTY-9-1791280799999`
+- Branch: `smc-banknifty-15m-paper`
+- Entry: **2026-09-24 12:29:59 IST** at **54854.3294**
+- Entry signal: **CONFIRMED_PIVOT_LOW_BUY**
+- Why taken: A confirmed major pivot low generated the BUY side of the SMC major-swing strategy. Position size follows the configured restore/50%/12.5% ladder rules.
+- Stop: **Not used — this strategy reduces/exits on confirmed opposite major swings.**
+- Target: **Not fixed — SELL decisions come from confirmed pivot-high signals.**
+- Exit: **2026-10-06 15:29:59 IST** at **55128.3984**
+- Exit signal: **CONFIRMED_PIVOT_HIGH_SELL**
+- Why closed/reduced: A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%.
+- Quantity: **0.3355040781967077**
+- Gross P&L: **-**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹91.95**
+- Profit/Loss percentage: **0.4996%**
+- Holding period: **12d 3h 0m**
+- Notes: SMC uses scale-in/scale-out sizing. This row is a realized SELL slice; exit ladder step=1, fraction=50.0%. A position can remain partly open after this journal row.
 
 ### SMC BANKNIFTY 15m — BANKNIFTY — PROFIT
 
