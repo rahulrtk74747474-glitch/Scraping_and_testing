@@ -1,18 +1,18 @@
 {
   "buy_sequence_base_inr": 0.0,
   "buy_step": 0,
-  "cash_inr": 61847.81143794957,
+  "cash_inr": 80343.61393818383,
   "equity_peak_inr": 100039.23309628536,
-  "last_executed_notional_inr": 36895.5171566981,
-  "last_executed_qty": 0.6710081563934154,
+  "last_executed_notional_inr": 18495.80250023426,
+  "last_executed_qty": 0.3355040781967077,
   "last_executed_side": "SELL",
-  "last_processed_close_time": 1791278099999,
+  "last_processed_close_time": 1791280799999,
   "last_sequence_direction": "SELL",
   "last_signal": {
-    "confirmed_close_time": 1791269099999,
-    "confirmed_price": 54985.19921875,
-    "pivot_open_time": 1791259200000,
-    "pivot_price": 55073.8984375,
+    "confirmed_close_time": 1791280799999,
+    "confirmed_price": 55128.3984375,
+    "pivot_open_time": 1791270900000,
+    "pivot_price": 55200.8515625,
     "sig_sens": 10,
     "signal": "SELL"
   },
@@ -20,20 +20,20 @@
   "max_drawdown_pct": 1.779873296695934,
   "position": {
     "avg_entry_price_inr": 54854.32940799836,
-    "cost_basis_inr": 36807.70244625809,
+    "cost_basis_inr": 18403.851223129044,
     "first_entry_time": 1790233199999,
     "last_buy_time": 1791191699999,
-    "last_sell_time": 1791269099999,
-    "qty": 0.6710081563934154
+    "last_sell_time": 1791280799999,
+    "qty": 0.3355040781967077
   },
-  "realized_pnl_inr": -1344.4861157923424,
-  "sell_executions": 8,
+  "realized_pnl_inr": -1252.5348386871283,
+  "sell_executions": 9,
   "sell_sequence_base_qty": 0.0,
-  "sell_step": 0,
+  "sell_step": 1,
   "starting_capital_inr": 100000.0,
   "strategy": "SMC Clean Wave major swings",
   "symbol": "BANKNIFTY",
   "timeframe": "15m",
   "version": 1,
-  "wins": 2
+  "wins": 3
 }
