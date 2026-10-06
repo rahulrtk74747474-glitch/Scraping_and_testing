@@ -1,6 +1,6 @@
 # Live Strategy Dashboard
 
-_Auto-generated from the latest committed strategy state at 2026-10-06T09:20:13.453325+00:00._
+_Auto-generated from the latest committed strategy state at 2026-10-06T09:20:28.653855+00:00._
 
 > **Live = latest completed GitHub strategy run/candle, not tick-by-tick streaming quotes.**
 
@@ -231,7 +231,7 @@ _Position price chart appears automatically after at least two stored position s
 | SMC NIFTY 15m | LONG | ₹98,823.75 | ₹-1,176.25 | BUY BUY | 2026-10-06T08:59:59.999000+00:00 |
 | SMC BANKNIFTY 15m | LONG | ₹98,379.51 | ₹-1,620.49 | BUY BUY | 2026-10-05T09:59:59.999000+00:00 |
 | SMC BTCUSDT 4h | FLAT | ₹101,602.94 | ₹1,602.94 | SELL SELL | 2026-10-05T23:59:59.999000+00:00 |
-| BTCUSDT 15m Existing Strategy | FLAT | $99.3030 | $-0.6970 | BUY_TO_COVER EXIT | 2026-10-06T02:14:59.999000+00:00 |
+| BTCUSDT 15m Existing Strategy | FLAT | $99.3030 | $-0.6970 | BUY_TO_COVER EXIT | 2026-10-06T09:14:59.999000+00:00 |
 
 ## Recent strategy charts
 
