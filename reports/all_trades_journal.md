@@ -4,9 +4,9 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 
 ## Summary
 
-- Closed trade records: **60**
-- Profits / losses: **26 / 34**
-- Net INR P&L: **₹-8,941.93**
+- Closed trade records: **62**
+- Profits / losses: **28 / 34**
+- Net INR P&L: **₹-8,425.00**
 - Net USD P&L: **$-0.6970**
 
 ## All closed trades
@@ -15,6 +15,8 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 |---|---|---|---|---|---:|---:|---|
 | 2026-10-06 15:29:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | PROFIT | ₹91.95 | 0.4996% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
 | 2026-10-06 12:14:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | PROFIT | ₹87.81 | 0.2386% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 2026-10-06 | Vertex 3:15 | EICHERMOT | LONG | PROFIT | ₹100.12 | 1.4451% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 2026-10-06 | Vertex 3:15 | CROMPTON | LONG | PROFIT | ₹416.81 | 4.1915% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
 | 2026-10-05 12:29:59 IST | SMC NIFTY 15m | NIFTY | LONG | LOSS | ₹-154.08 | -1.2008% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-10-05 11:59:59 IST | SMC BANKNIFTY 15m | BANKNIFTY | LONG | LOSS | ₹-308.50 | -0.8367% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 | 2026-10-05 10:44:59 IST | OB BANKNIFTY 15m | BANKNIFTY | LONG | PROFIT | ₹381.45 | 0.3970% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5986001995097735%. |
@@ -115,6 +117,46 @@ _Aggregated automatically from each strategy branch. INR and USD results are kep
 - Profit/Loss percentage: **0.2386%**
 - Holding period: **11d 23h 45m**
 - Notes: SMC uses scale-in/scale-out sizing. This row is a realized SELL slice; exit ladder step=0, fraction=%. A position can remain partly open after this journal row.
+
+### Vertex 3:15 — EICHERMOT — PROFIT
+
+- Trade ID: `VERTEX-EICHERMOT-2026-10-01-2026-10-06`
+- Branch: `vertex-315-paper`
+- Entry: **2026-10-01** at **6920.0000**
+- Entry signal: **VERTEX_CHARTINK_SIGNAL**
+- Why taken: Stock appeared in the configured Chartink/Vertex screener on the entry date. Scanner name: Eicher Motors Limited. Scanner change: -3.22%.
+- Stop: **Not used — no fixed stop is configured.**
+- Target: **Rule-based target: first later daily close above original entry price.**
+- Exit: **2026-10-06** at **7051.0000**
+- Exit signal: **DAILY_CLOSE_ABOVE_ORIGINAL_ENTRY**
+- Why closed/reduced: A later completed daily close was above the original entry price, which is the configured Vertex exit rule.
+- Quantity: **1**
+- Gross P&L: **₹131.00**
+- Fees/charges: **₹30.88**
+- Net P&L: **₹100.12**
+- Profit/Loss percentage: **1.4451%**
+- Holding period: **5 day(s)**
+- Notes: Average-add count: 0; average-added notional: ₹0.00; maximum capital in trade: ₹6,928.22.
+
+### Vertex 3:15 — CROMPTON — PROFIT
+
+- Trade ID: `VERTEX-CROMPTON-2026-10-01-2026-10-06`
+- Branch: `vertex-315-paper`
+- Entry: **2026-10-01** at **202.7000**
+- Entry signal: **VERTEX_CHARTINK_SIGNAL**
+- Why taken: Stock appeared in the configured Chartink/Vertex screener on the entry date. Scanner name: Crompton Greaves Consumer Electricals Limited. Scanner change: -2.86%.
+- Stop: **Not used — no fixed stop is configured.**
+- Target: **Rule-based target: first later daily close above original entry price.**
+- Exit: **2026-10-06** at **211.9800**
+- Exit signal: **DAILY_CLOSE_ABOVE_ORIGINAL_ENTRY**
+- Why closed/reduced: A later completed daily close was above the original entry price, which is the configured Vertex exit rule.
+- Quantity: **49**
+- Gross P&L: **₹454.72**
+- Fees/charges: **₹37.91**
+- Net P&L: **₹416.81**
+- Profit/Loss percentage: **4.1915%**
+- Holding period: **5 day(s)**
+- Notes: Average-add count: 0; average-added notional: ₹0.00; maximum capital in trade: ₹9,944.09.
 
 ### SMC NIFTY 15m — NIFTY — LOSS
 
