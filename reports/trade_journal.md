@@ -4,26 +4,53 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **9**
-- Profits / losses: **4 / 5**
-- Net realized P&L in journal: **₹3,003.35**
-- Average return per closed trade: **0.3454%**
+- Closed trade records: **10**
+- Profits / losses: **4 / 6**
+- Net realized P&L in journal: **₹1,450.35**
+- Average return per closed trade: **0.1601%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-10-05 09:29:59 IST | BTCUSDT | LONG | PROFIT | ₹43.61 | 0.0424% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6886782363902886%. |
-| 2 | 2026-10-04 06:59:59 IST | BTCUSDT | LONG | PROFIT | ₹116.97 | 0.1137% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.08551046256408874%. |
-| 3 | 2026-10-01 18:59:59 IST | BTCUSDT | LONG | LOSS | ₹-352.16 | -0.3413% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6151130532907193%. |
-| 4 | 2026-10-01 12:59:59 IST | BTCUSDT | LONG | PROFIT | ₹87.42 | 0.0848% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.199061202348868%. |
-| 5 | 2026-09-30 08:59:59 IST | BTCUSDT | LONG | LOSS | ₹-749.78 | -0.7219% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.19718273756285076%. |
-| 6 | 2026-09-24 23:14:59 IST | BTCUSDT | LONG | LOSS | ₹-106.63 | -0.1026% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6312486187636664%. |
-| 7 | 2026-09-24 05:44:59 IST | BTCUSDT | LONG | LOSS | ₹-110.92 | -0.1066% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.242434605863716%. |
-| 8 | 2026-09-22 06:44:59 IST | BTCUSDT | LONG | PROFIT | ₹5,288.06 | 5.3530% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.9625836989147929%. |
-| 9 | 2026-09-20 16:29:59 IST | BTCUSDT | LONG | LOSS | ₹-1,213.22 | -1.2132% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.28853411460919437%. |
+| 1 | 2026-10-07 14:29:59 IST | BTCUSDT | LONG | LOSS | ₹-1,553.00 | -1.5077% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.42398352363922986%. |
+| 2 | 2026-10-05 09:29:59 IST | BTCUSDT | LONG | PROFIT | ₹43.61 | 0.0424% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6886782363902886%. |
+| 3 | 2026-10-04 06:59:59 IST | BTCUSDT | LONG | PROFIT | ₹116.97 | 0.1137% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.08551046256408874%. |
+| 4 | 2026-10-01 18:59:59 IST | BTCUSDT | LONG | LOSS | ₹-352.16 | -0.3413% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6151130532907193%. |
+| 5 | 2026-10-01 12:59:59 IST | BTCUSDT | LONG | PROFIT | ₹87.42 | 0.0848% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.199061202348868%. |
+| 6 | 2026-09-30 08:59:59 IST | BTCUSDT | LONG | LOSS | ₹-749.78 | -0.7219% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.19718273756285076%. |
+| 7 | 2026-09-24 23:14:59 IST | BTCUSDT | LONG | LOSS | ₹-106.63 | -0.1026% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6312486187636664%. |
+| 8 | 2026-09-24 05:44:59 IST | BTCUSDT | LONG | LOSS | ₹-110.92 | -0.1066% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.242434605863716%. |
+| 9 | 2026-09-22 06:44:59 IST | BTCUSDT | LONG | PROFIT | ₹5,288.06 | 5.3530% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.9625836989147929%. |
+| 10 | 2026-09-20 16:29:59 IST | BTCUSDT | LONG | LOSS | ₹-1,213.22 | -1.2132% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.28853411460919437%. |
 
 ## Full trade details
+
+### Trade 10 — LOSS — BTCUSDT
+
+- Trade ID: `OB_BTCUSDT-10-1791226799999`
+- Strategy: **BTCUSDT Order Block**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-10-06 00:29:59 IST**
+- Entry signal: **BULLISH_OB**
+- Why entry was taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=0.37573599357682663%.
+- Entry price: **₹8,248,012.4434**
+- Quantity: **0.012488262957858123**
+- Entry value/cost: **₹103,003.35**
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit time: **2026-10-07 14:29:59 IST**
+- Exit signal: **BEARISH_OB**
+- Why position was closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.42398352363922986%.
+- Exit price: **₹8,123,655.8701**
+- Exit value/proceeds: **₹101,450.35**
+- Gross P&L: **₹-1,553.00**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹-1,553.00**
+- Profit/Loss percentage: **-1.5077%**
+- Holding period: **1d 14h 0m**
+- Notes: Entry OB candle=2026-10-05 23:00:00 IST; exit OB candle=2026-10-07 13:00:00 IST; use_wicks=False; threshold=0%.
 
 ### Trade 9 — PROFIT — BTCUSDT
 
