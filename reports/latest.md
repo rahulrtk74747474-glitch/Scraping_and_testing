@@ -1,16 +1,16 @@
 # Vertex Paper Trader — Latest Report
 
-**As of:** 2026-10-07
+**As of:** 2026-10-08
 
 ## Portfolio
 
-- Equity (estimated liquidation value): **₹100,650.43**
+- Equity (estimated liquidation value): **₹100,403.67**
 - Cash: **₹90,792.02**
-- Total profit/loss: **₹650.43 (0.65%)**
+- Total profit/loss: **₹403.67 (0.40%)**
 - Realized P&L: **₹687.75**
-- Unrealized P&L estimate: **₹-37.32**
+- Unrealized P&L estimate: **₹-284.08**
 - Open positions: **1**
-- Max drawdown observed: **0.07%**
+- Max drawdown observed: **0.28%**
 - Max capital deployed: **₹16,872.31**
 
 ## Closed-trade statistics
@@ -29,7 +29,7 @@
 
 | symbol     | entry_date   |   entry_price |   weighted_avg_price |   qty |   latest_close |   capital_in_trade |   average_add_count |   average_added_notional |   unrealized_net_pnl_est |   return_pct_est |
 |:-----------|:-------------|--------------:|---------------------:|------:|---------------:|-------------------:|--------------------:|-------------------------:|-------------------------:|-----------------:|
-| BAJAJ-AUTO | 2026-10-07   |          9884 |                 9884 |     1 |           9884 |            9895.73 |                   0 |                        0 |                   -37.32 |          -0.3771 |
+| BAJAJ-AUTO | 2026-10-07   |          9884 |                 9884 |     1 |           9637 |            9895.73 |                   0 |                        0 |                  -284.08 |          -2.8707 |
 
 ## Notes
 
