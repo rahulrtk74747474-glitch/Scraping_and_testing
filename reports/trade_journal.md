@@ -4,23 +4,50 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **6**
-- Profits / losses: **6 / 0**
-- Net realized P&L in journal: **₹1,089.83**
-- Average return per closed trade: **2.0096%**
+- Closed trade records: **7**
+- Profits / losses: **7 / 0**
+- Net realized P&L in journal: **₹1,193.88**
+- Average return per closed trade: **1.8766%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-10-06 | GRAVITA | LONG | PROFIT | ₹286.00 | 3.2894% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 2 | 2026-10-06 | EICHERMOT | LONG | PROFIT | ₹100.12 | 1.4451% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 3 | 2026-10-06 | CROMPTON | LONG | PROFIT | ₹416.81 | 4.1915% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 4 | 2026-09-30 | SBFC | LONG | PROFIT | ₹82.71 | 0.8289% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 5 | 2026-09-30 | ICICIBANK | LONG | PROFIT | ₹170.82 | 1.8862% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 6 | 2026-09-21 | PFIZER | LONG | PROFIT | ₹33.37 | 0.4164% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 1 | 2026-10-09 | BAJAJ-AUTO | LONG | PROFIT | ₹104.05 | 1.0784% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 2 | 2026-10-06 | GRAVITA | LONG | PROFIT | ₹286.00 | 3.2894% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 3 | 2026-10-06 | EICHERMOT | LONG | PROFIT | ₹100.12 | 1.4451% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 4 | 2026-10-06 | CROMPTON | LONG | PROFIT | ₹416.81 | 4.1915% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 5 | 2026-09-30 | SBFC | LONG | PROFIT | ₹82.71 | 0.8289% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 6 | 2026-09-30 | ICICIBANK | LONG | PROFIT | ₹170.82 | 1.8862% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 7 | 2026-09-21 | PFIZER | LONG | PROFIT | ₹33.37 | 0.4164% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
 
 ## Full trade details
+
+### Trade 7 — PROFIT — BAJAJ-AUTO
+
+- Trade ID: `VERTEX-BAJAJ-AUTO-2026-10-08-2026-10-09`
+- Strategy: **Vertex Chartink paper trader**
+- Timeframe: **Daily decision cycle**
+- Direction: **LONG**
+- Entry time: **2026-10-08**
+- Entry signal: **VERTEX_CHARTINK_SIGNAL**
+- Why entry was taken: Stock appeared in the configured Chartink/Vertex screener on the entry date. Scanner name: Bajaj Auto Limited. Scanner change: -2.5%.
+- Entry price: **₹9,637.0000**
+- Quantity: **1**
+- Entry value/cost: **₹9,637.00**
+- Stop: **Not used — no fixed stop is configured.**
+- Target: **Rule-based target: first later daily close above original entry price.**
+- Exit time: **2026-10-09**
+- Exit signal: **DAILY_CLOSE_ABOVE_ORIGINAL_ENTRY**
+- Why position was closed/reduced: A later completed daily close was above the original entry price, which is the configured Vertex exit rule.
+- Exit price: **₹9,778.0000**
+- Exit value/proceeds: **₹9,778.00**
+- Gross P&L: **₹141.00**
+- Fees/charges: **₹36.95**
+- Net P&L: **₹104.05**
+- Profit/Loss percentage: **1.0784%**
+- Holding period: **1 day(s)**
+- Notes: Average-add count: 0; average-added notional: ₹0.00; maximum capital in trade: ₹9,648.46.
 
 ### Trade 6 — PROFIT — GRAVITA
 

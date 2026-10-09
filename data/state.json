@@ -1,24 +1,10 @@
 {
-  "cash": 69708.51,
+  "cash": 70126.28,
   "equity_peak": 100938.48,
-  "last_run_date": "2026-10-08",
+  "last_run_date": "2026-10-09",
   "max_capital_deployed": 35539.37,
   "max_drawdown_pct": 0.6403,
   "positions": {
-    "BAJAJ-AUTO": {
-      "average_add_count": 0,
-      "average_added_notional": 0.0,
-      "entry_date": "2026-10-08",
-      "entry_price": 9637.0,
-      "initial_invested_notional": 9637.0,
-      "name": "Bajaj Auto Limited",
-      "qty": 1,
-      "symbol": "BAJAJ-AUTO",
-      "total_buy_charges": 11.46,
-      "total_buy_cost": 9648.46,
-      "total_buy_turnover": 9637.0,
-      "weighted_avg_price": 9637.0
-    },
     "BBTC": {
       "average_add_count": 0,
       "average_added_notional": 0.0,
@@ -34,21 +20,35 @@
       "weighted_avg_price": 1224.6
     },
     "SJVN": {
-      "average_add_count": 2,
-      "average_added_notional": 1949.74,
+      "average_add_count": 3,
+      "average_added_notional": 2944.6,
       "entry_date": "2026-10-01",
       "entry_price": 57.91,
       "initial_invested_notional": 9960.52,
       "name": "Sjvn Limited",
-      "qty": 207,
+      "qty": 225,
       "symbol": "SJVN",
-      "total_buy_charges": 14.16,
-      "total_buy_cost": 11924.42,
-      "total_buy_turnover": 11910.26,
-      "weighted_avg_price": 57.5375
+      "total_buy_charges": 15.34,
+      "total_buy_cost": 12920.46,
+      "total_buy_turnover": 12905.12,
+      "weighted_avg_price": 57.3561
+    },
+    "ZFCVINDIA": {
+      "average_add_count": 0,
+      "average_added_notional": 0.0,
+      "entry_date": "2026-10-09",
+      "entry_price": 2082.2,
+      "initial_invested_notional": 8328.8,
+      "name": "ZF Commercial Vehicle Control System India Ltd",
+      "qty": 4,
+      "symbol": "ZFCVINDIA",
+      "total_buy_charges": 9.9,
+      "total_buy_cost": 8338.7,
+      "total_buy_turnover": 8328.8,
+      "weighted_avg_price": 2082.2
     }
   },
-  "realized_pnl": 1089.83,
+  "realized_pnl": 1193.88,
   "starting_capital": 100000.0,
   "version": 1
 }
