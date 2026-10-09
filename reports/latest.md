@@ -1,17 +1,17 @@
 # Vertex 500 Paper Trader — Latest Report
 
-**As of:** 2026-10-08
+**As of:** 2026-10-09
 
 ## Portfolio
 
-- Equity (estimated liquidation value): **₹100,006.74**
-- Cash: **₹68,501.98**
-- Total profit/loss: **₹6.74 (0.01%)**
+- Equity (estimated liquidation value): **₹100,321.99**
+- Cash: **₹59,167.24**
+- Total profit/loss: **₹321.99 (0.32%)**
 - Realized P&L: **₹1,089.83**
-- Unrealized P&L estimate: **₹-1,083.09**
-- Open positions: **3**
+- Unrealized P&L estimate: **₹-767.84**
+- Open positions: **4**
 - Max drawdown observed: **0.92%**
-- Max capital deployed: **₹35,539.37**
+- Max capital deployed: **₹41,922.59**
 
 ## Closed-trade statistics
 
@@ -29,9 +29,10 @@
 
 | symbol     | entry_date   |   entry_price |   weighted_avg_price |   qty |   latest_close |   capital_in_trade |   average_add_count |   average_added_notional |   unrealized_net_pnl_est |   return_pct_est |
 |:-----------|:-------------|--------------:|---------------------:|------:|---------------:|-------------------:|--------------------:|-------------------------:|-------------------------:|-----------------:|
-| BAJAJ-AUTO | 2026-10-07   |       9884    |            9884      |     1 |        9637    |            9895.73 |                   0 |                     0    |                  -284.08 |          -2.8707 |
-| SJVN       | 2026-10-01   |         57.91 |              57.4481 |   224 |          54.24 |           12883.7  |                   3 |                  2907.86 |                  -761.86 |          -5.9134 |
-| BBTC       | 2026-10-08   |       1224.6  |            1224.6    |     8 |        1224.6  |            9808.44 |                   0 |                     0    |                   -37.15 |          -0.3788 |
+| BAJAJ-AUTO | 2026-10-07   |       9884    |            9884      |     1 |        9778    |            9895.73 |                   0 |                     0    |                  -143.22 |          -1.4473 |
+| BBTC       | 2026-10-08   |       1224.6  |            1224.6    |     8 |        1222.1  |            9808.44 |                   0 |                     0    |                   -57.13 |          -0.5825 |
+| SJVN       | 2026-10-01   |         57.91 |              57.2861 |   242 |          55.27 |           13879.7  |                   4 |                  3902.72 |                  -533.6  |          -3.8445 |
+| ZFCVINDIA  | 2026-10-09   |       2082.2  |            2082.2    |     4 |        2082.2  |            8338.7  |                   0 |                     0    |                   -33.89 |          -0.4064 |
 
 ## Notes
 

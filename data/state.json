@@ -1,8 +1,8 @@
 {
-  "cash": 68501.98,
+  "cash": 59167.24,
   "equity_peak": 100938.48,
-  "last_run_date": "2026-10-08",
-  "max_capital_deployed": 35539.37,
+  "last_run_date": "2026-10-09",
+  "max_capital_deployed": 41922.59,
   "max_drawdown_pct": 0.9231,
   "positions": {
     "BAJAJ-AUTO": {
@@ -34,18 +34,32 @@
       "weighted_avg_price": 1224.6
     },
     "SJVN": {
-      "average_add_count": 3,
-      "average_added_notional": 2907.86,
+      "average_add_count": 4,
+      "average_added_notional": 3902.72,
       "entry_date": "2026-10-01",
       "entry_price": 57.91,
       "initial_invested_notional": 9960.52,
       "name": "Sjvn Limited",
-      "qty": 224,
+      "qty": 242,
       "symbol": "SJVN",
-      "total_buy_charges": 15.3,
-      "total_buy_cost": 12883.68,
-      "total_buy_turnover": 12868.38,
-      "weighted_avg_price": 57.4481
+      "total_buy_charges": 16.48,
+      "total_buy_cost": 13879.72,
+      "total_buy_turnover": 13863.24,
+      "weighted_avg_price": 57.2861
+    },
+    "ZFCVINDIA": {
+      "average_add_count": 0,
+      "average_added_notional": 0.0,
+      "entry_date": "2026-10-09",
+      "entry_price": 2082.2,
+      "initial_invested_notional": 8328.8,
+      "name": "ZF Commercial Vehicle Control System India Ltd",
+      "qty": 4,
+      "symbol": "ZFCVINDIA",
+      "total_buy_charges": 9.9,
+      "total_buy_cost": 8338.7,
+      "total_buy_turnover": 8328.8,
+      "weighted_avg_price": 2082.2
     }
   },
   "realized_pnl": 1089.83,
