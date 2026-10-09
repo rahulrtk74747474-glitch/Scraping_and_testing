@@ -1,26 +1,11 @@
 {
-  "cash": 91039.29,
-  "equity_peak": 100687.75,
-  "last_run_date": "2026-10-08",
+  "cash": 100791.8,
+  "equity_peak": 100791.8,
+  "last_run_date": "2026-10-09",
   "max_capital_deployed": 16872.31,
   "max_drawdown_pct": 0.0681,
-  "positions": {
-    "BAJAJ-AUTO": {
-      "average_add_count": 0,
-      "average_added_notional": 0.0,
-      "entry_date": "2026-10-08",
-      "entry_price": 9637.0,
-      "initial_invested_notional": 9637.0,
-      "name": "Bajaj Auto Limited",
-      "qty": 1,
-      "symbol": "BAJAJ-AUTO",
-      "total_buy_charges": 11.46,
-      "total_buy_cost": 9648.46,
-      "total_buy_turnover": 9637.0,
-      "weighted_avg_price": 9637.0
-    }
-  },
-  "realized_pnl": 687.75,
+  "positions": {},
+  "realized_pnl": 791.8,
   "starting_capital": 100000.0,
   "version": 1
 }
