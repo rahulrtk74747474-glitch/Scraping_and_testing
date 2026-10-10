@@ -2,20 +2,20 @@
 
 - Starting demo money: **₹100,000.00**
 - Current equity: **₹101,602.94**
-- Cash: **₹101,602.94**
+- Cash: **₹51,729.94**
 - Total P&L: **₹1,602.94 (1.60%)**
 - Realized / unrealized: **₹1,602.94 / ₹0.00**
 - Max drawdown: **1.23%**
-- Last processed candle: **2026-10-10T03:59:59.999000+00:00**
-- Next same-side size: **50.000000% of current position unless a BUY reverses first**
+- Last processed candle: **2026-10-10T11:59:59.999000+00:00**
+- Next same-side size: **50.000000% of current cash unless a SELL reverses first**
 
 ## Position
 
-_Flat. SELL while flat does not open a short._
+- LONG qty: **0.0062177267** | cost basis: **₹49,873.00**
 
 ## Latest confirmed major swing
 
-- **SELL** confirmed 2026-10-06T19:59:59.999000+00:00; pivot candle 2026-10-05T00:00:00+00:00; pivot 86,999.110000 USDT
+- **BUY** confirmed 2026-10-10T11:59:59.999000+00:00; pivot candle 2026-10-08T16:00:00+00:00; pivot 80,393.560000 USDT
 
 ## Updated sizing rules
 
