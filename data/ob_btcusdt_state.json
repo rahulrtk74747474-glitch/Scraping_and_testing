@@ -2,7 +2,7 @@
   "cash_inr": 0.0,
   "closed_trades": 10,
   "equity_peak_inr": 104845.20951983701,
-  "last_processed_close_time": 1791770399999,
+  "last_processed_close_time": 1791796499999,
   "last_signal": {
     "confirmed_close_time": 1791766799999,
     "confirmed_price": 83962.66,
@@ -14,7 +14,7 @@
     "signal": "BULLISH_OB"
   },
   "losses": 6,
-  "max_drawdown_pct": 3.2711800009730085,
+  "max_drawdown_pct": 3.6721068012266387,
   "position": {
     "entry_cost_inr": 101450.35068445087,
     "entry_fee_inr": 0.0,
