@@ -4,19 +4,46 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **2**
-- Profits / losses: **1 / 1**
-- Net realized P&L in journal: **₹-3,545.87**
-- Average return per closed trade: **-1.7651%**
+- Closed trade records: **3**
+- Profits / losses: **1 / 2**
+- Net realized P&L in journal: **₹-4,256.88**
+- Average return per closed trade: **-1.4225%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-10-05 10:44:59 IST | BANKNIFTY | LONG | PROFIT | ₹381.45 | 0.3970% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5986001995097735%. |
-| 2 | 2026-10-01 12:59:59 IST | BANKNIFTY | LONG | LOSS | ₹-3,927.32 | -3.9273% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.302167346725494%. |
+| 1 | 2026-10-12 11:14:59 IST | BANKNIFTY | LONG | LOSS | ₹-711.01 | -0.7372% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6015973549678888%. |
+| 2 | 2026-10-05 10:44:59 IST | BANKNIFTY | LONG | PROFIT | ₹381.45 | 0.3970% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5986001995097735%. |
+| 3 | 2026-10-01 12:59:59 IST | BANKNIFTY | LONG | LOSS | ₹-3,927.32 | -3.9273% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.302167346725494%. |
 
 ## Full trade details
+
+### Trade 3 — LOSS — BANKNIFTY
+
+- Trade ID: `OB_BANKNIFTY-3-1791521099999`
+- Strategy: **BANKNIFTY Order Block**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-10-09 10:14:59 IST**
+- Entry signal: **BULLISH_OB**
+- Why entry was taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=1.3124340157444172%.
+- Entry price: **₹55,178.5508**
+- Quantity: **1.7480366245859396**
+- Entry value/cost: **₹96,454.13**
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit time: **2026-10-12 11:14:59 IST**
+- Exit signal: **BEARISH_OB**
+- Why position was closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.6015973549678888%.
+- Exit price: **₹54,771.8008**
+- Exit value/proceeds: **₹95,743.11**
+- Gross P&L: **₹-711.01**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹-711.01**
+- Profit/Loss percentage: **-0.7372%**
+- Holding period: **3d 1h 0m**
+- Notes: Entry OB candle=2026-10-08 15:00:00 IST; exit OB candle=2026-10-12 09:45:00 IST; use_wicks=False; threshold=0%.
 
 ### Trade 2 — PROFIT — BANKNIFTY
 
