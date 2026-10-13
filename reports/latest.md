@@ -1,6 +1,6 @@
 # Vertex Paper Trader — Latest Report
 
-**As of:** 2026-10-09
+**As of:** 2026-10-13
 
 ## Portfolio
 
