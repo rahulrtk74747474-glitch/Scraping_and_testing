@@ -4,20 +4,47 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **3**
-- Profits / losses: **3 / 0**
-- Net realized P&L in journal: **₹687.75**
-- Average return per closed trade: **2.5076%**
+- Closed trade records: **4**
+- Profits / losses: **4 / 0**
+- Net realized P&L in journal: **₹1,083.97**
+- Average return per closed trade: **2.8817%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-10-06 | EICHERMOT | LONG | PROFIT | ₹100.12 | 1.4451% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 2 | 2026-10-06 | CROMPTON | LONG | PROFIT | ₹416.81 | 4.1915% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 3 | 2026-09-30 | ICICIBANK | LONG | PROFIT | ₹170.82 | 1.8862% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 1 | 2026-10-13 | BAJAJ-AUTO | LONG | PROFIT | ₹396.22 | 4.0039% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 2 | 2026-10-06 | EICHERMOT | LONG | PROFIT | ₹100.12 | 1.4451% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 3 | 2026-10-06 | CROMPTON | LONG | PROFIT | ₹416.81 | 4.1915% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 4 | 2026-09-30 | ICICIBANK | LONG | PROFIT | ₹170.82 | 1.8862% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
 
 ## Full trade details
+
+### Trade 4 — PROFIT — BAJAJ-AUTO
+
+- Trade ID: `VERTEX-BAJAJ-AUTO-2026-10-07-2026-10-13`
+- Strategy: **Vertex Chartink paper trader**
+- Timeframe: **Daily decision cycle**
+- Direction: **LONG**
+- Entry time: **2026-10-07**
+- Entry signal: **VERTEX_CHARTINK_SIGNAL**
+- Why entry was taken: Stock appeared in the configured Chartink/Vertex screener on the entry date. Scanner name: Bajaj Auto Limited. Scanner change: -1.33%.
+- Entry price: **₹9,884.0000**
+- Quantity: **1**
+- Entry value/cost: **₹9,884.00**
+- Stop: **Not used — no fixed stop is configured.**
+- Target: **Rule-based target: first later daily close above original entry price.**
+- Exit time: **2026-10-13**
+- Exit signal: **DAILY_CLOSE_ABOVE_ORIGINAL_ENTRY**
+- Why position was closed/reduced: A later completed daily close was above the original entry price, which is the configured Vertex exit rule.
+- Exit price: **₹10,318.0000**
+- Exit value/proceeds: **₹10,318.00**
+- Gross P&L: **₹434.00**
+- Fees/charges: **₹37.78**
+- Net P&L: **₹396.22**
+- Profit/Loss percentage: **4.0039%**
+- Holding period: **6 day(s)**
+- Notes: Average-add count: 0; average-added notional: ₹0.00; maximum capital in trade: ₹9,895.73.
 
 ### Trade 3 — PROFIT — EICHERMOT
 
