@@ -4,23 +4,104 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **6**
-- Profits / losses: **6 / 0**
-- Net realized P&L in journal: **₹1,089.83**
-- Average return per closed trade: **2.0096%**
+- Closed trade records: **9**
+- Profits / losses: **9 / 0**
+- Net realized P&L in journal: **₹1,842.17**
+- Average return per closed trade: **2.2348%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-10-06 | GRAVITA | LONG | PROFIT | ₹286.00 | 3.2894% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 2 | 2026-10-06 | EICHERMOT | LONG | PROFIT | ₹100.12 | 1.4451% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 3 | 2026-10-06 | CROMPTON | LONG | PROFIT | ₹416.81 | 4.1915% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 4 | 2026-09-30 | SBFC | LONG | PROFIT | ₹82.71 | 0.8289% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 5 | 2026-09-30 | ICICIBANK | LONG | PROFIT | ₹170.82 | 1.8862% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
-| 6 | 2026-09-21 | PFIZER | LONG | PROFIT | ₹33.37 | 0.4164% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 1 | 2026-10-13 | ZFCVINDIA | LONG | PROFIT | ₹234.24 | 2.8091% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 2 | 2026-10-13 | BBTC | LONG | PROFIT | ₹121.88 | 1.2426% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 3 | 2026-10-13 | BAJAJ-AUTO | LONG | PROFIT | ₹396.22 | 4.0039% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 4 | 2026-10-06 | GRAVITA | LONG | PROFIT | ₹286.00 | 3.2894% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 5 | 2026-10-06 | EICHERMOT | LONG | PROFIT | ₹100.12 | 1.4451% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 6 | 2026-10-06 | CROMPTON | LONG | PROFIT | ₹416.81 | 4.1915% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 7 | 2026-09-30 | SBFC | LONG | PROFIT | ₹82.71 | 0.8289% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 8 | 2026-09-30 | ICICIBANK | LONG | PROFIT | ₹170.82 | 1.8862% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
+| 9 | 2026-09-21 | PFIZER | LONG | PROFIT | ₹33.37 | 0.4164% | A later completed daily close was above the original entry price, which is the configured Vertex exit rule. |
 
 ## Full trade details
+
+### Trade 9 — PROFIT — ZFCVINDIA
+
+- Trade ID: `VERTEX-ZFCVINDIA-2026-10-09-2026-10-13`
+- Strategy: **Vertex Chartink paper trader**
+- Timeframe: **Daily decision cycle**
+- Direction: **LONG**
+- Entry time: **2026-10-09**
+- Entry signal: **VERTEX_CHARTINK_SIGNAL**
+- Why entry was taken: Stock appeared in the configured Chartink/Vertex screener on the entry date. Scanner name: ZF Commercial Vehicle Control System India Ltd. Scanner change: -1.61%.
+- Entry price: **₹2,082.2000**
+- Quantity: **4**
+- Entry value/cost: **₹8,328.80**
+- Stop: **Not used — no fixed stop is configured.**
+- Target: **Rule-based target: first later daily close above original entry price.**
+- Exit time: **2026-10-13**
+- Exit signal: **DAILY_CLOSE_ABOVE_ORIGINAL_ENTRY**
+- Why position was closed/reduced: A later completed daily close was above the original entry price, which is the configured Vertex exit rule.
+- Exit price: **₹2,149.3000**
+- Exit value/proceeds: **₹8,597.20**
+- Gross P&L: **₹268.40**
+- Fees/charges: **₹34.16**
+- Net P&L: **₹234.24**
+- Profit/Loss percentage: **2.8091%**
+- Holding period: **4 day(s)**
+- Notes: Average-add count: 0; average-added notional: ₹0.00; maximum capital in trade: ₹8,338.70.
+
+### Trade 8 — PROFIT — BBTC
+
+- Trade ID: `VERTEX-BBTC-2026-10-08-2026-10-13`
+- Strategy: **Vertex Chartink paper trader**
+- Timeframe: **Daily decision cycle**
+- Direction: **LONG**
+- Entry time: **2026-10-08**
+- Entry signal: **VERTEX_CHARTINK_SIGNAL**
+- Why entry was taken: Stock appeared in the configured Chartink/Vertex screener on the entry date. Scanner name: Bombay Burmah Trading Corporation Limited. Scanner change: -3.53%.
+- Entry price: **₹1,224.6000**
+- Quantity: **8**
+- Entry value/cost: **₹9,796.80**
+- Stop: **Not used — no fixed stop is configured.**
+- Target: **Rule-based target: first later daily close above original entry price.**
+- Exit time: **2026-10-13**
+- Exit signal: **DAILY_CLOSE_ABOVE_ORIGINAL_ENTRY**
+- Why position was closed/reduced: A later completed daily close was above the original entry price, which is the configured Vertex exit rule.
+- Exit price: **₹1,244.5000**
+- Exit value/proceeds: **₹9,956.00**
+- Gross P&L: **₹159.20**
+- Fees/charges: **₹37.32**
+- Net P&L: **₹121.88**
+- Profit/Loss percentage: **1.2426%**
+- Holding period: **5 day(s)**
+- Notes: Average-add count: 0; average-added notional: ₹0.00; maximum capital in trade: ₹9,808.44.
+
+### Trade 7 — PROFIT — BAJAJ-AUTO
+
+- Trade ID: `VERTEX-BAJAJ-AUTO-2026-10-07-2026-10-13`
+- Strategy: **Vertex Chartink paper trader**
+- Timeframe: **Daily decision cycle**
+- Direction: **LONG**
+- Entry time: **2026-10-07**
+- Entry signal: **VERTEX_CHARTINK_SIGNAL**
+- Why entry was taken: Stock appeared in the configured Chartink/Vertex screener on the entry date. Scanner name: Bajaj Auto Limited. Scanner change: -1.33%.
+- Entry price: **₹9,884.0000**
+- Quantity: **1**
+- Entry value/cost: **₹9,884.00**
+- Stop: **Not used — no fixed stop is configured.**
+- Target: **Rule-based target: first later daily close above original entry price.**
+- Exit time: **2026-10-13**
+- Exit signal: **DAILY_CLOSE_ABOVE_ORIGINAL_ENTRY**
+- Why position was closed/reduced: A later completed daily close was above the original entry price, which is the configured Vertex exit rule.
+- Exit price: **₹10,318.0000**
+- Exit value/proceeds: **₹10,318.00**
+- Gross P&L: **₹434.00**
+- Fees/charges: **₹37.78**
+- Net P&L: **₹396.22**
+- Profit/Loss percentage: **4.0039%**
+- Holding period: **6 day(s)**
+- Notes: Average-add count: 0; average-added notional: ₹0.00; maximum capital in trade: ₹9,895.73.
 
 ### Trade 6 — PROFIT — GRAVITA
 
