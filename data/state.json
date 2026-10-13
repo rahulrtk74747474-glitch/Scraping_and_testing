@@ -1,54 +1,26 @@
 {
-  "cash": 70126.28,
-  "equity_peak": 100938.48,
-  "last_run_date": "2026-10-09",
+  "cash": 87675.22,
+  "equity_peak": 101214.74,
+  "last_run_date": "2026-10-13",
   "max_capital_deployed": 35539.37,
   "max_drawdown_pct": 0.6403,
   "positions": {
-    "BBTC": {
-      "average_add_count": 0,
-      "average_added_notional": 0.0,
-      "entry_date": "2026-10-08",
-      "entry_price": 1224.6,
-      "initial_invested_notional": 9796.8,
-      "name": "Bombay Burmah Trading Corporation Limited",
-      "qty": 8,
-      "symbol": "BBTC",
-      "total_buy_charges": 11.64,
-      "total_buy_cost": 9808.44,
-      "total_buy_turnover": 9796.8,
-      "weighted_avg_price": 1224.6
-    },
     "SJVN": {
-      "average_add_count": 3,
-      "average_added_notional": 2944.6,
+      "average_add_count": 4,
+      "average_added_notional": 3897.79,
       "entry_date": "2026-10-01",
       "entry_price": 57.91,
       "initial_invested_notional": 9960.52,
       "name": "Sjvn Limited",
-      "qty": 225,
+      "qty": 242,
       "symbol": "SJVN",
-      "total_buy_charges": 15.34,
-      "total_buy_cost": 12920.46,
-      "total_buy_turnover": 12905.12,
-      "weighted_avg_price": 57.3561
-    },
-    "ZFCVINDIA": {
-      "average_add_count": 0,
-      "average_added_notional": 0.0,
-      "entry_date": "2026-10-09",
-      "entry_price": 2082.2,
-      "initial_invested_notional": 8328.8,
-      "name": "ZF Commercial Vehicle Control System India Ltd",
-      "qty": 4,
-      "symbol": "ZFCVINDIA",
-      "total_buy_charges": 9.9,
-      "total_buy_cost": 8338.7,
-      "total_buy_turnover": 8328.8,
-      "weighted_avg_price": 2082.2
+      "total_buy_charges": 16.47,
+      "total_buy_cost": 13874.78,
+      "total_buy_turnover": 13858.31,
+      "weighted_avg_price": 57.2657
     }
   },
-  "realized_pnl": 1193.88,
+  "realized_pnl": 1550.0,
   "starting_capital": 100000.0,
   "version": 1
 }
