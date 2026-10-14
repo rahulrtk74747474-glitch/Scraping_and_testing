@@ -1,23 +1,23 @@
 {
-  "cash": 87008.13,
-  "equity_peak": 101499.86,
-  "last_run_date": "2026-10-13",
+  "cash": 86041.89,
+  "equity_peak": 101678.81,
+  "last_run_date": "2026-10-14",
   "max_capital_deployed": 41922.59,
   "max_drawdown_pct": 0.9231,
   "positions": {
     "SJVN": {
-      "average_add_count": 5,
-      "average_added_notional": 4855.91,
+      "average_add_count": 6,
+      "average_added_notional": 5821.0,
       "entry_date": "2026-10-01",
       "entry_price": 57.91,
       "initial_invested_notional": 9960.52,
       "name": "Sjvn Limited",
-      "qty": 259,
+      "qty": 276,
       "symbol": "SJVN",
-      "total_buy_charges": 17.61,
-      "total_buy_cost": 14834.04,
-      "total_buy_turnover": 14816.43,
-      "weighted_avg_price": 57.2063
+      "total_buy_charges": 18.76,
+      "total_buy_cost": 15800.28,
+      "total_buy_turnover": 15781.52,
+      "weighted_avg_price": 57.1794
     }
   },
   "realized_pnl": 1842.17,
