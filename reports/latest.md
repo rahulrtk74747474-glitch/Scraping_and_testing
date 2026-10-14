@@ -1,14 +1,14 @@
 # Vertex 500 Paper Trader — Latest Report
 
-**As of:** 2026-10-13
+**As of:** 2026-10-14
 
 ## Portfolio
 
-- Equity (estimated liquidation value): **₹101,214.74**
-- Cash: **₹87,675.22**
-- Total profit/loss: **₹1,214.74 (1.21%)**
+- Equity (estimated liquidation value): **₹101,381.83**
+- Cash: **₹86,708.98**
+- Total profit/loss: **₹1,381.83 (1.38%)**
 - Realized P&L: **₹1,550.00**
-- Unrealized P&L estimate: **₹-335.26**
+- Unrealized P&L estimate: **₹-168.17**
 - Open positions: **1**
 - Max drawdown observed: **0.64%**
 - Max capital deployed: **₹35,539.37**
@@ -29,7 +29,7 @@
 
 | symbol   | entry_date   |   entry_price |   weighted_avg_price |   qty |   latest_close |   capital_in_trade |   average_add_count |   average_added_notional |   unrealized_net_pnl_est |   return_pct_est |
 |:---------|:-------------|--------------:|---------------------:|------:|---------------:|-------------------:|--------------------:|-------------------------:|-------------------------:|-----------------:|
-| SJVN     | 2026-10-01   |         57.91 |              57.2657 |   242 |          56.07 |            13874.8 |                   4 |                  3897.79 |                  -335.26 |          -2.4163 |
+| SJVN     | 2026-10-01   |         57.91 |              57.2332 |   259 |          56.77 |              14841 |                   5 |                  4862.88 |                  -168.17 |          -1.1331 |
 
 ## Notes
 
