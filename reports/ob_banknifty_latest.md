@@ -1,16 +1,16 @@
 # BANKNIFTY 15m Order-Block Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹95,782.72**
+- Current equity: **₹95,850.65**
 - Cash: **₹0.00**
-- Total P&L: **₹-4,217.28 (-4.22%)**
+- Total P&L: **₹-4,149.35 (-4.15%)**
 - Realized P&L: **₹-4,360.41**
-- Unrealized P&L: **₹143.12**
+- Unrealized P&L: **₹211.05**
 - Closed trades: **4** | Wins: **1** | Losses: **3** | Win rate: **25.00%**
 - Max drawdown: **4.44%**
-- Latest source close: **55,481.050781 INR**
+- Latest source close: **55,520.398438 INR**
 - Quote currency: **INR**
-- Last processed candle: `2026-10-13T09:59:59.999000+00:00`
+- Last processed candle: `2026-10-14T05:14:59.999000+00:00`
 
 ## Position
 
