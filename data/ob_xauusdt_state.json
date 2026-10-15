@@ -2,7 +2,7 @@
   "cash_inr": 0.0,
   "closed_trades": 9,
   "equity_peak_inr": 100000.0,
-  "last_processed_close_time": 1792025099999,
+  "last_processed_close_time": 1792043099999,
   "last_signal": {
     "confirmed_close_time": 1792025099999,
     "confirmed_price": 4164.7998046875,
