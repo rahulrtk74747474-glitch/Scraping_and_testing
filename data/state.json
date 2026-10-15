@@ -1,23 +1,37 @@
 {
-  "cash": 86708.98,
+  "cash": 76548.1,
   "equity_peak": 101381.83,
-  "last_run_date": "2026-10-14",
+  "last_run_date": "2026-10-15",
   "max_capital_deployed": 35539.37,
   "max_drawdown_pct": 0.6403,
   "positions": {
+    "CAPLIPOINT": {
+      "average_add_count": 0,
+      "average_added_notional": 0.0,
+      "entry_date": "2026-10-15",
+      "entry_price": 2301.8,
+      "initial_invested_notional": 9207.2,
+      "name": "Caplin Point Laboratories Limited",
+      "qty": 4,
+      "symbol": "CAPLIPOINT",
+      "total_buy_charges": 10.93,
+      "total_buy_cost": 9218.13,
+      "total_buy_turnover": 9207.2,
+      "weighted_avg_price": 2301.8
+    },
     "SJVN": {
-      "average_add_count": 5,
-      "average_added_notional": 4862.88,
+      "average_add_count": 6,
+      "average_added_notional": 5804.51,
       "entry_date": "2026-10-01",
       "entry_price": 57.91,
       "initial_invested_notional": 9960.52,
       "name": "Sjvn Limited",
-      "qty": 259,
+      "qty": 276,
       "symbol": "SJVN",
-      "total_buy_charges": 17.62,
-      "total_buy_cost": 14841.02,
-      "total_buy_turnover": 14823.4,
-      "weighted_avg_price": 57.2332
+      "total_buy_charges": 18.74,
+      "total_buy_cost": 15783.77,
+      "total_buy_turnover": 15765.03,
+      "weighted_avg_price": 57.1197
     }
   },
   "realized_pnl": 1550.0,
