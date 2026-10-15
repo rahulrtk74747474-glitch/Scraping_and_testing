@@ -1,16 +1,16 @@
 # BANKNIFTY 15m Order-Block Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹95,497.77**
+- Current equity: **₹96,274.91**
 - Cash: **₹0.00**
-- Total P&L: **₹-4,502.23 (-4.50%)**
+- Total P&L: **₹-3,725.09 (-3.73%)**
 - Realized P&L: **₹-4,360.41**
-- Unrealized P&L: **₹-141.82**
+- Unrealized P&L: **₹635.32**
 - Closed trades: **4** | Wins: **1** | Losses: **3** | Win rate: **25.00%**
 - Max drawdown: **4.59%**
-- Latest source close: **55,316.000000 INR**
+- Latest source close: **55,766.148438 INR**
 - Quote currency: **INR**
-- Last processed candle: `2026-10-14T09:59:59.999000+00:00`
+- Last processed candle: `2026-10-15T05:44:59.999000+00:00`
 
 ## Position
 
@@ -22,10 +22,10 @@
 ## Latest detected order block
 
 - Signal: **BULLISH_OB**
-- Confirmation time: `2026-10-13T09:14:59.999000+00:00`
-- Original OB candle open time: `2026-10-13T07:45:00+00:00`
-- OB high / avg / low: **55124.148438 / 55070.349609 / 55016.550781**
-- Move used by indicator: **0.6413%**
+- Confirmation time: `2026-10-15T05:14:59.999000+00:00`
+- Original OB candle open time: `2026-10-15T03:45:00+00:00`
+- OB high / avg / low: **55445.750000 / 55364.425781 / 55283.101562**
+- Move used by indicator: **0.6609%**
 
 ## Rules mirrored from the supplied Pine indicator
 
