@@ -1,26 +1,15 @@
 {
-  "balance": 95.54333171610048,
-  "closed_trades": 28,
+  "balance": 95.98896035322335,
+  "closed_trades": 29,
   "equity_peak": 101.38339266422605,
-  "last_processed_close_time": 1792359899999,
+  "last_processed_close_time": 1792367099999,
   "losses": 20,
   "max_drawdown_pct": 5.835035163002359,
-  "open_position": {
-    "balance_before": 95.54333171610048,
-    "cycle": 1792333800000,
-    "dir": "long",
-    "entry": 81041.22,
-    "entry_fee": 0.09544788383226822,
-    "entry_notional": 95.44788383226822,
-    "entry_time": 1792358099999,
-    "qty": 0.0011777695823467146,
-    "stop": 80624.27,
-    "target": 81582.21
-  },
-  "realized_pnl": -4.456668283899517,
+  "open_position": null,
+  "realized_pnl": -4.011039646776652,
   "starting_capital": 100.0,
   "symbol": "BTCUSDT",
   "timeframe": "15m",
   "version": 1,
-  "wins": 8
+  "wins": 9
 }
