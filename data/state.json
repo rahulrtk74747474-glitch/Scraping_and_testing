@@ -1,9 +1,9 @@
 {
-  "cash": 74910.01,
+  "cash": 64202.16,
   "equity_peak": 101678.81,
-  "last_run_date": "2026-10-16",
+  "last_run_date": "2026-10-19",
   "max_capital_deployed": 41922.59,
-  "max_drawdown_pct": 0.9231,
+  "max_drawdown_pct": 1.9022,
   "positions": {
     "CAPLIPOINT": {
       "average_add_count": 0,
@@ -19,19 +19,33 @@
       "total_buy_turnover": 9207.2,
       "weighted_avg_price": 2301.8
     },
+    "EXIDEIND": {
+      "average_add_count": 0,
+      "average_added_notional": 0.0,
+      "entry_date": "2026-10-19",
+      "entry_price": 360.15,
+      "initial_invested_notional": 9724.05,
+      "name": "Exide Industries Limited",
+      "qty": 27,
+      "symbol": "EXIDEIND",
+      "total_buy_charges": 11.55,
+      "total_buy_cost": 9735.6,
+      "total_buy_turnover": 9724.05,
+      "weighted_avg_price": 360.15
+    },
     "SJVN": {
-      "average_add_count": 8,
-      "average_added_notional": 7732.47,
+      "average_add_count": 9,
+      "average_added_notional": 8703.56,
       "entry_date": "2026-10-01",
       "entry_price": 57.91,
       "initial_invested_notional": 9960.52,
       "name": "Sjvn Limited",
-      "qty": 311,
+      "qty": 330,
       "symbol": "SJVN",
-      "total_buy_charges": 21.04,
-      "total_buy_cost": 17714.03,
-      "total_buy_turnover": 17692.99,
-      "weighted_avg_price": 56.8906
+      "total_buy_charges": 22.2,
+      "total_buy_cost": 18686.28,
+      "total_buy_turnover": 18664.08,
+      "weighted_avg_price": 56.5578
     }
   },
   "realized_pnl": 1842.17,

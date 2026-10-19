@@ -1,16 +1,16 @@
 # Vertex 500 Paper Trader — Latest Report
 
-**As of:** 2026-10-16
+**As of:** 2026-10-19
 
 ## Portfolio
 
-- Equity (estimated liquidation value): **₹100,814.27**
-- Cash: **₹74,910.01**
-- Total profit/loss: **₹814.27 (0.81%)**
+- Equity (estimated liquidation value): **₹99,744.71**
+- Cash: **₹64,202.16**
+- Total profit/loss: **₹-255.29 (-0.26%)**
 - Realized P&L: **₹1,842.17**
-- Unrealized P&L estimate: **₹-1,027.90**
-- Open positions: **2**
-- Max drawdown observed: **0.92%**
+- Unrealized P&L estimate: **₹-2,097.46**
+- Open positions: **3**
+- Max drawdown observed: **1.90%**
 - Max capital deployed: **₹41,922.59**
 
 ## Closed-trade statistics
@@ -29,8 +29,9 @@
 
 | symbol     | entry_date   |   entry_price |   weighted_avg_price |   qty |   latest_close |   capital_in_trade |   average_add_count |   average_added_notional |   unrealized_net_pnl_est |   return_pct_est |
 |:-----------|:-------------|--------------:|---------------------:|------:|---------------:|-------------------:|--------------------:|-------------------------:|-------------------------:|-----------------:|
-| CAPLIPOINT | 2026-10-15   |       2301.8  |            2301.8    |     4 |        2301.3  |            9218.13 |                   0 |                     0    |                   -37.82 |          -0.4103 |
-| SJVN       | 2026-10-01   |         57.91 |              56.8906 |   311 |          53.88 |           17714    |                   8 |                  7732.47 |                  -990.08 |          -5.5892 |
+| CAPLIPOINT | 2026-10-15   |       2301.8  |            2301.8    |     4 |        2258.8  |            9218.13 |                   0 |                     0    |                  -207.65 |          -2.2526 |
+| SJVN       | 2026-10-01   |         57.91 |              56.5578 |   330 |          51.11 |           18686.3  |                   9 |                  8703.56 |                 -1852.83 |          -9.9155 |
+| EXIDEIND   | 2026-10-19   |        360.15 |             360.15   |    27 |         360.15 |            9735.6  |                   0 |                     0    |                   -36.98 |          -0.3798 |
 
 ## Notes
 
