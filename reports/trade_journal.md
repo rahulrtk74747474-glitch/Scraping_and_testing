@@ -4,33 +4,60 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **16**
-- Profits / losses: **7 / 9**
-- Net realized P&L in journal: **₹-1,241.57**
-- Average return per closed trade: **-0.3022%**
+- Closed trade records: **17**
+- Profits / losses: **7 / 10**
+- Net realized P&L in journal: **₹-1,797.55**
+- Average return per closed trade: **-0.3654%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-10-19 09:59:59 IST | BANKNIFTY | LONG | LOSS | ₹-156.94 | -0.3880% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 2 | 2026-10-16 09:59:59 IST | BANKNIFTY | LONG | PROFIT | ₹127.48 | 0.3162% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 3 | 2026-10-14 12:29:59 IST | BANKNIFTY | LONG | PROFIT | ₹62.22 | 0.1543% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 4 | 2026-10-13 12:29:59 IST | BANKNIFTY | LONG | PROFIT | ₹6.46 | 0.0161% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 5 | 2026-10-12 10:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-19.81 | -0.2143% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
-| 6 | 2026-10-09 12:44:59 IST | BANKNIFTY | LONG | PROFIT | ₹3.01 | 0.0163% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 7 | 2026-10-07 13:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-11.44 | -0.0620% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 8 | 2026-10-06 15:29:59 IST | BANKNIFTY | LONG | PROFIT | ₹91.95 | 0.4996% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
-| 9 | 2026-10-06 12:14:59 IST | BANKNIFTY | LONG | PROFIT | ₹87.81 | 0.2386% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 10 | 2026-10-05 11:59:59 IST | BANKNIFTY | LONG | LOSS | ₹-308.50 | -0.8367% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 11 | 2026-10-01 13:14:59 IST | BANKNIFTY | LONG | LOSS | ₹-393.96 | -1.0666% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 12 | 2026-10-01 09:59:59 IST | BANKNIFTY | LONG | LOSS | ₹-118.72 | -0.3211% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
-| 13 | 2026-09-29 14:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-185.98 | -1.4406% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 14 | 2026-09-28 10:29:59 IST | BANKNIFTY | LONG | LOSS | ₹-438.80 | -1.7256% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 15 | 2026-09-25 12:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-25.58 | -0.1006% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 16 | 2026-09-23 13:44:59 IST | BANKNIFTY | LONG | PROFIT | ₹39.23 | 0.0785% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 1 | 2026-10-21 12:14:59 IST | BANKNIFTY | LONG | LOSS | ₹-555.98 | -1.3764% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 2 | 2026-10-19 09:59:59 IST | BANKNIFTY | LONG | LOSS | ₹-156.94 | -0.3880% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 3 | 2026-10-16 09:59:59 IST | BANKNIFTY | LONG | PROFIT | ₹127.48 | 0.3162% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 4 | 2026-10-14 12:29:59 IST | BANKNIFTY | LONG | PROFIT | ₹62.22 | 0.1543% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 5 | 2026-10-13 12:29:59 IST | BANKNIFTY | LONG | PROFIT | ₹6.46 | 0.0161% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 6 | 2026-10-12 10:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-19.81 | -0.2143% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
+| 7 | 2026-10-09 12:44:59 IST | BANKNIFTY | LONG | PROFIT | ₹3.01 | 0.0163% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 8 | 2026-10-07 13:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-11.44 | -0.0620% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 9 | 2026-10-06 15:29:59 IST | BANKNIFTY | LONG | PROFIT | ₹91.95 | 0.4996% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
+| 10 | 2026-10-06 12:14:59 IST | BANKNIFTY | LONG | PROFIT | ₹87.81 | 0.2386% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 11 | 2026-10-05 11:59:59 IST | BANKNIFTY | LONG | LOSS | ₹-308.50 | -0.8367% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 12 | 2026-10-01 13:14:59 IST | BANKNIFTY | LONG | LOSS | ₹-393.96 | -1.0666% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 13 | 2026-10-01 09:59:59 IST | BANKNIFTY | LONG | LOSS | ₹-118.72 | -0.3211% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
+| 14 | 2026-09-29 14:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-185.98 | -1.4406% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 15 | 2026-09-28 10:29:59 IST | BANKNIFTY | LONG | LOSS | ₹-438.80 | -1.7256% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 16 | 2026-09-25 12:44:59 IST | BANKNIFTY | LONG | LOSS | ₹-25.58 | -0.1006% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 17 | 2026-09-23 13:44:59 IST | BANKNIFTY | LONG | PROFIT | ₹39.23 | 0.0785% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 
 ## Full trade details
+
+### Trade 17 — LOSS — BANKNIFTY
+
+- Trade ID: `SMC_BANKNIFTY-17-1792565099999`
+- Strategy: **BANKNIFTY SMC Clean Wave major swings**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-09-24 12:29:59 IST**
+- Entry signal: **CONFIRMED_PIVOT_LOW_BUY**
+- Why entry was taken: A confirmed major pivot low generated the BUY side of the SMC major-swing strategy. Position size follows the configured restore/50%/12.5% ladder rules.
+- Entry price: **₹55,551.8576**
+- Quantity: **0.7271435709893468**
+- Entry value/cost: **₹40,394.18**
+- Stop: **Not used — this strategy reduces/exits on confirmed opposite major swings.**
+- Target: **Not fixed — SELL decisions come from confirmed pivot-high signals.**
+- Exit time: **2026-10-21 12:14:59 IST**
+- Exit signal: **CONFIRMED_PIVOT_HIGH_SELL**
+- Why position was closed/reduced: A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY.
+- Exit price: **₹54,787.2500**
+- Exit value/proceeds: **₹39,838.20**
+- Gross P&L: **-**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹-555.98**
+- Profit/Loss percentage: **-1.3764%**
+- Holding period: **26d 23h 45m**
+- Notes: SMC uses scale-in/scale-out sizing. This row is a realized SELL slice; exit ladder step=0, fraction=%. A position can remain partly open after this journal row.
 
 ### Trade 16 — LOSS — BANKNIFTY
 
