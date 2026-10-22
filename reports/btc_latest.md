@@ -8,8 +8,8 @@
 - Unrealized P&L estimate: **$0.0000**
 - Closed trades: **33** | Wins: **10** | Losses: **23** | Win rate: **30.30%**
 - Max drawdown: **6.32%**
-- Last BTCUSDT close: **$81,298.01**
-- Last processed candle close time (ms): `1792701899999`
+- Last BTCUSDT close: **$81,357.82**
+- Last processed candle close time (ms): `1792712699999`
 
 ## Open position
 
