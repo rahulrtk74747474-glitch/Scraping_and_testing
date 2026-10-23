@@ -4,21 +4,48 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **4**
-- Profits / losses: **3 / 1**
-- Net realized P&L in journal: **₹852.89**
-- Average return per closed trade: **0.4375%**
+- Closed trade records: **5**
+- Profits / losses: **3 / 2**
+- Net realized P&L in journal: **₹726.81**
+- Average return per closed trade: **0.2543%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-10-18 09:29:59 IST | BTCUSDT | LONG | PROFIT | ₹15.75 | 0.0600% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 2 | 2026-10-14 05:29:59 IST | BTCUSDT | LONG | LOSS | ₹-765.79 | -1.5355% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 3 | 2026-10-04 13:29:59 IST | BTCUSDT | LONG | PROFIT | ₹1,327.05 | 2.6738% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 4 | 2026-09-27 09:29:59 IST | BTCUSDT | LONG | PROFIT | ₹275.88 | 0.5518% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 1 | 2026-10-23 17:29:59 IST | BTCUSDT | LONG | LOSS | ₹-126.08 | -0.4788% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 2 | 2026-10-18 09:29:59 IST | BTCUSDT | LONG | PROFIT | ₹15.75 | 0.0600% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 3 | 2026-10-14 05:29:59 IST | BTCUSDT | LONG | LOSS | ₹-765.79 | -1.5355% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 4 | 2026-10-04 13:29:59 IST | BTCUSDT | LONG | PROFIT | ₹1,327.05 | 2.6738% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 5 | 2026-09-27 09:29:59 IST | BTCUSDT | LONG | PROFIT | ₹275.88 | 0.5518% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 
 ## Full trade details
+
+### Trade 5 — LOSS — BTCUSDT
+
+- Trade ID: `SMC_BTCUSDT-5-1792756799999`
+- Strategy: **BTCUSDT SMC Clean Wave major swings**
+- Timeframe: **4h**
+- Direction: **LONG**
+- Entry time: **2026-10-15 01:29:59 IST**
+- Entry signal: **CONFIRMED_PIVOT_LOW_BUY**
+- Why entry was taken: A confirmed major pivot low generated the BUY side of the SMC major-swing strategy. Position size follows the configured restore/50%/12.5% ladder rules.
+- Entry price: **₹7,796,406.6754**
+- Quantity: **0.003377354960208502**
+- Entry value/cost: **₹26,331.23**
+- Stop: **Not used — this strategy reduces/exits on confirmed opposite major swings.**
+- Target: **Not fixed — SELL decisions come from confirmed pivot-high signals.**
+- Exit time: **2026-10-23 17:29:59 IST**
+- Exit signal: **CONFIRMED_PIVOT_HIGH_SELL**
+- Why position was closed/reduced: A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY.
+- Exit price: **₹7,759,076.1335**
+- Exit value/proceeds: **₹26,205.15**
+- Gross P&L: **-**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹-126.08**
+- Profit/Loss percentage: **-0.4788%**
+- Holding period: **8d 16h 0m**
+- Notes: SMC uses scale-in/scale-out sizing. This row is a realized SELL slice; exit ladder step=0, fraction=%. A position can remain partly open after this journal row.
 
 ### Trade 4 — PROFIT — BTCUSDT
 
