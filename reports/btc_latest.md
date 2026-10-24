@@ -1,23 +1,19 @@
 # BTCUSDT 15m Paper Trader — Latest Report
 
 - Starting demo money: **$100.00**
-- Current equity: **$93.6150**
-- Closed balance: **$93.6410**
-- Total P&L: **$-6.3850 (-6.38%)**
-- Realized P&L: **$-6.3590**
-- Unrealized P&L estimate: **$-0.0260**
-- Closed trades: **35** | Wins: **10** | Losses: **25** | Win rate: **28.57%**
-- Max drawdown: **7.66%**
-- Last BTCUSDT close: **$80,769.95**
-- Last processed candle close time (ms): `1792847699999`
+- Current equity: **$93.1534**
+- Closed balance: **$93.1534**
+- Total P&L: **$-6.8466 (-6.85%)**
+- Realized P&L: **$-6.8466**
+- Unrealized P&L estimate: **$0.0000**
+- Closed trades: **36** | Wins: **10** | Losses: **26** | Win rate: **27.78%**
+- Max drawdown: **8.12%**
+- Last BTCUSDT close: **$79,880.89**
+- Last processed candle close time (ms): `1792860299999`
 
 ## Open position
 
-- Direction: **LONG**
-- Entry: **$80,630.95**
-- Stop: **$80,371.67**
-- Target: **$81,420.62**
-- Quantity: **0.00116019 BTC**
+_No open position. Waiting for the next confirmed distribution signal._
 
 ## Execution assumptions
 
