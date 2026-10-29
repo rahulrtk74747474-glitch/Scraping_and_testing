@@ -1,21 +1,21 @@
 # BANKNIFTY 15m SMC Major-Swing Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹98,010.17**
-- Cash: **₹79,803.24**
-- Total P&L: **₹-1,989.83 (-1.99%)**
-- Realized / unrealized: **₹-1,976.63 / ₹-13.20**
+- Current equity: **₹98,068.33**
+- Cash: **₹88,921.02**
+- Total P&L: **₹-1,931.67 (-1.93%)**
+- Realized / unrealized: **₹-1,968.92 / ₹37.24**
 - Max drawdown: **2.15%**
-- Last processed candle: **2026-10-28T09:59:59.999000+00:00**
-- Next same-side size: **50.000000% of current cash unless a SELL reverses first**
+- Last processed candle: **2026-10-29T05:44:59.999000+00:00**
+- Next same-side size: **50.000000% of current position unless a BUY reverses first**
 
 ## Position
 
-- LONG qty: **0.3355040782** | cost basis: **₹18,220.13**
+- LONG qty: **0.1677520391** | cost basis: **₹9,110.07**
 
 ## Latest confirmed major swing
 
-- **BUY** confirmed 2026-10-28T06:29:59.999000+00:00; pivot candle 2026-10-28T03:45:00+00:00; pivot 53,626.148438 INR
+- **SELL** confirmed 2026-10-29T03:59:59.999000+00:00; pivot candle 2026-10-28T07:30:00+00:00; pivot 54,439.601562 INR
 
 ## Updated sizing rules
 
