@@ -4,35 +4,62 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **18**
-- Profits / losses: **6 / 12**
-- Net realized P&L in journal: **₹-1,154.70**
-- Average return per closed trade: **-0.3833%**
+- Closed trade records: **19**
+- Profits / losses: **7 / 12**
+- Net realized P&L in journal: **₹-901.26**
+- Average return per closed trade: **-0.3014%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-10-29 13:14:59 IST | NIFTY | LONG | PROFIT | ₹103.50 | 0.2396% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 2 | 2026-10-29 09:29:59 IST | NIFTY | LONG | PROFIT | ₹30.09 | 0.0699% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 3 | 2026-10-27 15:14:59 IST | NIFTY | LONG | PROFIT | ₹167.41 | 0.3894% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
-| 4 | 2026-10-26 12:44:59 IST | NIFTY | LONG | LOSS | ₹-23.19 | -0.3679% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 5 | 2026-10-23 11:59:59 IST | NIFTY | LONG | LOSS | ₹-148.73 | -1.1726% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 6 | 2026-10-22 11:44:59 IST | NIFTY | LONG | LOSS | ₹-171.29 | -0.4649% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
-| 7 | 2026-10-21 12:14:59 IST | NIFTY | LONG | LOSS | ₹-24.05 | -0.1927% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 8 | 2026-10-16 13:14:59 IST | NIFTY | LONG | PROFIT | ₹195.94 | 1.5716% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 9 | 2026-10-14 12:29:59 IST | NIFTY | LONG | PROFIT | ₹124.61 | 0.3403% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
-| 10 | 2026-10-13 12:29:59 IST | NIFTY | LONG | LOSS | ₹-62.69 | -0.4904% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 11 | 2026-10-12 11:59:59 IST | NIFTY | LONG | LOSS | ₹-165.90 | -1.2963% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 12 | 2026-10-07 14:44:59 IST | NIFTY | LONG | LOSS | ₹-44.69 | -0.3488% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 13 | 2026-10-07 11:44:59 IST | NIFTY | LONG | LOSS | ₹-18.35 | -0.1432% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 14 | 2026-10-05 12:29:59 IST | NIFTY | LONG | LOSS | ₹-154.08 | -1.2008% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 15 | 2026-09-30 15:29:59 IST | NIFTY | LONG | LOSS | ₹-568.24 | -1.5301% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
-| 16 | 2026-09-29 14:44:59 IST | NIFTY | LONG | LOSS | ₹-166.60 | -1.3003% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 17 | 2026-09-28 10:29:59 IST | NIFTY | LONG | LOSS | ₹-279.94 | -1.1054% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
-| 18 | 2026-09-23 14:59:59 IST | NIFTY | LONG | PROFIT | ₹51.50 | 0.1030% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 1 | 2026-10-30 15:29:59 IST | NIFTY | LONG | PROFIT | ₹253.44 | 1.1733% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
+| 2 | 2026-10-29 13:14:59 IST | NIFTY | LONG | PROFIT | ₹103.50 | 0.2396% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 3 | 2026-10-29 09:29:59 IST | NIFTY | LONG | PROFIT | ₹30.09 | 0.0699% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 4 | 2026-10-27 15:14:59 IST | NIFTY | LONG | PROFIT | ₹167.41 | 0.3894% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
+| 5 | 2026-10-26 12:44:59 IST | NIFTY | LONG | LOSS | ₹-23.19 | -0.3679% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 6 | 2026-10-23 11:59:59 IST | NIFTY | LONG | LOSS | ₹-148.73 | -1.1726% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 7 | 2026-10-22 11:44:59 IST | NIFTY | LONG | LOSS | ₹-171.29 | -0.4649% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
+| 8 | 2026-10-21 12:14:59 IST | NIFTY | LONG | LOSS | ₹-24.05 | -0.1927% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 9 | 2026-10-16 13:14:59 IST | NIFTY | LONG | PROFIT | ₹195.94 | 1.5716% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 10 | 2026-10-14 12:29:59 IST | NIFTY | LONG | PROFIT | ₹124.61 | 0.3403% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
+| 11 | 2026-10-13 12:29:59 IST | NIFTY | LONG | LOSS | ₹-62.69 | -0.4904% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 12 | 2026-10-12 11:59:59 IST | NIFTY | LONG | LOSS | ₹-165.90 | -1.2963% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 13 | 2026-10-07 14:44:59 IST | NIFTY | LONG | LOSS | ₹-44.69 | -0.3488% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 14 | 2026-10-07 11:44:59 IST | NIFTY | LONG | LOSS | ₹-18.35 | -0.1432% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 15 | 2026-10-05 12:29:59 IST | NIFTY | LONG | LOSS | ₹-154.08 | -1.2008% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 16 | 2026-09-30 15:29:59 IST | NIFTY | LONG | LOSS | ₹-568.24 | -1.5301% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%. |
+| 17 | 2026-09-29 14:44:59 IST | NIFTY | LONG | LOSS | ₹-166.60 | -1.3003% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 18 | 2026-09-28 10:29:59 IST | NIFTY | LONG | LOSS | ₹-279.94 | -1.1054% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
+| 19 | 2026-09-23 14:59:59 IST | NIFTY | LONG | PROFIT | ₹51.50 | 0.1030% | A confirmed major pivot high generated a SELL. This realized slice used sizing rule RESTORE_LAST_BUY_QTY. |
 
 ## Full trade details
+
+### Trade 19 — PROFIT — NIFTY
+
+- Trade ID: `SMC_NIFTY-19-1793354399999`
+- Strategy: **NIFTY SMC Clean Wave major swings**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-09-25 11:59:59 IST**
+- Entry signal: **CONFIRMED_PIVOT_LOW_BUY**
+- Why entry was taken: A confirmed major pivot low generated the BUY side of the SMC major-swing strategy. Position size follows the configured restore/50%/12.5% ladder rules.
+- Entry price: **₹22,785.7641**
+- Quantity: **0.9480390782323181**
+- Entry value/cost: **₹21,601.79**
+- Stop: **Not used — this strategy reduces/exits on confirmed opposite major swings.**
+- Target: **Not fixed — SELL decisions come from confirmed pivot-high signals.**
+- Exit time: **2026-10-30 15:29:59 IST**
+- Exit signal: **CONFIRMED_PIVOT_HIGH_SELL**
+- Why position was closed/reduced: A confirmed major pivot high generated a SELL. This realized slice used sizing rule LADDER at 50.0%.
+- Exit price: **₹23,053.0996**
+- Exit value/proceeds: **₹21,855.24**
+- Gross P&L: **-**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹253.44**
+- Profit/Loss percentage: **1.1733%**
+- Holding period: **35d 3h 30m**
+- Notes: SMC uses scale-in/scale-out sizing. This row is a realized SELL slice; exit ladder step=1, fraction=50.0%. A position can remain partly open after this journal row.
 
 ### Trade 18 — PROFIT — NIFTY
 
