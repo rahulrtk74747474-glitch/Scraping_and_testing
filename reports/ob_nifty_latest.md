@@ -1,16 +1,16 @@
 # NIFTY 15m Order-Block Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹98,833.76**
+- Current equity: **₹99,455.34**
 - Cash: **₹0.00**
-- Total P&L: **₹-1,166.24 (-1.17%)**
+- Total P&L: **₹-544.66 (-0.54%)**
 - Realized P&L: **₹-5,586.42**
-- Unrealized P&L: **₹4,420.17**
+- Unrealized P&L: **₹5,041.75**
 - Closed trades: **7** | Wins: **1** | Losses: **6** | Win rate: **14.29%**
 - Max drawdown: **6.37%**
-- Latest source close: **23,810.849609 INR**
+- Latest source close: **23,960.599609 INR**
 - Quote currency: **INR**
-- Last processed candle: `2026-11-03T09:59:59.999000+00:00`
+- Last processed candle: `2026-11-04T09:59:59.999000+00:00`
 
 ## Position
 
@@ -22,10 +22,10 @@
 ## Latest detected order block
 
 - Signal: **BULLISH_OB**
-- Confirmation time: `2026-11-03T05:29:59.999000+00:00`
-- Original OB candle open time: `2026-11-03T04:00:00+00:00`
-- OB high / avg / low: **23621.750000 / 23611.174805 / 23600.599609**
-- Move used by indicator: **0.2179%**
+- Confirmation time: `2026-11-04T07:59:59.999000+00:00`
+- Original OB candle open time: `2026-11-04T06:30:00+00:00`
+- OB high / avg / low: **23763.500000 / 23758.250000 / 23753.000000**
+- Move used by indicator: **0.4751%**
 
 ## Rules mirrored from the supplied Pine indicator
 
