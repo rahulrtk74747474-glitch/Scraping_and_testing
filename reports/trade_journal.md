@@ -4,37 +4,64 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **20**
-- Profits / losses: **6 / 14**
-- Net realized P&L in journal: **₹-6,169.83**
-- Average return per closed trade: **-0.3160%**
+- Closed trade records: **21**
+- Profits / losses: **7 / 14**
+- Net realized P&L in journal: **₹-4,109.94**
+- Average return per closed trade: **-0.1965%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-11-04 08:29:59 IST | XAUUSDT | LONG | PROFIT | ₹24.64 | 0.0263% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5820863715824619%. |
-| 2 | 2026-11-04 00:59:59 IST | XAUUSDT | LONG | PROFIT | ₹340.63 | 0.3645% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.2281947261663286%. |
-| 3 | 2026-10-29 04:29:59 IST | XAUUSDT | LONG | PROFIT | ₹86.31 | 0.0924% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.4823926474443341%. |
-| 4 | 2026-10-28 10:29:59 IST | XAUUSDT | LONG | LOSS | ₹-193.05 | -0.2063% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.22172949002217296%. |
-| 5 | 2026-10-27 10:59:59 IST | XAUUSDT | LONG | LOSS | ₹-540.91 | -0.5747% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.4312243455700124%. |
-| 6 | 2026-10-26 19:14:59 IST | XAUUSDT | LONG | LOSS | ₹-485.31 | -0.5130% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5130226690345163%. |
-| 7 | 2026-10-23 19:59:59 IST | XAUUSDT | LONG | LOSS | ₹-1,180.89 | -1.2329% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.376298929318724%. |
-| 8 | 2026-10-22 04:44:59 IST | XAUUSDT | LONG | LOSS | ₹-272.66 | -0.2839% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.3485995912970309%. |
-| 9 | 2026-10-21 05:14:59 IST | XAUUSDT | LONG | LOSS | ₹-363.44 | -0.3770% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.3736380379153625%. |
-| 10 | 2026-10-16 21:14:59 IST | XAUUSDT | LONG | LOSS | ₹-21.55 | -0.0223% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5784550162440151%. |
-| 11 | 2026-10-15 16:14:59 IST | XAUUSDT | LONG | PROFIT | ₹127.92 | 0.1328% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.13157894736842105%. |
-| 12 | 2026-10-13 21:29:59 IST | XAUUSDT | LONG | LOSS | ₹-320.56 | -0.3317% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.21949532269109354%. |
-| 13 | 2026-10-09 16:44:59 IST | XAUUSDT | LONG | PROFIT | ₹1,028.76 | 1.0761% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.1804820151092377%. |
-| 14 | 2026-10-07 10:29:59 IST | XAUUSDT | LONG | LOSS | ₹-639.04 | -0.6640% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.2492785796680249%. |
-| 15 | 2026-10-02 21:29:59 IST | XAUUSDT | LONG | LOSS | ₹-1,143.91 | -1.1746% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.1770020651175557%. |
-| 16 | 2026-09-30 06:44:59 IST | XAUUSDT | LONG | PROFIT | ₹604.99 | 0.6251% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.301169313685053%. |
-| 17 | 2026-09-28 06:44:59 IST | XAUUSDT | LONG | LOSS | ₹-1,464.07 | -1.4903% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8778511259540704%. |
-| 18 | 2026-09-25 08:59:59 IST | XAUUSDT | LONG | LOSS | ₹-320.72 | -0.3254% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.2820545992679788%. |
-| 19 | 2026-09-24 23:14:59 IST | XAUUSDT | LONG | LOSS | ₹-683.73 | -0.6889% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.38738331693043265%. |
-| 20 | 2026-09-23 10:59:59 IST | XAUUSDT | LONG | LOSS | ₹-753.24 | -0.7532% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.11179079269419598%. |
+| 1 | 2026-11-05 11:29:59 IST | XAUUSDT | LONG | PROFIT | ₹2,059.89 | 2.1953% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.7007850127934979%. |
+| 2 | 2026-11-04 08:29:59 IST | XAUUSDT | LONG | PROFIT | ₹24.64 | 0.0263% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5820863715824619%. |
+| 3 | 2026-11-04 00:59:59 IST | XAUUSDT | LONG | PROFIT | ₹340.63 | 0.3645% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.2281947261663286%. |
+| 4 | 2026-10-29 04:29:59 IST | XAUUSDT | LONG | PROFIT | ₹86.31 | 0.0924% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.4823926474443341%. |
+| 5 | 2026-10-28 10:29:59 IST | XAUUSDT | LONG | LOSS | ₹-193.05 | -0.2063% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.22172949002217296%. |
+| 6 | 2026-10-27 10:59:59 IST | XAUUSDT | LONG | LOSS | ₹-540.91 | -0.5747% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.4312243455700124%. |
+| 7 | 2026-10-26 19:14:59 IST | XAUUSDT | LONG | LOSS | ₹-485.31 | -0.5130% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5130226690345163%. |
+| 8 | 2026-10-23 19:59:59 IST | XAUUSDT | LONG | LOSS | ₹-1,180.89 | -1.2329% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.376298929318724%. |
+| 9 | 2026-10-22 04:44:59 IST | XAUUSDT | LONG | LOSS | ₹-272.66 | -0.2839% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.3485995912970309%. |
+| 10 | 2026-10-21 05:14:59 IST | XAUUSDT | LONG | LOSS | ₹-363.44 | -0.3770% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.3736380379153625%. |
+| 11 | 2026-10-16 21:14:59 IST | XAUUSDT | LONG | LOSS | ₹-21.55 | -0.0223% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5784550162440151%. |
+| 12 | 2026-10-15 16:14:59 IST | XAUUSDT | LONG | PROFIT | ₹127.92 | 0.1328% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.13157894736842105%. |
+| 13 | 2026-10-13 21:29:59 IST | XAUUSDT | LONG | LOSS | ₹-320.56 | -0.3317% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.21949532269109354%. |
+| 14 | 2026-10-09 16:44:59 IST | XAUUSDT | LONG | PROFIT | ₹1,028.76 | 1.0761% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.1804820151092377%. |
+| 15 | 2026-10-07 10:29:59 IST | XAUUSDT | LONG | LOSS | ₹-639.04 | -0.6640% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.2492785796680249%. |
+| 16 | 2026-10-02 21:29:59 IST | XAUUSDT | LONG | LOSS | ₹-1,143.91 | -1.1746% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.1770020651175557%. |
+| 17 | 2026-09-30 06:44:59 IST | XAUUSDT | LONG | PROFIT | ₹604.99 | 0.6251% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.301169313685053%. |
+| 18 | 2026-09-28 06:44:59 IST | XAUUSDT | LONG | LOSS | ₹-1,464.07 | -1.4903% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8778511259540704%. |
+| 19 | 2026-09-25 08:59:59 IST | XAUUSDT | LONG | LOSS | ₹-320.72 | -0.3254% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.2820545992679788%. |
+| 20 | 2026-09-24 23:14:59 IST | XAUUSDT | LONG | LOSS | ₹-683.73 | -0.6889% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.38738331693043265%. |
+| 21 | 2026-09-23 10:59:59 IST | XAUUSDT | LONG | LOSS | ₹-753.24 | -0.7532% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.11179079269419598%. |
 
 ## Full trade details
+
+### Trade 21 — PROFIT — XAUUSDT
+
+- Trade ID: `OB_XAUUSDT-21-1793773799999`
+- Strategy: **XAUUSDT Order Block**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-11-04 11:59:59 IST**
+- Entry signal: **BULLISH_OB**
+- Why entry was taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=1.7171717171717171%.
+- Entry price: **₹381,169.6289**
+- Quantity: **0.2461637824084161**
+- Entry value/cost: **₹93,830.16**
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit time: **2026-11-05 11:29:59 IST**
+- Exit signal: **BEARISH_OB**
+- Why position was closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.7007850127934979%.
+- Exit price: **₹389,537.5938**
+- Exit value/proceeds: **₹95,890.05**
+- Gross P&L: **₹2,059.89**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹2,059.89**
+- Profit/Loss percentage: **2.1953%**
+- Holding period: **0d 23h 30m**
+- Notes: Entry OB candle=2026-11-04 10:30:00 IST; exit OB candle=2026-11-05 10:00:00 IST; use_wicks=False; threshold=0%.
 
 ### Trade 20 — PROFIT — XAUUSDT
 

@@ -1,37 +1,26 @@
 {
-  "cash_inr": 0.0,
-  "closed_trades": 20,
+  "cash_inr": 95890.04748201632,
+  "closed_trades": 21,
   "equity_peak_inr": 100000.0,
-  "last_processed_close_time": 1793849399999,
+  "last_processed_close_time": 1793878199999,
   "last_signal": {
-    "confirmed_close_time": 1793773799999,
-    "confirmed_price": 4028.0,
-    "move_pct": 1.7171717171717171,
-    "ob_avg": 3959.449951171875,
-    "ob_high": 3962.699951171875,
-    "ob_low": 3956.199951171875,
-    "ob_open_time": 1793768400000,
-    "signal": "BULLISH_OB"
+    "confirmed_close_time": 1793858399999,
+    "confirmed_price": 4123.39990234375,
+    "move_pct": 0.7007850127934979,
+    "ob_avg": 4148.5,
+    "ob_high": 4152.89990234375,
+    "ob_low": 4144.10009765625,
+    "ob_open_time": 1793853000000,
+    "signal": "BEARISH_OB"
   },
   "losses": 14,
   "max_drawdown_pct": 6.781067105677241,
-  "position": {
-    "entry_cost_inr": 93830.15759828716,
-    "entry_fee_inr": 0.0,
-    "entry_price_inr": 381169.6289367676,
-    "entry_price_quote": 4028.0,
-    "entry_time": 1793773799999,
-    "ob_avg": 3959.449951171875,
-    "ob_high": 3962.699951171875,
-    "ob_low": 3956.199951171875,
-    "ob_open_time": 1793768400000,
-    "qty": 0.2461637824084161
-  },
-  "realized_pnl_inr": -6169.842401712842,
+  "position": null,
+  "realized_pnl_inr": -4109.952517983678,
   "starting_capital_inr": 100000.0,
   "strategy": "Order Block Finder v4 logic",
   "symbol": "XAUUSDT",
   "timeframe": "15m",
   "version": 1,
-  "wins": 6
+  "wins": 7
 }
