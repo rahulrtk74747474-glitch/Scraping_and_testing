@@ -2,11 +2,11 @@
   "buy_sequence_base_inr": 0.0,
   "buy_step": 0,
   "cash_inr": 54681.905080860866,
-  "equity_peak_inr": 101442.7957084316,
+  "equity_peak_inr": 102141.40422386995,
   "last_executed_notional_inr": 23340.67396347023,
   "last_executed_qty": 0.9480390782323181,
   "last_executed_side": "BUY",
-  "last_processed_close_time": 1793947499999,
+  "last_processed_close_time": 1793959199999,
   "last_sequence_direction": "BUY",
   "last_signal": {
     "confirmed_close_time": 1793946599999,
