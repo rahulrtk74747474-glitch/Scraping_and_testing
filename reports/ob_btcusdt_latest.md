@@ -8,9 +8,9 @@
 - Unrealized P&L: **₹0.00**
 - Closed trades: **30** | Wins: **8** | Losses: **22** | Win rate: **26.67%**
 - Max drawdown: **12.46%**
-- Latest source close: **74,775.410000 USDT**
+- Latest source close: **74,770.020000 USDT**
 - USD/INR used this run: **93.9200**
-- Last processed candle: `2026-11-09T20:44:59.999000+00:00`
+- Last processed candle: `2026-11-10T03:14:59.999000+00:00`
 
 ## Position
 
