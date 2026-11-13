@@ -1,31 +1,28 @@
 # BTCUSDT 15m Order-Block Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹90,183.26**
-- Cash: **₹0.00**
-- Total P&L: **₹-9,816.74 (-9.82%)**
-- Realized P&L: **₹-9,841.70**
-- Unrealized P&L: **₹24.95**
-- Closed trades: **32** | Wins: **8** | Losses: **24** | Win rate: **25.00%**
-- Max drawdown: **14.01%**
-- Latest source close: **69,171.880000 USDT**
+- Current equity: **₹89,976.25**
+- Cash: **₹89,976.25**
+- Total P&L: **₹-10,023.75 (-10.02%)**
+- Realized P&L: **₹-10,023.75**
+- Unrealized P&L: **₹0.00**
+- Closed trades: **33** | Wins: **8** | Losses: **25** | Win rate: **24.24%**
+- Max drawdown: **14.18%**
+- Latest source close: **68,914.010000 USDT**
 - USD/INR used this run: **94.2300**
-- Last processed candle: `2026-11-13T14:29:59.999000+00:00`
+- Last processed candle: `2026-11-13T20:59:59.999000+00:00`
 
 ## Position
 
-- Status: **LONG / fully invested**
-- Entry time: `2026-11-13T07:14:59.999000+00:00`
-- Entry price: **69,152.740000 USDT**
-- Quantity (synthetic units): **0.0138358910**
+_Flat. Waiting for the next confirmed bullish order block._
 
 ## Latest detected order block
 
-- Signal: **BULLISH_OB**
-- Confirmation time: `2026-11-13T10:14:59.999000+00:00`
-- Original OB candle open time: `2026-11-13T08:45:00+00:00`
-- OB high / avg / low: **68780.900000 / 68749.185000 / 68717.470000**
-- Move used by indicator: **1.0174%**
+- Signal: **BEARISH_OB**
+- Confirmation time: `2026-11-13T14:59:59.999000+00:00`
+- Original OB candle open time: `2026-11-13T13:30:00+00:00`
+- OB high / avg / low: **70214.310000 / 69730.155000 / 69246.000000**
+- Move used by indicator: **1.1521%**
 
 ## Rules mirrored from the supplied Pine indicator
 
