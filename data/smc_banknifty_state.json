@@ -1,33 +1,33 @@
 {
   "buy_sequence_base_inr": 0.0,
-  "buy_step": 0,
-  "cash_inr": 39755.96109977257,
+  "buy_step": 1,
+  "cash_inr": 19888.03895088837,
   "equity_peak_inr": 104385.54166445904,
-  "last_executed_notional_inr": 32271.42753481628,
-  "last_executed_qty": 0.5252857316472808,
+  "last_executed_notional_inr": 19888.03895088837,
+  "last_executed_qty": 0.32618904199476717,
   "last_executed_side": "BUY",
-  "last_processed_close_time": 1794477599999,
+  "last_processed_close_time": 1794563999999,
   "last_sequence_direction": "BUY",
   "last_signal": {
-    "confirmed_close_time": 1794475799999,
-    "confirmed_price": 61435.94921875,
-    "pivot_open_time": 1794465900000,
-    "pivot_price": 61065.5,
+    "confirmed_close_time": 1794562199999,
+    "confirmed_price": 60970.8984375,
+    "pivot_open_time": 1794552300000,
+    "pivot_price": 60780.69921875,
     "sig_sens": 10,
     "signal": "BUY"
   },
   "losses": 16,
   "max_drawdown_pct": 2.149239202799993,
   "position": {
-    "avg_entry_price_inr": 60072.24794074861,
-    "cost_basis_inr": 63110.18942250598,
+    "avg_entry_price_inr": 60633.16246433235,
+    "cost_basis_inr": 83477.34339168416,
     "first_entry_time": 1790233199999,
-    "last_buy_time": 1794475799999,
-    "last_sell_time": 1794468599999,
-    "qty": 1.0505714632945615
+    "last_buy_time": 1794562199999,
+    "last_sell_time": 1794545099999,
+    "qty": 1.3767605052893286
   },
-  "realized_pnl_inr": 2866.150522278487,
-  "sell_executions": 29,
+  "realized_pnl_inr": 3365.3823425724804,
+  "sell_executions": 30,
   "sell_sequence_base_qty": 0.0,
   "sell_step": 0,
   "starting_capital_inr": 100000.0,
@@ -35,5 +35,5 @@
   "symbol": "BANKNIFTY",
   "timeframe": "15m",
   "version": 1,
-  "wins": 13
+  "wins": 14
 }
