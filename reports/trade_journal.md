@@ -4,25 +4,52 @@ _This file is rebuilt automatically by the strategy workflow. A new closed trade
 
 ## Journal summary
 
-- Closed trade records: **8**
-- Profits / losses: **2 / 6**
-- Net realized P&L in journal: **₹4,882.28**
-- Average return per closed trade: **0.6747%**
+- Closed trade records: **9**
+- Profits / losses: **3 / 6**
+- Net realized P&L in journal: **₹5,219.72**
+- Average return per closed trade: **0.6355%**
 
 ## Quick history
 
 | # | Exit | Symbol | Direction | Result | Net P&L | Return | Exit reason |
 |---:|---|---|---|---|---:|---:|---|
-| 1 | 2026-11-12 11:59:59 IST | NIFTY | LONG | PROFIT | ₹10,468.71 | 11.0881% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.3535353768756438%. |
-| 2 | 2026-10-26 11:29:59 IST | NIFTY | LONG | LOSS | ₹-842.36 | -0.8843% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5195840986005615%. |
-| 3 | 2026-10-15 14:59:59 IST | NIFTY | LONG | PROFIT | ₹1,094.91 | 1.1628% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.347613231543536%. |
-| 4 | 2026-10-12 11:14:59 IST | NIFTY | LONG | LOSS | ₹-293.54 | -0.3108% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5439141675091492%. |
-| 5 | 2026-10-08 12:59:59 IST | NIFTY | LONG | LOSS | ₹-758.25 | -0.7964% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.470677960819207%. |
-| 6 | 2026-10-01 12:59:59 IST | NIFTY | LONG | LOSS | ₹-1,582.84 | -1.6352% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.088980101127616%. |
-| 7 | 2026-09-29 09:59:59 IST | NIFTY | LONG | LOSS | ₹-2,217.32 | -2.2394% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8489888261905745%. |
-| 8 | 2026-09-24 12:44:59 IST | NIFTY | LONG | LOSS | ₹-987.03 | -0.9870% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.21702743149359446%. |
+| 1 | 2026-11-16 11:14:59 IST | NIFTY | LONG | PROFIT | ₹337.44 | 0.3217% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.3779532733774077%. |
+| 2 | 2026-11-12 11:59:59 IST | NIFTY | LONG | PROFIT | ₹10,468.71 | 11.0881% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.3535353768756438%. |
+| 3 | 2026-10-26 11:29:59 IST | NIFTY | LONG | LOSS | ₹-842.36 | -0.8843% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5195840986005615%. |
+| 4 | 2026-10-15 14:59:59 IST | NIFTY | LONG | PROFIT | ₹1,094.91 | 1.1628% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.347613231543536%. |
+| 5 | 2026-10-12 11:14:59 IST | NIFTY | LONG | LOSS | ₹-293.54 | -0.3108% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.5439141675091492%. |
+| 6 | 2026-10-08 12:59:59 IST | NIFTY | LONG | LOSS | ₹-758.25 | -0.7964% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.470677960819207%. |
+| 7 | 2026-10-01 12:59:59 IST | NIFTY | LONG | LOSS | ₹-1,582.84 | -1.6352% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=1.088980101127616%. |
+| 8 | 2026-09-29 09:59:59 IST | NIFTY | LONG | LOSS | ₹-2,217.32 | -2.2394% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.8489888261905745%. |
+| 9 | 2026-09-24 12:44:59 IST | NIFTY | LONG | LOSS | ₹-987.03 | -0.9870% | Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.21702743149359446%. |
 
 ## Full trade details
+
+### Trade 9 — PROFIT — NIFTY
+
+- Trade ID: `OB_NIFTY-9-1794563999999`
+- Strategy: **NIFTY Order Block**
+- Timeframe: **15m**
+- Direction: **LONG**
+- Entry time: **2026-11-13 15:29:59 IST**
+- Entry signal: **BULLISH_OB**
+- Why entry was taken: Confirmed bullish order block: the identified OB candle was the last down candle before 5 required up candles; entry executed at the confirmation-candle close. Detected move=0.2837712434078629%.
+- Entry price: **₹25,144.3008**
+- Quantity: **4.171215208719923**
+- Entry value/cost: **₹104,882.29**
+- Stop: **Not used — this strategy exits on a confirmed bearish order block.**
+- Target: **Not fixed — position remains open until a confirmed bearish order block.**
+- Exit time: **2026-11-16 11:14:59 IST**
+- Exit signal: **BEARISH_OB**
+- Why position was closed/reduced: Confirmed bearish order block: opposite OB signal closed the full long position at the confirmation-candle close. Detected move=0.3779532733774077%.
+- Exit price: **₹25,225.1992**
+- Exit value/proceeds: **₹105,219.73**
+- Gross P&L: **₹337.44**
+- Fees/charges: **₹0.00**
+- Net P&L: **₹337.44**
+- Profit/Loss percentage: **0.3217%**
+- Holding period: **2d 19h 45m**
+- Notes: Entry OB candle=2026-11-13 14:00:00 IST; exit OB candle=2026-11-16 09:45:00 IST; use_wicks=False; threshold=0.0%.
 
 ### Trade 8 — PROFIT — NIFTY
 
