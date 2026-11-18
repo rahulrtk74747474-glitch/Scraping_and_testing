@@ -1,21 +1,21 @@
 # NIFTY 15m SMC Major-Swing Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹102,512.89**
-- Cash: **₹78,444.64**
-- Total P&L: **₹2,512.89 (2.51%)**
-- Realized / unrealized: **₹2,440.72 / ₹72.17**
+- Current equity: **₹102,403.97**
+- Cash: **₹39,292.85**
+- Total P&L: **₹2,403.97 (2.40%)**
+- Realized / unrealized: **₹2,440.72 / ₹-36.75**
 - Max drawdown: **2.88%**
-- Last processed candle: **2026-11-17T09:59:59.999000+00:00**
-- Next same-side size: **50.000000% of current position unless a BUY reverses first**
+- Last processed candle: **2026-11-18T08:29:59.999000+00:00**
+- Next same-side size: **50.000000% of current cash unless a SELL reverses first**
 
 ## Position
 
-- LONG qty: **0.9480390782** | cost basis: **₹23,996.08**
+- LONG qty: **2.5007326288** | cost basis: **₹63,147.87**
 
 ## Latest confirmed major swing
 
-- **SELL** confirmed 2026-11-17T09:14:59.999000+00:00; pivot candle 2026-11-17T06:30:00+00:00; pivot 25,501.349609 INR
+- **BUY** confirmed 2026-11-18T06:59:59.999000+00:00; pivot candle 2026-11-18T04:15:00+00:00; pivot 25,206.300781 INR
 
 ## Updated sizing rules
 
