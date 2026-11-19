@@ -1,28 +1,31 @@
 # NIFTY 15m Order-Block Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹105,383.09**
-- Cash: **₹105,383.09**
-- Total P&L: **₹5,383.09 (5.38%)**
+- Current equity: **₹106,147.76**
+- Cash: **₹0.00**
+- Total P&L: **₹6,147.76 (6.15%)**
 - Realized P&L: **₹5,383.09**
-- Unrealized P&L: **₹0.00**
+- Unrealized P&L: **₹764.67**
 - Closed trades: **10** | Wins: **4** | Losses: **6** | Win rate: **40.00%**
 - Max drawdown: **6.37%**
-- Latest source close: **25,116.300781 INR**
+- Latest source close: **25,514.300781 INR**
 - Quote currency: **INR**
-- Last processed candle: `2026-11-19T03:59:59.999000+00:00`
+- Last processed candle: `2026-11-19T09:59:59.999000+00:00`
 
 ## Position
 
-_Flat. Waiting for the next confirmed bullish order block._
+- Status: **LONG / fully invested**
+- Entry time: `2026-11-19T06:14:59.999000+00:00`
+- Entry price: **25,330.500000 INR**
+- Quantity (synthetic units): **4.1603240524**
 
 ## Latest detected order block
 
-- Signal: **BEARISH_OB**
-- Confirmation time: `2026-11-18T07:14:59.999000+00:00`
-- Original OB candle open time: `2026-11-18T05:45:00+00:00`
-- OB high / avg / low: **25289.050781 / 25263.950195 / 25238.849609**
-- Move used by indicator: **0.3673%**
+- Signal: **BULLISH_OB**
+- Confirmation time: `2026-11-19T08:59:59.999000+00:00`
+- Original OB candle open time: `2026-11-19T07:30:00+00:00`
+- OB high / avg / low: **25374.250000 / 25359.400391 / 25344.550781**
+- Move used by indicator: **0.4413%**
 
 ## Rules mirrored from the supplied Pine indicator
 
