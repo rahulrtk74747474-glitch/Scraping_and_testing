@@ -8,9 +8,9 @@
 - Unrealized P&L: **₹0.00**
 - Closed trades: **27** | Wins: **8** | Losses: **19** | Win rate: **29.63%**
 - Max drawdown: **6.78%**
-- Latest source close: **3,601.600098 USD**
-- USD/INR used this run: **93.2800**
-- Last processed candle: `2026-11-20T01:14:59.999000+00:00`
+- Latest source close: **3,584.899902 USD**
+- USD/INR used this run: **92.7100**
+- Last processed candle: `2026-11-20T08:59:59.999000+00:00`
 
 ## Position
 
@@ -19,10 +19,10 @@ _Flat. Waiting for the next confirmed bullish order block._
 ## Latest detected order block
 
 - Signal: **BEARISH_OB**
-- Confirmation time: `2026-11-19T03:14:59.999000+00:00`
-- Original OB candle open time: `2026-11-19T01:45:00+00:00`
-- OB high / avg / low: **3757.600098 / 3755.950073 / 3754.300049**
-- Move used by indicator: **1.4565%**
+- Confirmation time: `2026-11-20T02:14:59.999000+00:00`
+- Original OB candle open time: `2026-11-20T00:45:00+00:00`
+- OB high / avg / low: **3599.699951 / 3597.650024 / 3595.600098**
+- Move used by indicator: **1.1869%**
 
 ## Rules mirrored from the supplied Pine indicator
 
