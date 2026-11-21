@@ -1,12 +1,12 @@
 # BTCUSDT 4h SMC Major-Swing Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹80,059.51**
+- Current equity: **₹79,551.30**
 - Cash: **₹22,372.15**
-- Total P&L: **₹-19,940.49 (-19.94%)**
-- Realized / unrealized: **₹-3,005.93 / ₹-16,934.56**
-- Max drawdown: **21.98%**
-- Last processed candle: **2026-11-20T15:59:59.999000+00:00**
+- Total P&L: **₹-20,448.70 (-20.45%)**
+- Realized / unrealized: **₹-3,005.93 / ₹-17,442.77**
+- Max drawdown: **22.48%**
+- Last processed candle: **2026-11-20T23:59:59.999000+00:00**
 - Next same-side size: **6.250000% of current cash unless a SELL reverses first**
 
 ## Position
