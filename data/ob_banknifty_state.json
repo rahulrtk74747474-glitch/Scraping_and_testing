@@ -1,37 +1,26 @@
 {
-  "cash_inr": 0.0,
-  "closed_trades": 7,
+  "cash_inr": 100500.33622992827,
+  "closed_trades": 8,
   "equity_peak_inr": 102523.27133950224,
-  "last_processed_close_time": 1795168799999,
+  "last_processed_close_time": 1795427999999,
   "last_signal": {
-    "confirmed_close_time": 1795157999999,
-    "confirmed_price": 64169.44921875,
-    "move_pct": 1.3381546653401155,
-    "ob_avg": 63310.5,
-    "ob_high": 63371.25,
-    "ob_low": 63249.75,
-    "ob_open_time": 1795152600000,
-    "signal": "BULLISH_OB"
+    "confirmed_close_time": 1795409099999,
+    "confirmed_price": 63359.8515625,
+    "move_pct": 1.9803506526869057,
+    "ob_avg": 64640.69921875,
+    "ob_high": 64679.5,
+    "ob_low": 64601.8984375,
+    "ob_open_time": 1795167000000,
+    "signal": "BEARISH_OB"
   },
   "losses": 6,
   "max_drawdown_pct": 5.655855563877865,
-  "position": {
-    "entry_cost_inr": 94426.51831424743,
-    "entry_fee_inr": 0.0,
-    "entry_price_inr": 59530.6484375,
-    "entry_price_quote": 59530.6484375,
-    "entry_time": 1794215699999,
-    "ob_avg": 59122.875,
-    "ob_high": 59223.44921875,
-    "ob_low": 59022.30078125,
-    "ob_open_time": 1794210300000,
-    "qty": 1.586183265135838
-  },
-  "realized_pnl_inr": -5573.481685752573,
+  "position": null,
+  "realized_pnl_inr": 500.3362299282744,
   "starting_capital_inr": 100000.0,
   "strategy": "Order Block Finder v4 logic",
   "symbol": "BANKNIFTY",
   "timeframe": "15m",
   "version": 1,
-  "wins": 1
+  "wins": 2
 }
