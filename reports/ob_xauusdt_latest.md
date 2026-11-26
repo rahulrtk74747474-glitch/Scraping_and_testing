@@ -1,16 +1,16 @@
 # XAUUSDT 15m Order-Block Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹93,837.79**
+- Current equity: **₹94,293.63**
 - Cash: **₹0.00**
-- Total P&L: **₹-6,162.21 (-6.16%)**
+- Total P&L: **₹-5,706.37 (-5.71%)**
 - Realized P&L: **₹-8,059.52**
-- Unrealized P&L: **₹1,897.31**
+- Unrealized P&L: **₹2,353.15**
 - Closed trades: **29** | Wins: **8** | Losses: **21** | Win rate: **27.59%**
 - Max drawdown: **7.09%**
-- Latest source close: **3,615.399902 USD**
-- USD/INR used this run: **92.2200**
-- Last processed candle: `2026-11-26T02:59:59.999000+00:00`
+- Latest source close: **3,620.399902 USD**
+- USD/INR used this run: **92.5400**
+- Last processed candle: `2026-11-26T04:59:59.999000+00:00`
 
 ## Position
 
