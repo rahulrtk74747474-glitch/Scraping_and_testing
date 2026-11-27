@@ -1,15 +1,15 @@
 {
-  "balance": 88.50912658168498,
-  "closed_trades": 62,
+  "balance": 89.71173327031106,
+  "closed_trades": 63,
   "equity_peak": 101.38339266422605,
-  "last_processed_close_time": 1795756499999,
+  "last_processed_close_time": 1795793399999,
   "losses": 44,
   "max_drawdown_pct": 13.786366785557705,
   "open_position": null,
-  "realized_pnl": -11.490873418315008,
+  "realized_pnl": -10.288266729688939,
   "starting_capital": 100.0,
   "symbol": "BTCUSDT",
   "timeframe": "15m",
   "version": 1,
-  "wins": 18
+  "wins": 19
 }
