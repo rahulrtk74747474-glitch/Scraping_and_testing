@@ -1,16 +1,16 @@
 # BTCUSDT 15m Order-Block Paper Trader — Latest
 
 - Starting demo money: **₹100,000.00**
-- Current equity: **₹85,047.52**
+- Current equity: **₹85,169.71**
 - Cash: **₹0.00**
-- Total P&L: **₹-14,952.48 (-14.95%)**
+- Total P&L: **₹-14,830.29 (-14.83%)**
 - Realized P&L: **₹-17,014.92**
-- Unrealized P&L: **₹2,062.43**
+- Unrealized P&L: **₹2,184.63**
 - Closed trades: **40** | Wins: **10** | Losses: **30** | Win rate: **25.00%**
 - Max drawdown: **21.63%**
-- Latest source close: **59,827.750000 USDT**
+- Latest source close: **59,913.710000 USDT**
 - USD/INR used this run: **92.9800**
-- Last processed candle: `2026-11-27T21:29:59.999000+00:00`
+- Last processed candle: `2026-11-28T03:29:59.999000+00:00`
 
 ## Position
 
@@ -22,10 +22,10 @@
 ## Latest detected order block
 
 - Signal: **BULLISH_OB**
-- Confirmation time: `2026-11-26T20:14:59.999000+00:00`
-- Original OB candle open time: `2026-11-26T18:45:00+00:00`
-- OB high / avg / low: **60651.800000 / 60524.900000 / 60398.000000**
-- Move used by indicator: **0.4276%**
+- Confirmation time: `2026-11-28T02:14:59.999000+00:00`
+- Original OB candle open time: `2026-11-28T00:45:00+00:00`
+- OB high / avg / low: **59987.360000 / 59942.305000 / 59897.250000**
+- Move used by indicator: **0.5722%**
 
 ## Rules mirrored from the supplied Pine indicator
 
